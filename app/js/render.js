@@ -747,11 +747,30 @@ function countBy(list, getKey) {
 
 function getRepresentativeProgram(programs) {
   return (
-    (programs || []).find((p) => (p.campus_list || [])[0] === 'Main Campus') ||
-    (programs || []).find((p) => (p.campus_list || []).includes('Main Campus')) ||
+    (programs || []).find((p) => (p.campus_list || [])[0] === '主校区') ||
+    (programs || []).find((p) => (p.campus_list || []).includes('主校区')) ||
     (programs || [])[0] ||
     null
   );
+}
+
+function getRepresentativeLocation(programs) {
+  const items = Array.isArray(programs) ? programs : [];
+
+  const mainCampusLocation = items
+    .flatMap((program) => Array.isArray(program?.location_items) ? program.location_items : [])
+    .find((item) => String(item?.campus || '').trim() === '主校区');
+
+  if (mainCampusLocation) {
+    return mainCampusLocation;
+  }
+
+  const firstProgram = items[0] || null;
+  const firstLocation = Array.isArray(firstProgram?.location_items)
+    ? firstProgram.location_items[0] || null
+    : null;
+
+  return firstLocation || null;
 }
 
 function buildProgramLocation(program) {
@@ -861,7 +880,7 @@ function groupProgramsByUniversity(programs) {
   return [...map.entries()].map(([slug, items]) => {
     const first = items[0];
     const representativeProgram = getRepresentativeProgram(items);
-    const location = buildProgramLocation(representativeProgram);
+    const representativeLocation = getRepresentativeLocation(items);
 
     return {
       university_slug: slug,
@@ -872,20 +891,21 @@ function groupProgramsByUniversity(programs) {
       the: first.the,
       usnews: first.usnews,
       representativeProgram,
+      representativeLocation,
       programs: items,
 
-      sort_city: location.city || '',
-      sort_country: location.country || '',
-      sort_region: location.region || '',
-      sort_city_scale: location.cityScale || '',
-      sort_climate: location.climate || '',
-      sort_language: location.language || '',
-      sort_residency: location.residency || '',
+      sort_city: representativeLocation?.city || '',
+      sort_country: representativeLocation?.country || '',
+      sort_region: representativeLocation?.region || '',
+      sort_city_scale: representativeLocation?.city_scale || '',
+      sort_climate: representativeLocation?.climate || '',
+      sort_language: representativeLocation?.language || '',
+      sort_residency: representativeLocation?.residency || '',
 
-      sort_city_scale_order: representativeProgram?.city_scale_order ?? null,
-      sort_climate_order: representativeProgram?.climate_order ?? null,
-      sort_language_order: representativeProgram?.language_order ?? null,
-      sort_residency_order: representativeProgram?.residency_order ?? null
+      sort_city_scale_order: representativeLocation?.city_scale_order ?? null,
+      sort_climate_order: representativeLocation?.climate_order ?? null,
+      sort_language_order: representativeLocation?.language_order ?? null,
+      sort_residency_order: representativeLocation?.residency_order ?? null
     };
   });
 }
@@ -1119,8 +1139,8 @@ function renderProgramAttributeList(program) {
 }
 
 function renderSchoolMainRow(school, rank) {
-  const program = school.representativeProgram || {};
-  const location = buildProgramLocation(program);
+  const location = school.representativeLocation || null;
+  const locationItems = location ? [location] : [];
   const isExpanded = expandedUniversitySet.has(school.university_slug);
   const programCount = (school.programs || []).length;
   const scoreValue = Number.isFinite(school.total_score) ? school.total_score.toFixed(1) : '';
@@ -1148,7 +1168,7 @@ function renderSchoolMainRow(school, rank) {
       </td>
 
       <td class="school-summary-cell">
-        ${renderLocationMiniCardList(location.items, { className: 'location-mini-card--school' })}
+        ${renderLocationMiniCardList(locationItems, { className: 'location-mini-card--school' })}
       </td>
 
       <td class="school-summary-cell school-summary-cell--ranking">

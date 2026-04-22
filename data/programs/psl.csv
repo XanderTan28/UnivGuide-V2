@@ -1,0 +1,19 @@
+program,faculty,campus,duration,eng_taught,type,url
+CPES - Science track,"College of Science, Humanities and Society of Université PSL",Lycée Henri-IV,3,FALSE,联合培养,https://psl.eu/formation/cpes-psl-henri-IV
+CPES - Humanities & Society track,"College of Science, Humanities and Society of Université PSL",Lycée Henri-IV,3,FALSE,联合培养,https://psl.eu/formation/cpes-psl-henri-IV
+"CPES - Economics, Society and Law track","College of Science, Humanities and Society of Université PSL",Lycée Henri-IV,3,FALSE,联合培养,https://psl.eu/formation/cpes-psl-henri-IV
+"CPES - Data Science, Arts and Cultures track","College of Science, Humanities and Society of Université PSL",Lycée Louis-le-Grand,3,FALSE,联合培养,https://psl.eu/formation/cpes-psl-louis-le-grand
+Sustainability Sciences,"College of Science, Humanities and Society of Université PSL",Rue Amyot+Jourdan Campus,3,FALSE,交叉学科（单学位）,https://psl.eu/formation/sciences-monde-durable
+International Bachelor of Science in AI,École normale supérieure - PSL,Rue de l'Estrapade,3,TRUE,交叉学科（单学位）,https://psl.eu/formation/international-bachelor-science-ai
+International Bachelor of Environmentally Engaged Engineering,Mines Paris-PSL,Pierre Laffitte Campus+Paris Ile-de-France,3,TRUE,联合培养,https://www.minesparis.psl.eu/en/education/i-be3/
+Law,Dauphine-PSL,Paris Campus,3,FALSE,单学位,https://dauphine.psl.eu/en/training/bachelors-degrees
+Applied Economics,Dauphine-PSL,Paris Campus,3,FALSE,单学位,https://dauphine.psl.eu/en/training/bachelors-degrees
+Management,Dauphine-PSL,Paris Campus,3,FALSE,单学位,https://dauphine.psl.eu/en/training/bachelors-degrees
+Social Sciences,Dauphine-PSL,Paris Campus,3,FALSE,单学位,https://dauphine.psl.eu/en/training/bachelors-degrees
+Applied Mathematics,Dauphine-PSL,Paris Campus,3,FALSE,单学位,https://dauphine.psl.eu/en/training/bachelors-degrees
+Organizational Computer Science,Dauphine-PSL,Paris Campus,3,FALSE,单学位,https://dauphine.psl.eu/en/training/bachelors-degrees
+Double Bachelor's degree in Artificial Intelligence and Organizational Sciences,Dauphine-PSL,Paris Campus,3,FALSE,双学位,https://dauphine.psl.eu/en/training/bachelors-degrees/double-bachelors-degree-in-artificial-intelligence-and-organizational-sciences
+Actor and actress diploma,CNSAD-PSL,2 bis Rue du Conservatoire,3,FALSE,单学位,https://cnsad.psl.eu/formation/comedien-et-comedienne-1er-cycle
+Class for the Teaching Profession (LPE),Université PSL+Lycée Henri-IV,Lycée Henri-IV,3,FALSE,联合培养,https://psl.eu/formation/professorat-des-ecoles
+ENSAD – PSL undergraduate diploma,ENSAD - PSL,Site Ulm,3,FALSE,单学位,https://www.ensad.fr/en/degrees
+Architectural studies diploma,Paris-Malaquais - PSL,14 rue Bonaparte+1 rue Jacques Callot,3,FALSE,单学位,https://paris-malaquais.archi.fr/etudes/p/programme-2/

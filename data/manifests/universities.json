@@ -54,6 +54,11 @@
     "uniColor": "red"
   },
   {
+    "slug": "psl",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
     "slug": "uva",
     "enabled": true,
     "uniColor": "orange"
