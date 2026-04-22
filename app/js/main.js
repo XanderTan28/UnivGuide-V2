@@ -40,7 +40,7 @@ let sideRailResizeObserver = null;
 
 function syncContentSideRail() {
   const shell = document.querySelector('.content-shell');
-  const main = document.querySelector('.content-main');
+  const main = document.querySelector('.content-main-bottom');
   const side = document.querySelector('.content-side');
   const sideInner = document.getElementById('contentSideInner');
   const header = document.querySelector('.app-header');

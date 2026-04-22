@@ -1,8 +1,7 @@
 import { escapeHtml } from './utils.js';
 
 const sceneState = {
-  items: [],
-  activeIndex: 0
+  items: []
 };
 
 function normalizeLocations(locations) {
@@ -21,7 +20,7 @@ function normalizeLocations(locations) {
 
 function getActiveLocation() {
   if (!sceneState.items.length) return null;
-  return sceneState.items[sceneState.activeIndex] || sceneState.items[0] || null;
+  return sceneState.items[0] || null;
 }
 
 function renderLocationCard(location, modifier = '') {
@@ -108,20 +107,7 @@ function renderEmptyScene(mount, summary) {
   `;
 }
 
-function bindSceneButtons(mount) {
-  mount.querySelectorAll('[data-location-scene-action]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      if (sceneState.items.length <= 1) return;
-
-      const direction = btn.dataset.locationSceneAction === 'next' ? 1 : -1;
-      sceneState.activeIndex =
-        (sceneState.activeIndex + direction + sceneState.items.length) % sceneState.items.length;
-      renderLocationScene(sceneState.items, { preserveIndex: true });
-    });
-  });
-}
-
-export function renderLocationScene(locations, options = {}) {
+export function renderLocationScene(locations) {
   const mount = document.getElementById('locationSceneMount');
   const summary = document.getElementById('locationSceneSummary');
   if (!mount) return false;
@@ -129,53 +115,23 @@ export function renderLocationScene(locations, options = {}) {
   const nextItems = normalizeLocations(locations);
   sceneState.items = nextItems;
 
-  if (!options.preserveIndex) {
-    sceneState.activeIndex = 0;
-  } else if (sceneState.activeIndex >= sceneState.items.length) {
-    sceneState.activeIndex = 0;
-  }
-
   if (!sceneState.items.length) {
     renderEmptyScene(mount, summary);
     return true;
   }
 
   const active = getActiveLocation();
-  const count = sceneState.items.length;
   const activeLabel = active?.city || active?.country || active?.region || '地点';
 
   if (summary) {
-    summary.textContent = count > 1
-      ? `${activeLabel} · ${sceneState.activeIndex + 1} / ${count}`
-      : activeLabel;
+    summary.textContent = activeLabel;
   }
 
   mount.innerHTML = `
     <div class="location-scene">
       ${renderSceneStage(active)}
-
-      <div class="location-scene__controls" aria-label="地点卡片切换">
-        <button
-          type="button"
-          class="location-scene__nav"
-          data-location-scene-action="prev"
-          ${count <= 1 ? 'disabled' : ''}
-        >
-          上一张
-        </button>
-        <span class="location-scene__counter">${sceneState.activeIndex + 1} / ${count}</span>
-        <button
-          type="button"
-          class="location-scene__nav"
-          data-location-scene-action="next"
-          ${count <= 1 ? 'disabled' : ''}
-        >
-          下一张
-        </button>
-      </div>
     </div>
   `;
 
-  bindSceneButtons(mount);
   return true;
 }

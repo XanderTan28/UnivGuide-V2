@@ -135,7 +135,7 @@
       </section>
 
       <section class="content-shell" aria-label="结果与辅助模块">
-        <div class="content-main">
+        <div class="content-main-top">
           <section class="dashboard-panel" aria-label="结果总览与统计">
           <div class="dashboard-main-column">
             <section class="overview-panel panel" aria-labelledby="overviewPanelTitle">
@@ -233,47 +233,6 @@
           </section>
           </section>
 
-      <section class="school-table-section panel" aria-labelledby="schoolTableTitle">
-        <div class="table-sort-row" aria-labelledby="sortToolbarTitle">
-          <h2 id="sortToolbarTitle" class="panel__title">排序</h2>
-          <div class="sort-field">
-            <label class="sr-only" for="sortMetricSelect">排序指标</label>
-            <div id="sortMetricSelect" class="filter-dropdown-host"></div>
-          </div>
-
-          <div class="sort-field sort-field--direction">
-            <label class="sr-only" for="sortDirectionToggle">方向</label>
-            <div id="sortDirectionToggle" class="sort-direction-toggle-host"></div>
-          </div>
-
-          <div id="resultCount" class="sort-panel__summary">0 所大学 / 0 个项目</div>
-        </div>
-
-        <div class="panel__head">
-          <div>
-            <h2 id="schoolTableTitle" class="panel__title">本科项目明细表</h2>
-            <p class="panel__subtitle">点击学校总行展开项目分行</p>
-          </div>
-        </div>
-
-        <div class="panel__body">
-          <div class="table-wrap">
-            <table class="data-table">
-              <thead>
-                <tr>
-                  <th>大学</th>
-                  <th>地点</th>
-                  <th>排名</th>
-                  <th>总分</th>
-                </tr>
-              </thead>
-              <tbody id="programTableBody">
-                <!-- render.js 注入 -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
         </div>
 
         <aside class="content-side" aria-label="辅助模块">
@@ -318,6 +277,50 @@
             </section>
           </div>
         </aside>
+
+        <div class="content-main-bottom">
+          <section class="school-table-section panel" aria-labelledby="schoolTableTitle">
+            <div class="table-sort-row" aria-labelledby="sortToolbarTitle">
+              <h2 id="sortToolbarTitle" class="panel__title">排序</h2>
+              <div class="sort-field">
+                <label class="sr-only" for="sortMetricSelect">排序指标</label>
+                <div id="sortMetricSelect" class="filter-dropdown-host"></div>
+              </div>
+
+              <div class="sort-field sort-field--direction">
+                <label class="sr-only" for="sortDirectionToggle">方向</label>
+                <div id="sortDirectionToggle" class="sort-direction-toggle-host"></div>
+              </div>
+
+              <div id="resultCount" class="sort-panel__summary">0 所大学 / 0 个项目</div>
+            </div>
+
+            <div class="panel__head">
+              <div>
+                <h2 id="schoolTableTitle" class="panel__title">本科项目明细表</h2>
+                <p class="panel__subtitle">点击学校总行展开项目分行</p>
+              </div>
+            </div>
+
+            <div class="panel__body">
+              <div class="table-wrap">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th>大学</th>
+                      <th>地点</th>
+                      <th>排名</th>
+                      <th>总分</th>
+                    </tr>
+                  </thead>
+                  <tbody id="programTableBody">
+                    <!-- render.js 注入 -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        </div>
       </section>
     </main>
   </div>
