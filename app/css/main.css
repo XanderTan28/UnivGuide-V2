@@ -3806,3 +3806,221 @@ body.dark .program-card {
     grid-column: auto;
   }
 }
+
+/* Compact scoring tool */
+.scoring-sidebar {
+  box-shadow: none;
+}
+
+.scoring-sidebar .panel__head,
+.scoring-sidebar .panel__body {
+  border-bottom: none;
+}
+
+.scoring-sidebar .panel__head {
+  padding: 8px 10px 4px;
+}
+
+.scoring-sidebar .panel__body {
+  padding: 4px 10px 8px;
+}
+
+.scoring-sidebar .panel__title {
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.score-panel {
+  margin-top: 0;
+}
+
+.score-panel__head,
+.scoring-sidebar .score-panel__head {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.score-panel__heading {
+  gap: 2px;
+  min-width: 0;
+}
+
+.score-panel__summary {
+  display: block;
+  max-width: 150px;
+  color: var(--muted);
+  font-size: 0;
+  line-height: 1;
+}
+
+.score-panel__summary::before {
+  content: "调整权重";
+  font-size: 10.5px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.score-panel__tools,
+.scoring-sidebar .score-panel__tools {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.scoring-sidebar .btn {
+  min-height: 24px;
+  padding: 0 7px;
+  border-radius: 6px;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.scoring-sidebar .score-panel__tools .btn {
+  font-size: 0;
+}
+
+.scoring-sidebar .score-panel__tools .btn::after {
+  font-size: 11px;
+  line-height: 1;
+}
+
+.scoring-sidebar .score-panel__tools .btn:first-child::after {
+  content: "重置";
+}
+
+.scoring-sidebar .score-panel__tools .btn:last-child::after {
+  content: "推荐";
+}
+
+.score-weight-grid,
+.scoring-sidebar .score-weight-grid,
+.content-side .scoring-sidebar .score-weight-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+}
+
+.score-weight-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 46px;
+  grid-template-areas:
+    "label number"
+    "slider slider";
+  align-items: center;
+  gap: 2px 6px;
+  min-width: 0;
+  padding: 3px 0;
+  border: none;
+}
+
+.score-weight-item:last-child {
+  border-bottom: none;
+}
+
+.score-weight-item__label {
+  grid-area: label;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.score-weight-item__title {
+  min-width: 0;
+  color: var(--text);
+  font-size: 11.5px;
+  line-height: 1.15;
+  font-weight: 780;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.score-weight-item__share,
+.score-weight-item__percent,
+.score-weight-item__number span {
+  display: none;
+}
+
+.score-weight-item__controls {
+  display: contents;
+}
+
+.score-weight-item__slider {
+  grid-area: slider;
+  width: 100%;
+  height: 14px;
+  margin: 0;
+  accent-color: #6e877d;
+}
+
+.score-weight-item__slider::-webkit-slider-runnable-track {
+  height: 3px;
+}
+
+.score-weight-item__slider::-webkit-slider-thumb {
+  margin-top: -5px;
+}
+
+.score-weight-item__slider::-moz-range-track {
+  height: 3px;
+}
+
+.score-weight-item__number {
+  grid-area: number;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  min-height: 22px;
+  padding: 0 4px;
+  border: 1px solid rgba(216, 206, 193, 0.58);
+  border-radius: 6px;
+  background: var(--control-bg);
+}
+
+.score-weight-item__input {
+  width: 100%;
+  height: 20px;
+  min-width: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 11.5px;
+  line-height: 1;
+  font-weight: 800;
+  text-align: center;
+  outline: none;
+}
+
+.score-weight-item__input:hover,
+.score-weight-item__input:focus,
+body.dark .score-weight-item__input:hover,
+body.dark .score-weight-item__input:focus {
+  border: none;
+}
+
+.score-weight-status {
+  margin-top: 3px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(110, 135, 125, 0.07);
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.score-weight-status.is-warning {
+  padding: 4px 6px;
+  border: none;
+  background: rgba(172, 124, 77, 0.06);
+  color: var(--muted);
+}

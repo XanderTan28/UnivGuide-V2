@@ -40,11 +40,12 @@ let sideRailResizeObserver = null;
 
 function syncContentSideRail() {
   const shell = document.querySelector('.content-shell');
+  const main = document.querySelector('.content-main');
   const side = document.querySelector('.content-side');
   const sideInner = document.getElementById('contentSideInner');
   const header = document.querySelector('.app-header');
 
-  if (!shell || !side || !sideInner || !header) return;
+  if (!shell || !main || !side || !sideInner || !header) return;
 
   const desktop = window.innerWidth > 1400;
 
@@ -63,21 +64,27 @@ function syncContentSideRail() {
   side.style.setProperty('--content-side-top', `${topOffset}px`);
 
   const sideRect = side.getBoundingClientRect();
-  const shellRect = shell.getBoundingClientRect();
+  const mainRect = main.getBoundingClientRect();
 
   const scrollY = window.scrollY;
-  const shellBottom = shellRect.bottom + scrollY;
   const sideTop = sideRect.top + scrollY;
+  const mainBottom = mainRect.bottom + scrollY;
 
   const railHeight = sideInner.offsetHeight;
+  const bottomGap = 24;
   const startStickY = sideTop - topOffset;
-  const endStickY = shellBottom - railHeight - topOffset;
+  const endStickY = mainBottom - railHeight - topOffset - bottomGap;
 
   side.style.setProperty('--content-side-left', `${Math.round(sideRect.left)}px`);
   side.style.setProperty('--content-side-width', `${Math.round(sideRect.width)}px`);
   side.style.minHeight = `${railHeight}px`;
 
   if (scrollY <= startStickY) {
+    return;
+  }
+
+  if (endStickY <= startStickY) {
+    sideInner.classList.add('is-rail-fixed');
     return;
   }
 
