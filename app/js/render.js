@@ -483,6 +483,9 @@ function bindSingleSelectDropdown(hostId, ui, uiKey, refresh) {
     if (!row) return;
 
     ui[uiKey] = row.dataset.singleValue || '';
+    if (uiKey === 'sortMetric' && ui[uiKey] === 'total_score') {
+      ui.sortDirection = 'desc';
+    }
     refresh();
   });
 }
