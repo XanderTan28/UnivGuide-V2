@@ -6,49 +6,71 @@
   <title>University Guidebook</title>
   <meta
     name="description"
-    content="University Guidebook 本科项目数据库：支持大学展示、项目检索、筛选、排序与项目展开查看。"
+    content="University Guidebook 本科项目数据库：支持大学展示、项目检索、筛选、排序、评分与项目展开查看。"
   />
   <link rel="stylesheet" href="./app/css/main.css" />
 </head>
 <body>
   <div id="app" class="app-shell">
-    <header class="hero">
-      <h1>大学指南</h1>
-      <button
-        id="themeToggleBtn"
-        class="theme-toggle"
-        type="button"
-        aria-label="切换主题"
-        title="切换主题"
-      >
-        ◐
-      </button>
+    <header class="app-header">
+      <a class="brand-lockup" href="./" aria-label="University Guidebook 首页">
+        <span class="brand-lockup__title">大学指南</span>
+        <span class="brand-lockup__subtitle">University Guidebook</span>
+      </a>
+
+      <div class="header-search">
+        <label class="search-box" for="searchInput">
+          <span class="search-box__label">搜索</span>
+          <input
+            id="searchInput"
+            class="search-box__input"
+            type="text"
+            placeholder="搜索大学 / 项目 / 学院 / 校区 / 城市 / 国家"
+            autocomplete="off"
+          />
+        </label>
+      </div>
+
+      <div class="header-actions">
+        <nav class="header-nav" aria-label="主导航">
+          <a href="#guide">指南</a>
+          <a href="#data">数据</a>
+          <a href="#favorites">收藏</a>
+          <a href="#login">登录</a>
+        </nav>
+
+        <button
+          id="themeToggleBtn"
+          class="theme-toggle"
+          type="button"
+          aria-label="切换主题"
+          title="切换主题"
+        >
+          ◐
+        </button>
+      </div>
     </header>
 
     <main class="page">
-      <!-- 搜索 -->
-      <section class="search-panel panel">
-        <div class="panel__body">
-          <label class="search-box" for="searchInput">
-            <span class="search-box__label">搜索</span>
-            <input
-              id="searchInput"
-              class="search-box__input"
-              type="text"
-              placeholder="搜索大学 / 项目 / 学院 / 学院大类 / 校区 / 城市 / 国家"
-              autocomplete="off"
-            />
-          </label>
+      <section class="hero-search panel" aria-labelledby="heroSearchTitle">
+        <div class="hero-search__copy">
+          <p class="hero-search__eyebrow">本科项目导航平台</p>
+          <h1 id="heroSearchTitle">University Guidebook</h1>
         </div>
+        <p class="hero-search__summary">
+          用统一的筛选、评分和城市信息视图比较多校本科项目。
+        </p>
       </section>
 
-      <!-- 筛选 -->
-      <section class="filters-panel panel">
-        <div class="panel__head">
-          <h2 class="panel__title">筛选</h2>
+      <section class="filter-toolbar panel" aria-labelledby="filterToolbarTitle">
+        <div class="panel__head filter-toolbar__head">
+          <div>
+            <h2 id="filterToolbarTitle" class="panel__title">筛选</h2>
+            <p class="panel__subtitle">按地点、学校、学院与项目属性收窄结果</p>
+          </div>
           <div class="panel__tools">
             <button id="resetFiltersBtn" class="btn btn--secondary" type="button">
-              重置筛选
+              清空筛选
             </button>
           </div>
         </div>
@@ -125,68 +147,131 @@
         </div>
       </section>
 
-      <!-- 数据看板 -->
-      <section class="dashboard-grid">
-        <article class="panel">
-          <div class="panel__head">
-            <h2 class="panel__title">地区</h2>
-          </div>
-          <div class="panel__body">
-            <div id="regionStats" class="stats-list"></div>
-          </div>
-        </article>
+      <section class="dashboard-row" aria-label="结果总览与评分">
+        <div class="overview-and-stats">
+          <section class="overview-panel panel" aria-labelledby="overviewPanelTitle">
+            <div class="panel__head">
+              <h2 id="overviewPanelTitle" class="panel__title">结果总览</h2>
+            </div>
+            <div class="panel__body">
+              <div class="overview-metrics">
+                <div class="overview-metric">
+                  <span class="overview-metric__value" id="overviewSchoolCount">0</span>
+                  <span class="overview-metric__label">所大学</span>
+                </div>
+                <div class="overview-metric">
+                  <span class="overview-metric__value" id="overviewProgramCount">0</span>
+                  <span class="overview-metric__label">个项目</span>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <article class="panel">
-          <div class="panel__head">
-            <h2 class="panel__title">城市规模</h2>
-          </div>
-          <div class="panel__body">
-            <div id="cityScaleStats" class="stats-list"></div>
-          </div>
-        </article>
+          <section class="stats-panel" aria-label="统计分布">
+            <article class="stats-card panel">
+              <div class="panel__head">
+                <div>
+                  <h2 class="panel__title">地区</h2>
+                  <p class="panel__subtitle">Region</p>
+                </div>
+              </div>
+              <div class="panel__body">
+                <div id="regionStats" class="stats-list"></div>
+              </div>
+            </article>
 
-        <article class="panel">
-          <div class="panel__head">
-            <h2 class="panel__title">气候</h2>
-          </div>
-          <div class="panel__body">
-            <div id="climateStats" class="stats-list"></div>
-          </div>
-        </article>
+            <article class="stats-card panel">
+              <div class="panel__head">
+                <div>
+                  <h2 class="panel__title">城市规模</h2>
+                  <p class="panel__subtitle">City scale</p>
+                </div>
+              </div>
+              <div class="panel__body">
+                <div id="cityScaleStats" class="stats-list"></div>
+              </div>
+            </article>
 
-        <article class="panel">
-          <div class="panel__head">
-            <h2 class="panel__title">语言环境</h2>
-          </div>
-          <div class="panel__body">
-            <div id="languageStats" class="stats-list"></div>
-          </div>
-        </article>
+            <article class="stats-card panel">
+              <div class="panel__head">
+                <div>
+                  <h2 class="panel__title">气候</h2>
+                  <p class="panel__subtitle">Climate</p>
+                </div>
+              </div>
+              <div class="panel__body">
+                <div id="climateStats" class="stats-list"></div>
+              </div>
+            </article>
 
-        <article class="panel">
-          <div class="panel__head">
-            <h2 class="panel__title">居留</h2>
-          </div>
-          <div class="panel__body">
-            <div id="residencyStats" class="stats-list"></div>
-          </div>
-        </article>
+            <article class="stats-card panel">
+              <div class="panel__head">
+                <div>
+                  <h2 class="panel__title">语言环境</h2>
+                  <p class="panel__subtitle">Language</p>
+                </div>
+              </div>
+              <div class="panel__body">
+                <div id="languageStats" class="stats-list"></div>
+              </div>
+            </article>
 
-        <article class="panel">
-          <div class="panel__head">
-            <h2 class="panel__title">学院大类</h2>
+            <article class="stats-card panel">
+              <div class="panel__head">
+                <div>
+                  <h2 class="panel__title">居留</h2>
+                  <p class="panel__subtitle">Residency</p>
+                </div>
+              </div>
+              <div class="panel__body">
+                <div id="residencyStats" class="stats-list"></div>
+              </div>
+            </article>
+
+            <article class="stats-card panel">
+              <div class="panel__head">
+                <div>
+                  <h2 class="panel__title">学院大类</h2>
+                  <p class="panel__subtitle">Faculty group</p>
+                </div>
+              </div>
+              <div class="panel__body">
+                <div id="facultyGroupStats" class="stats-list"></div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        <aside class="scoring-sidebar panel" aria-labelledby="scoringSidebarTitle">
+          <div class="panel__head score-panel__head">
+            <div class="score-panel__heading">
+              <h2 id="scoringSidebarTitle" class="panel__title">加权评分器</h2>
+              <div id="scorePanelSummary" class="score-panel__summary">
+                仅对学校总分生效，权重为 0 表示不参与评分。
+              </div>
+            </div>
+
+            <div class="score-panel__tools">
+              <button id="clearScoreWeightsBtn" class="btn btn--secondary" type="button">
+                重置
+              </button>
+              <button id="recommendedScoreWeightsBtn" class="btn btn--secondary" type="button">
+                推荐权重
+              </button>
+            </div>
           </div>
+
           <div class="panel__body">
-            <div id="facultyGroupStats" class="stats-list"></div>
+            <div id="scoreWeightGrid" class="score-weight-grid"></div>
+            <div id="scoreWeightStatus" class="score-weight-status" aria-live="polite"></div>
           </div>
-        </article>
+        </aside>
       </section>
 
-      <!-- 排序 -->
-      <section class="sort-panel panel">
+      <section class="sort-toolbar panel" aria-labelledby="sortToolbarTitle">
         <div class="panel__head sort-panel__head">
           <div class="sort-panel__heading">
-            <h2 class="panel__title">排序</h2>
+            <h2 id="sortToolbarTitle" class="panel__title">排序</h2>
             <div id="resultCount" class="sort-panel__summary">0 所大学 / 0 个项目</div>
           </div>
 
@@ -204,32 +289,12 @@
         </div>
       </section>
 
-      <!-- 加权评分器 -->
-      <section class="score-panel panel">
-        <div class="panel__head score-panel__head">
-          <div class="score-panel__heading">
-            <h2 class="panel__title">加权评分器</h2>
-            <div id="scorePanelSummary" class="score-panel__summary">
-              仅对学校总分生效，权重为 0 表示不参与评分
-            </div>
-          </div>
-
-          <div class="score-panel__tools">
-            <button id="clearScoreWeightsBtn" class="btn btn--secondary" type="button">
-              清零权重
-            </button>
-          </div>
-        </div>
-
-        <div class="panel__body">
-          <div id="scoreWeightGrid" class="score-weight-grid"></div>
-        </div>
-      </section>
-
-      <!-- 主表 -->
-      <section class="table-panel panel">
+      <section class="school-table-section panel" aria-labelledby="schoolTableTitle">
         <div class="panel__head">
-          <h2 class="panel__title">本科项目明细表</h2>
+          <div>
+            <h2 id="schoolTableTitle" class="panel__title">本科项目明细表</h2>
+            <p class="panel__subtitle">点击学校总行展开项目分行</p>
+          </div>
         </div>
 
         <div class="panel__body">
@@ -264,23 +329,24 @@
     </main>
   </div>
 
-  <!-- 地区信息弹窗 -->
-  <dialog id="locationDetailDialog" class="detail-dialog">
-    <div class="detail-dialog__shell">
-      <div class="detail-dialog__header detail-dialog__header--close-only">
-        <button
-          id="closeLocationDetailBtn"
-          type="button"
-          class="detail-dialog__close"
-          aria-label="关闭"
-        >
-          ×
-        </button>
-      </div>
+  <div class="floating-detail-layer" aria-live="polite">
+    <dialog id="locationDetailDialog" class="detail-dialog">
+      <div class="detail-dialog__shell">
+        <div class="detail-dialog__header detail-dialog__header--close-only">
+          <button
+            id="closeLocationDetailBtn"
+            type="button"
+            class="detail-dialog__close"
+            aria-label="关闭"
+          >
+            ×
+          </button>
+        </div>
 
         <div id="locationDetailBody" class="detail-dialog__body"></div>
-    </div>
-  </dialog>
+      </div>
+    </dialog>
+  </div>
 
   <script type="module" src="./app/js/main.js"></script>
 </body>

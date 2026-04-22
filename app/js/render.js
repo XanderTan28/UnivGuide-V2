@@ -16,6 +16,16 @@ import {
 const expandedUniversitySet = new Set();
 let currentOpenDropdownHostId = null;
 const dropdownScrollTopMap = {};
+const recommendedScoreWeights = {
+  qs: 1,
+  the: 1,
+  usnews: 1,
+  language_score: 1,
+  residency_order: 1,
+  climate_order: 0.8,
+  city_scale_order: 0.8,
+  duration_score: 0.6
+};
 
 function setText(id, value) {
   const el = document.getElementById(id);
@@ -217,6 +227,7 @@ function formatWeightValue(value) {
 function renderScoreControls(ui) {
   const grid = document.getElementById('scoreWeightGrid');
   const summary = document.getElementById('scorePanelSummary');
+  const status = document.getElementById('scoreWeightStatus');
   if (!grid) return;
 
   const weights = sanitizeScoreWeights(ui?.scoreWeights || {});
@@ -224,33 +235,59 @@ function renderScoreControls(ui) {
 
   const activeCount = factorDefs.filter((factor) => (weights[factor.key] || 0) > 0).length;
   const totalWeight = factorDefs.reduce((sum, factor) => sum + (Number(weights[factor.key]) || 0), 0);
+  const hasWeights = hasActiveScoreWeights(weights);
 
   if (summary) {
-    summary.textContent = hasActiveScoreWeights(weights)
-      ? `已启用 ${activeCount} 个因子，当前总权重 ${formatWeightValue(totalWeight)}`
-      : '仅对学校总分生效，权重为 0 表示不参与评分';
+    summary.textContent = hasWeights
+      ? `Active factors: ${activeCount}; total weight: ${formatWeightValue(totalWeight)}`
+      : 'Weights at 0 are ignored. Scores are calculated at school level.';
+  }
+
+  if (status) {
+    status.classList.toggle('is-warning', !hasWeights);
+    status.textContent = hasWeights
+      ? `Total weight ${formatWeightValue(totalWeight)}. Scores are normalized by active weights.`
+      : 'No active weights yet. The total score column stays empty.';
   }
 
   grid.innerHTML = factorDefs
     .map((factor) => {
       const currentValue = weights[factor.key] ?? 0;
+      const displayValue = formatWeightValue(currentValue);
 
       return `
         <div class="score-weight-item">
           <div class="score-weight-item__label">
             <span class="score-weight-item__title">${escapeHtml(factor.label)}</span>
+            <span class="score-weight-item__percent">%</span>
           </div>
 
-          <input
-            type="number"
-            min="0"
-            step="0.1"
-            inputmode="decimal"
-            class="score-weight-item__input"
-            data-score-weight-key="${escapeHtml(factor.key)}"
-            value="${escapeHtml(formatWeightValue(currentValue))}"
-            placeholder="0"
-          />
+          <div class="score-weight-item__controls">
+            <input
+              type="range"
+              min="0"
+              max="5"
+              step="0.1"
+              class="score-weight-item__slider"
+              data-score-weight-key="${escapeHtml(factor.key)}"
+              value="${escapeHtml(displayValue)}"
+              aria-label="${escapeHtml(factor.label)} weight slider"
+            />
+            <div class="score-weight-item__number">
+              <input
+                type="number"
+                min="0"
+                step="0.1"
+                inputmode="decimal"
+                class="score-weight-item__input"
+                data-score-weight-key="${escapeHtml(factor.key)}"
+                value="${escapeHtml(displayValue)}"
+                placeholder="0"
+                aria-label="${escapeHtml(factor.label)} weight value"
+              />
+              <span>%</span>
+            </div>
+          </div>
         </div>
       `;
     })
@@ -260,6 +297,7 @@ function renderScoreControls(ui) {
 function bindScoreControlEvents(ui, refresh) {
   const grid = document.getElementById('scoreWeightGrid');
   const clearBtn = document.getElementById('clearScoreWeightsBtn');
+  const recommendedBtn = document.getElementById('recommendedScoreWeightsBtn');
 
   if (grid) {
     grid.querySelectorAll('[data-score-weight-key]').forEach((input) => {
@@ -281,6 +319,13 @@ function bindScoreControlEvents(ui, refresh) {
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       ui.scoreWeights = getDefaultScoreWeights();
+      refresh();
+    });
+  }
+
+  if (recommendedBtn) {
+    recommendedBtn.addEventListener('click', () => {
+      ui.scoreWeights = { ...recommendedScoreWeights };
       refresh();
     });
   }
@@ -885,8 +930,10 @@ function openLocationDialog(locations) {
 
   body.innerHTML = renderLocationDetailCards(items);
 
-  if (typeof dialog.showModal === 'function') {
-    dialog.showModal();
+  dialog.classList.add('is-visible');
+
+  if (typeof dialog.show === 'function') {
+    if (!dialog.open) dialog.show();
   } else {
     dialog.setAttribute('open', 'open');
   }
@@ -929,17 +976,24 @@ function renderProgramLink(programName, url) {
 function renderSchoolMainRow(school, rank) {
   const program = school.representativeProgram || {};
   const location = buildProgramLocation(program);
+  const isExpanded = expandedUniversitySet.has(school.university_slug);
+  const programCount = (school.programs || []).length;
+  const scoreValue = Number.isFinite(school.total_score) ? school.total_score.toFixed(1) : '';
 
   return `
     <tr
-      class="school-row"
+      class="school-row ${isExpanded ? 'is-expanded' : ''}"
       data-university-slug="${escapeHtml(school.university_slug)}"
     >
-      <td>${rank}</td>
+      <td class="rank-cell">
+        <span class="row-toggle" aria-hidden="true">${isExpanded ? '-' : '+'}</span>
+        <span>${rank}</span>
+      </td>
       <td class="school-name-cell">
         <span class="school-name ${escapeHtml(getUniversityColorClass(school.uni_color))}">
           ${formatUniversityDisplayName(escapeHtml(school.display_name))}
         </span>
+        <span class="school-program-count">${programCount} programs</span>
       </td>
       <td>${renderProgramLink(program.program, program.url)}</td>
       <td>${escapeHtml(joinDisplayValues(program.faculty_list || []))}</td>
@@ -953,7 +1007,7 @@ function renderSchoolMainRow(school, rank) {
       <td>${escapeHtml(school.qs ?? '')}</td>
       <td>${escapeHtml(school.the ?? '')}</td>
       <td>${escapeHtml(school.usnews ?? '')}</td>
-      <td>${escapeHtml(Number.isFinite(school.total_score) ? school.total_score.toFixed(1) : '')}</td>
+      <td class="score-cell">${scoreValue ? `<span class="score-pill">${escapeHtml(scoreValue)}</span>` : ''}</td>
     </tr>
   `;
 }
@@ -971,7 +1025,7 @@ function renderProgramContinuationRows(school) {
       return `
         <tr class="program-row program-row--continuation">
           <td></td>
-          <td></td>
+          <td class="program-indent-cell"><span class="program-indent">Program</span></td>
           <td>${renderProgramLink(program.program, program.url)}</td>
           <td>${escapeHtml(joinDisplayValues(program.faculty_list || []))}</td>
           <td>${escapeHtml(joinDisplayValues(program.campus_list || []))}</td>
@@ -1155,6 +1209,8 @@ export function renderSummary(filteredPrograms, allPrograms) {
   const schoolCount = new Set(filtered.map((p) => p.university_slug)).size;
 
   setText('resultCount', `${schoolCount} 所大学 / ${filtered.length} 个项目`);
+  setText('overviewSchoolCount', schoolCount);
+  setText('overviewProgramCount', filtered.length);
 
   renderStatsList(
     'regionStats',
@@ -1202,7 +1258,7 @@ export function renderTable(
 
   if (!schools.length) {
     tbody.innerHTML = `
-      <tr>
+      <tr class="empty-row">
         <td colspan="15" class="table-empty">没有匹配结果</td>
       </tr>
     `;
@@ -1219,7 +1275,9 @@ export function renderTable(
     .join('');
 
   tbody.querySelectorAll('.school-row').forEach((row) => {
-    row.addEventListener('click', () => {
+    row.addEventListener('click', (e) => {
+      if (e.target instanceof Element && e.target.closest('a, button')) return;
+
       const slug = row.dataset.universitySlug;
       if (!slug) return;
 
@@ -1291,22 +1349,22 @@ function applyTheme(mode) {
   if (themeToggleBtn) {
     themeToggleBtn.setAttribute(
       'aria-label',
-      mode === 'auto' ? '主题：跟随系统' :
-      mode === 'dark' ? '主题：深色' :
-      '主题：浅色'
+      mode === 'auto' ? 'Theme: auto' :
+      mode === 'dark' ? 'Theme: dark' :
+      'Theme: light'
     );
 
     themeToggleBtn.setAttribute(
       'title',
-      mode === 'auto' ? '主题：跟随系统' :
-      mode === 'dark' ? '主题：深色' :
-      '主题：浅色'
+      mode === 'auto' ? 'Theme: auto' :
+      mode === 'dark' ? 'Theme: dark' :
+      'Theme: light'
     );
 
     themeToggleBtn.textContent =
-      mode === 'auto' ? '◐' :
-      mode === 'dark' ? '●' :
-      '○';
+      mode === 'auto' ? 'A' :
+      mode === 'dark' ? 'D' :
+      'L';
   }
 }
 
@@ -1368,6 +1426,7 @@ export function bindStaticEvents(state, refresh) {
 
   if (closeLocationDetailBtn && locationDialog) {
     closeLocationDetailBtn.addEventListener('click', () => {
+      locationDialog.classList.remove('is-visible');
       if (typeof locationDialog.close === 'function') {
         locationDialog.close();
       } else {
@@ -1377,6 +1436,7 @@ export function bindStaticEvents(state, refresh) {
 
     locationDialog.addEventListener('click', (e) => {
       if (e.target === locationDialog) {
+        locationDialog.classList.remove('is-visible');
         if (typeof locationDialog.close === 'function') {
           locationDialog.close();
         } else {
