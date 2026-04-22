@@ -1,0 +1,113 @@
+program,faculty,campus,duration,eng_taught,type,url
+Accounting,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/accounting/
+Actuarial Studies,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/actuarial-studies/
+Business Analytics,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/business-analytics/
+Economics,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/economics/
+Finance,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/finance/
+Management,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/management/
+Marketing,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/marketing/
+Ancient World Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/ancient-world-studies/
+Anthropology,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/anthropology/
+Arabic Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/arabic-studies/
+Art History,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/art-history/
+Asian Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/asian-studies/
+Chinese Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/chinese-studies/
+Classics (Ancient Greek and Latin),Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/classics-ancient-greek-and-latin/
+Creative Writing,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/creative-writing/
+Criminology,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/criminology/
+Economics,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/economics/
+English and Theatre Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/english-and-theatre-studies/
+French Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/french-studies/
+Gender Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/gender-studies/
+Geography,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/geography/
+German Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/german-studies/
+Hebrew and Jewish Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/hebrew-and-jewish-studies/
+History,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/history/
+History and Philosophy of Science,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/history-and-philosophy-of-science/
+Indigenous Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/indigenous-studies/
+Indonesian Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/indonesian-studies/
+Islamic Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/islamic-studies/
+Italian Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/italian-studies/
+Japanese Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/japanese-studies/
+Korean Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/korean-studies/
+Linguistics and Applied Linguistics,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/linguistics-and-applied-linguistics/
+Media and Communications,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/media-and-communications/
+Philosophy,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/philosophy/
+Politics and International Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/politics-and-international-studies/
+Psychology,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/psychology/
+Russian Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/russian-studies/
+Screen and Cultural Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/screen-and-cultural-studies/
+Sociology,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/sociology/
+Spanish and Latin American Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/spanish-and-latin-american-studies/
+Biochemistry and Molecular Biology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/biochemistry-and-molecular-biology/
+Biomedical Engineering Systems,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/biomedical-engineering-systems/
+Biotechnology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/biotechnology/
+Cell and Developmental Biology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/cell-and-developmental-biology/
+Genetics,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/genetics/
+Human Nutrition,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/human-nutrition/
+Human Structure and Function,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/human-structure-and-function/
+Immunology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/immunology/
+Infection and Immunity,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/infection-and-immunity/
+Microbiology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/microbiology/
+Neuroscience,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/neuroscience/
+Pathology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/pathology/
+Pharmacology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/pharmacology/
+Physiology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/physiology/
+Psychology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/psychology/
+Public Health and Epidemiology,"Faculty of Medicine, Dentistry and Health Sciences",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/public-health-and-epidemiology/
+Architecture,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/architecture/
+Civil Engineering Systems,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/civil-engineering-systems/
+Computing and Software Systems,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/
+Construction,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/construction/
+Digital Infrastructure Engineering Systems,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/digital-infrastructure-engineering-systems/
+Game Design,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/game-design/
+Graphic Design,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/graphic-design/
+Interior Design,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/interior-design/
+Landscape Architecture,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/landscape-architecture/
+Mechanical Engineering Systems,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/mechanical-engineering-systems/
+Performance Design,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/performance-design/
+Property,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/property/
+Urban Planning,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/urban-planning/
+User Experience Design,"Faculty of Architecture, Building and Planning",主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/user-experience-design/
+Agricultural Science,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/agricultural-science/
+Animal Health and Disease,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/animal-health-and-disease/
+Animal Science and Management,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/animal-science-and-management/
+Biochemistry and Molecular Biology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/biochemistry-and-molecular-biology/
+Biomedical Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/biomedical-engineering-systems/
+Biotechnology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/biotechnology/
+Cell and Developmental Biology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/cell-and-developmental-biology/
+Chemical Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/chemical-engineering-systems/
+Chemistry,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/chemistry/
+Civil Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/civil-engineering-systems/
+Climate and Weather,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/climate-and-weather/
+Computing and Software Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/
+Data Science,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/data-science/
+Digital Infrastructure Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/digital-infrastructure-engineering-systems/
+Ecology and Evolutionary Biology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/ecology-and-evolutionary-biology/
+Ecosystem Science,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/ecosystem-science/
+Electrical Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/electrical-engineering-systems/
+Environmental Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/environmental-engineering-systems/
+Environmental Science,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/environmental-science/
+Food Science,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/food-science/
+Genetics,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/genetics/
+Geography,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/geography/
+Geoscience,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/geoscience/
+Human Nutrition,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/human-nutrition/
+Human Structure and Function,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/human-structure-and-function/
+Immunology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/immunology/
+Infection and Immunity,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/infection-and-immunity/
+Marine Biology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/marine-biology/
+Mathematical Physics,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/mathematical-physics/
+Mathematics and Statistics,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/mathematics-and-statistics/
+Mechanical Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/mechanical-engineering-systems/
+Mechatronics Engineering Systems,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/mechatronics-engineering-systems/
+Microbiology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/microbiology/
+Neuroscience,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/neuroscience/
+Pathology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/pathology/
+Pharmacology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/pharmacology/
+Physics,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/physics/
+Physiology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/physiology/
+Plant Science,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/plant-science/
+Psychology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/psychology/
+Veterinary Bioscience,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/veterinary-bioscience/
+Zoology,Faculty of Science,主校区,3,TRUE,单学位,https://study.unimelb.edu.au/find/courses/major/zoology/

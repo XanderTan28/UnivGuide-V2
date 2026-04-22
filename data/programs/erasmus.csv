@@ -1,0 +1,29 @@
+program,faculty,campus,duration,eng_taught,type,url
+Bachelor in Philosophy of a Specific Discipline,Erasmus School of Philosophy,主校区,3,TRUE,双学位,https://www.eur.nl/en/bachelor/bachelor-philosophy-specific-discipline
+Bachelor International Business Administration,"Rotterdam School of Management, Erasmus University",主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/bachelor-international-business-administration
+Bestuurskunde,Erasmus School of Social and Behavioural Sciences,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/bestuurskunde
+Double bachelor BSc² in Econometrics and Economics,Erasmus School of Economics,主校区,4,TRUE,双学位,https://www.eur.nl/en/bachelor/double-bachelor-bsc2-econometrics-and-economics
+Double bachelor in Econometrics and Philosophy of Econometrics,Erasmus School of Economics+Erasmus School of Philosophy,主校区,4,TRUE,双学位,https://www.eur.nl/en/bachelor/double-bachelor-econometrics-and-philosophy-econometrics
+Double bachelor in Economics and Philosophy of Economics,Erasmus School of Economics+Erasmus School of Philosophy,主校区,4,TRUE,双学位,https://www.eur.nl/en/bachelor/double-bachelor-economics-and-philosophy-economics
+Dual Degree in Arts and Sciences,Erasmus University College,主校区,5,TRUE,联合培养,https://www.eur.nl/en/bachelor/dual-degree-arts-and-sciences
+Dubbelstudie Economie en Recht,Erasmus School of Economics+Erasmus School of Law,主校区,6,FALSE,本硕连读,https://www.eur.nl/bachelor/dubbelstudie-economie-en-recht
+Econometrie en Operationele Research,Erasmus School of Economics,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/econometrie-en-operationele-research
+Economie & Samenleving,Erasmus School of Economics+Universiteit Leiden,Universiteit Leiden - Campus Den Haag,3,FALSE,联合培养,https://www.eur.nl/bachelor/economie-samenleving
+Economie en Bedrijfseconomie,Erasmus School of Economics,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/economie-en-bedrijfseconomie
+Filosofie,Erasmus School of Philosophy,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/filosofie
+Fiscale Economie,Erasmus School of Economics,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/fiscale-economie
+Geneeskunde,Erasmus MC,Locatie Erasmus MC,3,FALSE,单学位,https://www.eur.nl/bachelor/geneeskunde
+"Gezondheidswetenschappen, Beleid & Management Gezondheidszorg, BMG",Erasmus School of Health Policy & Management,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/gezondheidswetenschappen-beleid-management-gezondheidszorg-bmg
+International Bachelor Arts and Culture Studies,"Erasmus School of History, Culture and Communication",主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/international-bachelor-arts-and-culture-studies
+International Bachelor Communication and Media,"Erasmus School of History, Culture and Communication",主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media
+International Bachelor Econometrics and Operations Research,Erasmus School of Economics,主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research
+International Bachelor Economics and Business Economics,Erasmus School of Economics,主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics
+International Bachelor History,"Erasmus School of History, Culture and Communication",主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/international-bachelor-history
+International Bachelor in Psychology,Erasmus School of Social and Behavioural Sciences,主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/international-bachelor-psychology
+Klinische Technologie,Erasmus MC,Locatie Erasmus MC,3,FALSE,联合培养,https://www.eur.nl/bachelor/klinische-technologie
+Liberal Arts and Sciences,Erasmus University College,Erasmus University College,3,TRUE,交叉学科（单学位）,https://www.eur.nl/en/bachelor/liberal-arts-and-sciences
+Management of International Social Challenges,Erasmus School of Social and Behavioural Sciences,主校区,3,TRUE,单学位,https://www.eur.nl/en/bachelor/management-international-social-challenges
+Nanobiology,Erasmus MC,Locatie Erasmus MC,3,TRUE,联合培养,https://www.eur.nl/en/bachelor/nanobiology
+Pedagogische Wetenschappen,Erasmus School of Social and Behavioural Sciences,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/pedagogische-wetenschappen
+Psychologie,Erasmus School of Social and Behavioural Sciences,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/psychologie
+Sociologie,Erasmus School of Social and Behavioural Sciences,主校区,3,FALSE,单学位,https://www.eur.nl/bachelor/sociologie

@@ -1,0 +1,14 @@
+program,faculty,campus,duration,eng_taught,type,url
+Architecture,"School of Architecture, Civil and Environmental Engineering (ENAC)",主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/architecture/
+Chemistry and Chemical Engineering,School of Basic Sciences (SB),主校区,3,FALSE,交叉学科（单学位）,https://www.epfl.ch/education/bachelor/programs/chemistry-and-chemical-engineering/
+Civil Engineering,"School of Architecture, Civil and Environmental Engineering (ENAC)",主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/civil-engineering/
+Communication Systems,School of Computer and Communication Sciences (IC),主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/communication-systems/
+Computer Science,School of Computer and Communication Sciences (IC),主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/computer-science/
+Electrical and Electronic Engineering,School of Engineering (STI),主校区,3,FALSE,交叉学科（单学位）,https://www.epfl.ch/education/bachelor/programs/electrical-and-electronic-engineering/
+Environmental Sciences and Engineering,"School of Architecture, Civil and Environmental Engineering (ENAC)",主校区,3,FALSE,交叉学科（单学位）,https://www.epfl.ch/education/bachelor/programs/environmental-sciences-and-engineering/
+Life Sciences Engineering,School of Life Sciences (SV),主校区,3,FALSE,交叉学科（单学位）,https://www.epfl.ch/education/bachelor/programs/life-sciences-engineering/
+Materials Science and Engineering,School of Engineering (STI),主校区,3,FALSE,交叉学科（单学位）,https://www.epfl.ch/education/bachelor/programs/materials-science-and-engineering/
+Mathematics,School of Basic Sciences (SB),主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/mathematics/
+Mechanical Engineering,School of Engineering (STI),主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/mechanical-engineering/
+Microengineering,School of Engineering (STI),主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/microengineering/
+Physics,School of Basic Sciences (SB),主校区,3,FALSE,单学位,https://www.epfl.ch/education/bachelor/programs/physics/

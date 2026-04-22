@@ -1,0 +1,165 @@
+program,faculty,campus,duration,eng_taught,type,url
+Bachelor of Science (Computer Science),Engineering,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science
+Bachelor of Environmental Management,Science,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-environmental-management
+Bachelor of Construction Management and Property,"Arts, Design & Architecture",主校区,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-construction-management-and-property
+Bachelor of Vision Science,Medicine & Health,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-vision-science
+Bachelor of Aviation (Management),Science,主校区,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-aviation-management
+Bachelor of Actuarial Studies,UNSW Business School,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies
+Bachelor of Medical Science,Science,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-medical-science
+Bachelor of Politics Philosophy and Economics,"Arts, Design & Architecture",主校区,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-politics-philosophy-and-economics
+Bachelor of Criminology and Criminal Justice,Law & Justice,主校区,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-criminology-and-criminal-justice
+Bachelor of Architectural Studies,"Arts, Design & Architecture",主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-architectural-studies
+Bachelor of Economics,UNSW Business School,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics
+Bachelor of Aviation (Remotely Piloted Aircraft Systems),Science,FOU - Bankstown Airport,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-aviation-remotely-piloted-aircraft-systems
+Bachelor of Social Sciences,"Arts, Design & Architecture",主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-social-sciences
+Bachelor of Psychological Science,Science,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychological-science
+Bachelor of Information Systems,UNSW Business School,主校区,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-information-systems
+Bachelor of Commerce,UNSW Business School,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce
+Bachelor of Data Science and Decisions,Science,主校区,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-data-science-and-decisions
+Bachelor of Aviation (Flying),Science,FOU - Bankstown Airport,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-aviation-flying
+Bachelor of Science,Science,主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science
+Bachelor of Media,"Arts, Design & Architecture",主校区,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-media
+Bachelor of Science (Canberra),UNSW Canberra,Canberra,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-canberra
+Bachelor of Computing and Cyber Security (Canberra),UNSW Canberra,Canberra,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-computing-and-cyber-security-canberra
+Bachelor of Technology (Aeronautical Engineering) (Canberra),UNSW Canberra,Canberra,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-technology-aeronautical-engineering-canberra
+Bachelor of Business (Canberra),UNSW Canberra,Canberra,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-business-canberra
+Bachelor of Arts (Canberra),UNSW Canberra,Canberra,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts-canberra
+Bachelor of Business (Bengaluru),UNSW Canberra,UNSW Bengaluru,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-business-bengaluru
+Bachelor of Science in Computer Science,Engineering,UNSW Bengaluru,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-in-computer-science-bengaluru
+Bachelor of Data Science and Decisions,Science,UNSW Bengaluru,3,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-data-science-and-decisions-bengaluru
+Bachelor of Design,"Arts, Design & Architecture",主校区+Paddington,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-design1
+Bachelor of Cyber Security (Canberra),UNSW Canberra,Canberra,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-cyber-security-canberra
+Bachelor of Fine Arts,"Arts, Design & Architecture",Paddington,3,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-fine-arts1
+Bachelor of Engineering (Honours) (Telecommunications),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-telecommunications
+Bachelor of Commerce International,UNSW Business School,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-international
+Bachelor of Commerce / Education (Secondary),"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-education-secondary
+Bachelor of Economics / Education (Secondary),"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics-education-secondary
+Bachelor of Economics / Computer Science,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics-computer-science
+Bachelor of Engineering (Honours) (Bioinformatics),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-bioinformatics
+Bachelor of Economics / Arts,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics-arts
+Bachelor of Actuarial Studies (Co-op),UNSW Business School,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-co-op
+Bachelor of Commerce (Co-op),UNSW Business School,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-co-op
+Bachelor of Engineering (Honours) (Civil with Architecture),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-civil-with-architecture
+Bachelor of Actuarial Studies / Economics,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-economics
+Bachelor of Commerce / Economics,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-economics
+Bachelor of Actuarial Studies / Computer Science,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-computer-science
+Bachelor of Commerce / Computer Science,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-computer-science
+Bachelor of Commerce / Information Systems,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-information-systems
+Bachelor of Actuarial Studies / Information Systems,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-information-systems
+Bachelor of Actuarial Studies / Commerce,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-commerce
+Bachelor of Engineering (Honours) (Biomedical Engineering),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-biomedical-engineering
+Bachelor of Design / Education (Secondary),"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-design-education-secondary1
+Bachelor of Engineering (Honours) (Nuclear Engineering),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-nuclear-engineering
+Bachelor of Engineering (Honours) (Mechanical Engineering),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-mechanical-engineering
+Bachelor of Engineering (Honours) (Geoenergy & Geostorage),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-geoenergy-geostorage
+Bachelor of Science / Education (Secondary),"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-education-secondary
+Bachelor of Engineering (Honours) (Renewable Energy),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-renewable-energy
+Bachelor of Science (Computer Science) / Fine Arts,Engineering,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science-fine-arts
+Bachelor of Engineering (Honours) (Software),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-software-engineering
+Bachelor of Commerce / Media,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-media
+Bachelor of Engineering (Honours) (Quantum Engineering),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-quantum-engineering
+Bachelor of Engineering (Honours) (Robotics and Mechatronics),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-robotics-and-mechatronics
+Bachelor of Fine Arts / Media,"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-fine-arts-media
+Bachelor of Engineering (Honours) (Surveying),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-surveying
+Bachelor of Engineering (Honours) (Chemical Product Engineering),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-chemical-product-engineering
+Bachelor of Engineering (Honours) (Environmental),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-environmental-engineering
+Bachelor of Engineering (Honours) (Civil),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-civil-engineering
+Bachelor of Engineering (Honours) (Computer),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-computer-engineering
+Bachelor of Engineering (Honours) (Electrical),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-electrical-engineering
+Bachelor of Engineering (Honours) (Mechanical and Manufacturing Engineering),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-mechanical-and-manufacturing-engineering
+Bachelor of Commerce / Fine Arts,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-fine-arts1
+Bachelor of Media / Arts,"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-media-arts
+Bachelor of Engineering (Honours) (Mining),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-mining-engineering
+Bachelor of Engineering (Honours) (Photovoltaics and Solar Energy),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-photovoltaics-and-solar-energy
+Bachelor of Engineering (Honours) (Aerospace Engineering),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-aerospace-engineering
+Bachelor of Engineering (Honours) (Materials Science & Engineering),Science,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-materials-science-and-engineering
+Bachelor of Engineering (Honours) (Chemical Engineering),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-chemical-engineering
+Bachelor of Science / Social Sciences,Science,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-social-sciences
+Bachelor of Science / Science (Computer Science),Engineering,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-computer-science
+Bachelor of Commerce / Arts,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-arts
+Bachelor of Science / Fine Arts,Science,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-fine-arts1
+Bachelor of Economics / Science,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics-science
+Bachelor of Commerce / Aviation (Management),UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-aviation-management
+Bachelor of Fine Arts / Arts,"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-fine-arts-arts1
+Bachelor of Actuarial Studies / Science,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-science
+Bachelor of Commerce / Science,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-science
+Bachelor of Arts / Education (Secondary),"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts-education-secondary
+Bachelor of Science / Arts,Science,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-arts
+Bachelor of Science (Computer Science) / Arts,Engineering,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science-arts
+Bachelor of Commerce / Design,UNSW Business School,主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-design1
+Bachelor of Education (Primary) (Honours),"Arts, Design & Architecture",主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-education-primary-honours
+Bachelor of Design / Media,"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-design-media
+Bachelor of Engineering (Honours),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours
+Bachelor of Information Systems (Co-op) (Honours),UNSW Business School,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-information-systems-co-op-honours
+Bachelor of Biotechnology (Honours),Science,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-biotechnology-honours
+Bachelor of Fine Arts / Education (Secondary),"Arts, Design & Architecture",主校区,4,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-fine-arts-education-secondary1
+Bachelor of Food Science (Honours),Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-food-science-honours
+Bachelor of City Planning (Honours),"Arts, Design & Architecture",主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-city-planning-honours
+Bachelor of Commerce (Co-op) (Honours),UNSW Business School,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-co-op-honours
+Bachelor of Advanced Computer Science (Honours),Engineering,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-computer-science-honours
+Bachelor of Medicinal Chemistry (Honours),Science,主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-medicinal-chemistry-honours
+Bachelor of Psychology (Honours),Science,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychology-honours
+Bachelor of Science (Advanced Mathematics) (Honours),Science,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-mathematics-honours
+Bachelor of Social Work (Honours),"Arts, Design & Architecture",主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-social-work-honours
+Bachelor of Landscape Architecture (Honours),"Arts, Design & Architecture",主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-landscape-architecture-honours
+Bachelor of Interior Architecture (Honours),"Arts, Design & Architecture",主校区,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-interior-architecture-honours
+Bachelor of Advanced Science (Honours),Science,主校区,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-science-honours
+Bachelor of Civil Engineering (Honours) (Canberra),UNSW Canberra,Canberra,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-civil-engineering-honours-canberra
+Bachelor of Mechanical Engineering (Honours) (Canberra),UNSW Canberra,Canberra,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-mechanical-engineering-honours-canberra
+Bachelor of Aeronautical Engineering (Honours) (Canberra),UNSW Canberra,Canberra,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-aeronautical-engineering-honours-canberra
+Bachelor of Electrical Engineering (Honours) (Canberra),UNSW Canberra,Canberra,4,TRUE,单学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-electrical-engineering-honours-canberra
+Bachelor of Naval Architecture Engineering (Honours) (Canberra),UNSW Canberra,Canberra,4,TRUE,交叉学科（单学位）,https://www.unsw.edu.au/study/undergraduate/bachelor-of-naval-architecture-engineering-honours-canberra
+Bachelor of Applied Exercise Science / Master of Clinical Exercise Physiology,Medicine & Health,主校区,4.4,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-applied-exercise-science-master-of-clinical-exercise-physiology
+Bachelor of Engineering (Honours) / Engineering Science,Engineering,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-engineering-science
+Bachelor of Engineering (Honours) (Materials Science & Engineering) / Engineering Science,Science,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-materials-science-and-engineering-engineering-science
+Bachelor of Psychological Science / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychological-science-law
+Bachelor of Engineering (Honours) / Master of Engineering (Electrical Engineering),Engineering,主校区,5,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-master-of-engineering-electrical-engineering
+Bachelor of Science (Computer Science) / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science-law
+Bachelor of Engineering (Honours) (Civil) / Surveying,Engineering,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-civil-surveying
+Bachelor of Actuarial Studies / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-law
+Bachelor of Engineering (Honours) / Master of Biomedical Engineering,Engineering,主校区,5,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-master-of-biomedical-engineering
+Bachelor of Media / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-media-law
+Bachelor of Social Sciences / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-social-sciences-law
+Bachelor of Fine Arts / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-fine-arts-law1
+Bachelor of Vision Science / Master of Clinical Optometry,Medicine & Health,主校区,5,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-vision-science-master-of-clinical-optometry
+Bachelor of Engineering (Honours) / Science,Engineering,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-science
+Bachelor of Science / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-law
+Bachelor of Economics / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics-law
+Bachelor of Criminology & Criminal Justice / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-criminology-and-criminal-justice-law
+Bachelor of Commerce / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-law
+Bachelor of Arts / Law,Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-arts-law
+Bachelor of Engineering (Honours) (Materials Science & Engineering) / Master of Biomedical Engineering,Science,主校区,5,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-materials-science-and-engineering-master-of-biomedical-engineering
+Bachelor of Economics / Science (Advanced Mathematics) (Honours),UNSW Business School,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics-advanced-mathematics-honours
+Bachelor of Science (Advanced Mathematics) (Honours) / Commerce,UNSW Business School,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-mathematics-honours-commerce
+Bachelor of Criminology & Criminal Justice/Bachelor of Psychology (Honours),Law & Justice,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-criminology-and-criminal-justice-psychology-honours
+Bachelor of Actuarial Studies / Science (Advanced Mathematics) (Honours),UNSW Business School,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-actuarial-studies-advanced-mathematics-honours
+Bachelor of Advanced Mathematics (Honours) / Computer Science,Science,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-mathematics-honours-computer-science
+Bachelor of Social Work (Honours) / Social Sciences,"Arts, Design & Architecture",主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-social-work-honours-social-sciences
+Bachelor of Social Work (Honours) / Criminology & Criminal Justice,"Arts, Design & Architecture",主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-social-work-honours-criminology-and-criminal-justice
+Bachelor of Advanced Science (Honours) / Social Sciences,Science,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-science-honours-social-sciences
+Bachelor of Economics / Advanced Science (Honours),UNSW Business School,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-economics-advanced-science-honours
+Bachelor of Exercise Science / Master of Physiotherapy and Exercise Physiology,Medicine & Health,主校区,5,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-exercise-science-master-of-physiotherapy-and-exercise-physiology
+Bachelor of Commerce / Advanced Science (Honours),UNSW Business School,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce-advanced-science-honours
+Bachelor of Advanced Science (Honours) / Fine Arts,Science,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-science-honours-fine-arts
+Bachelor of Advanced Science (Honours) / Computer Science,Science,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-science-honours-computer-science
+Bachelor of Advanced Science (Honours) / Arts,Science,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-science-honours-arts
+Bachelor of Pharmaceutical Medicine / Master of Pharmacy,Medicine & Health,主校区,5,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-pharmaceutical-medicine-master-of-pharmacy
+Bachelor of Science (Advanced Mathematics)(Honours) / Arts,Science,主校区,5,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-mathematics-honours-arts
+Bachelor of Nutrition / Master of Dietetics and Food Innovation,Medicine & Health,主校区,5,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-nutrition-master-of-dietetics-and-food-innovation
+Bachelor of Data Science and Decisions / Law,Law & Justice,主校区,5.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-data-science-and-decisions-law
+Bachelor of Engineering (Honours) / Arts,Engineering,主校区,5.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-arts
+Bachelor of Fine Arts / Engineering (Honours),Engineering,主校区,5.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-fine-arts-engineering-honours
+Bachelor of Social Work (Honours) / Arts,"Arts, Design & Architecture",主校区,5.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-social-work-honours-arts
+Bachelor of Engineering (Honours) (Materials Science & Engineering) / Commerce,Science,主校区,5.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-materials-science-and-engineering-commerce
+Bachelor of Science (Advanced Mathematics) (Honours) / Bachelor of Engineering (Honours),Science,主校区,6,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-mathematics-honours-bachelor-of-engineering-honours
+Bachelor of Medical Studies / Doctor of Medicine,Medicine & Health,主校区,6,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-medical-studies-doctor-of-medicine
+Bachelor of Advanced Science (Honours) / Engineering (Honours),Science,主校区,6,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-science-honours-engineering-honours
+Bachelor of Science (Advanced Mathematics) (Honours) / Law,Law & Justice,主校区,6,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-mathematics-honours-law
+Bachelor of Advanced Science (Honours) / Law,Law & Justice,主校区,6,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-advanced-science-honours-law
+Bachelor of Psychology (Honours) / Law,Law & Justice,主校区,6,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-psychology-honours-law
+Bachelor of Engineering (Honours) / Law,Law & Justice,主校区,6.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-law
+Bachelor of Social Work (Honours) / Law,Law & Justice,主校区,6.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-social-work-honours-law
+Bachelor of City Planning (Honours) / Law,Law & Justice,主校区,6.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-city-planning-honours-law
+Bachelor of Medicinal Chemistry (Honours) / Law,Law & Justice,主校区,6.7,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-medicinal-chemistry-honours-law
+Bachelor of Medical Studies / Doctor of Medicine / Arts,Medicine & Health,主校区,8,TRUE,本硕连读,https://www.unsw.edu.au/study/undergraduate/bachelor-of-medical-studies-doctor-of-medicine-arts
+"Bachelor of Politics, Philosophy and Economics / Law",Law & Justice,主校区,6,TRUE,双学位,https://www.unsw.edu.au/study/undergraduate/bachelor-of-politics-philosophy-and-economics-law

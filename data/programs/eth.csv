@@ -1,0 +1,25 @@
+program,faculty,campus,duration,eng_taught,type,url
+Architecture,Department of Architecture,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/architecture-and-civil-engineering/architecture.html
+Civil Engineering,"Department of Civil, Environmental and Geomatic Engineering",Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/architecture-and-civil-engineering/civil-engineering.html
+Environmental Engineering,"Department of Civil, Environmental and Geomatic Engineering",Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/architecture-and-civil-engineering/environmental-engineering.html
+Geospatial Engineering,"Department of Civil, Environmental and Geomatic Engineering",Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/architecture-and-civil-engineering/geospatial-engineering.html
+Electrical Engineering and Information Technology,Department of Information Technology and Electrical Engineering,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/engineering-sciences/electrical-engineering-and-information-technology.html
+Computer Science,Department of Computer Science,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/engineering-sciences/computer-science.html
+Mechanical Engineering,Department of Mechanical and Process Engineering,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/engineering-sciences/mechanical-engineering.html
+Materials Science,Department of Materials,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/engineering-sciences/materials-science.html
+Biology,Department of Biology,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/biology.html
+Biochemistry - Chemical Biology,Department of Chemistry and Applied Biosciences,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/biochemistry-chemicalbiology.html
+Chemical Engineering,Department of Chemistry and Applied Biosciences,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/chemical-engineering.html
+Chemistry,Department of Chemistry and Applied Biosciences,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/chemistry.html
+Computational Science and Engineering,Department of Mathematics,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/computational-science-and-engineering.html
+交叉学科（单学位） Sciences,Department of Chemistry and Applied Biosciences,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/交叉学科（单学位）-sciences.html
+Mathematics,Department of Mathematics,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/mathematics.html
+Pharmaceutical Sciences,Department of Chemistry and Applied Biosciences,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/pharmaceutical-sciences.html
+Physics,Department of Physics,Hönggerberg,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/natural-sciences-and-mathematics/physics.html
+Agricultural Sciences,Department of Environmental Systems Science,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/system-oriented-natural-sciences/agricultural-sciences.html
+Food Science and Nutrition,Department of Health Sciences and Technology,主校区+Hönggerberg+Irchel,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/system-oriented-natural-sciences/food-science.html
+Earth and Climate Sciences,Department of Earth and Planetary Sciences,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/system-oriented-natural-sciences/earth-and-climate-sciences.html
+Environmental Sciences,Department of Environmental Systems Science,主校区,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/system-oriented-natural-sciences/environmental-sciences.html
+Health Sciences and Technology,Department of Health Sciences and Technology,主校区+Hönggerberg+Irchel,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/system-oriented-natural-sciences/health-sciences-and-technology.html
+Human Medicine,Department of Health Sciences and Technology,主校区+Hönggerberg+Irchel,3,FALSE,单学位,https://ethz.ch/en/studies/bachelor/bachelors-degree-programmes/system-oriented-natural-sciences/human-medicine.html
+Public Policy (Professional Officer),"Department of Humanities, Social and Political Sciences",主校区,3,FALSE,单学位,https://gess.ethz.ch/en/studies/ba-public-policy.html

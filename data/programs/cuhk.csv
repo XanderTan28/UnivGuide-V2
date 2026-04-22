@@ -1,0 +1,76 @@
+program,faculty,campus,duration,eng_taught,type,url
+Anthropology,Faculty of Arts,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/anthn/
+Chinese Language and Literature,Faculty of Arts,主校区,4,FALSE,单学位,https://admission.cuhk.edu.hk/programme/chlln/
+Chinese Studies,Faculty of Arts,主校区,4,FALSE,单学位,https://admission.cuhk.edu.hk/programme/chesb/
+English,Faculty of Arts,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/engen/
+Fine Arts,Faculty of Arts,主校区,4,FALSE,单学位,https://admission.cuhk.edu.hk/programme/faasn/
+History,Faculty of Arts,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/histn/
+Japanese Studies,Faculty of Arts,主校区,4,FALSE,单学位,https://admission.cuhk.edu.hk/programme/jaspn/
+Linguistics,Faculty of Arts,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/lingn/
+"Music",Faculty of Arts,主校区,4,FALSE,单学位,https://admission.cuhk.edu.hk/programme/muscn/
+Philosophy,Faculty of Arts,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/philn/
+Public Humanities,Faculty of Arts,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/puhsn/
+Religious Studies,Faculty of Arts,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/relsn/
+"Theology",Faculty of Arts,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/theon/
+Translation,Faculty of Arts,主校区,4,FALSE,单学位,https://admission.cuhk.edu.hk/programme/trann/
+"Biotechnology, Entrepreneurship and Healthcare Management",Faculty of Business Administration+Faculty of Medicine+Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/behmn/
+Global Business Studies,Faculty of Business Administration,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/ibbac-gbs/
+Global Economics and Finance,Faculty of Business Administration+Faculty of Social Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/glefn/
+Hospitality and Real Estate,Faculty of Business Administration,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/htmgb/
+"Insurance, Financial and Actuarial Analysis",Faculty of Business Administration,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/ifaab/
+Integrated Bachelor of Business Administration Programme,Faculty of Business Administration,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/ibbac/
+Professional Accountancy,Faculty of Business Administration,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/paccn/
+Quantitative Finance,Faculty of Business Administration,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/qfinn/
+Quantitative Finance and Risk Management Science,Faculty of Business Administration+Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/qfrmn/
+Learning Design and Technology,Faculty of Education+Faculty of Engineering+Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/ldten/
+Artificial Intelligence: Systems and Technologies,Faculty of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/aistn/
+Biomedical Engineering,Faculty of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/bmegn/
+Computational Data Science,Faculty of Engineering+Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/cdasn/
+Computer Engineering,Faculty of Engineering,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/cengn/
+Computer Science,Faculty of Engineering,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/cscin/
+Computer Science and Engineering,Faculty of Engineering,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/bcsen/
+Electronic Engineering,Faculty of Engineering,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/elegn/
+Energy and Environmental Engineering,Faculty of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/eeenn/
+Financial Technology,Faculty of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/ftecn/
+Information Engineering,Faculty of Engineering,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/iergn/
+Materials Science and Engineering,Faculty of Engineering+Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/masen/
+Mathematics and Information Engineering,Faculty of Engineering+Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/miegn/
+Mechanical and Automation Engineering,Faculty of Engineering,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/maegn/
+Systems Engineering and Engineering Management,Faculty of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/seemn/
+Diplomacy and International Studies,Faculty of Law+Faculty of Social Science,主校区,4,FALSE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/dipln/
+Laws,Faculty of Law,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/lawsn/
+Biomedical Sciences,Faculty of Medicine,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/bmscn/
+Pharmacy,Faculty of Medicine,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/pharn/
+Public Health,Faculty of Medicine,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/phpcn/
+Earth and Environmental Sciences,Faculty of Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/eescn/
+Enrichment Mathematics,Faculty of Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/mathn/
+Enrichment Stream in Theoretical Physics,Faculty of Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/physn%E2%80%90erp/
+Risk Management Science,Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/rmscn/
+Science,Faculty of Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/bscin/
+Architectural Studies,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/archn/
+Data Science and Policy Studies,Faculty of Social Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/dspsn/
+Economics,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/econn/
+Geography and Resource Management,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/grmdn/
+Global Communication,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/gcomn/
+Global Studies,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/glsdn/
+Government and Public Administration,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/gpadn/
+Journalism and Communication,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/commn/
+Psychology,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/psycn/
+Social Science (Broad-based),Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/bsscn/
+Social Work,Faculty of Social Science,主校区,4,FALSE,单学位,https://admission.cuhk.edu.hk/programme/sowkn/
+Sociology,Faculty of Social Science,主校区,4,TRUE,单学位,https://admission.cuhk.edu.hk/programme/socin/
+Urban Studies,Faculty of Social Science,主校区,4,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/urspn/
+BBA(IBBA)-JD Double Degree Programme,Faculty of Business Administration+Faculty of Law,主校区,5,TRUE,双学位,https://admission.cuhk.edu.hk/programme/bajdn/
+Chinese Language Studies (BA) and Chinese Language Education (BEd),Faculty of Education,主校区,5,FALSE,双学位,https://admission.cuhk.edu.hk/programme/cledn/
+"Early Childhood Education",Faculty of Education,主校区,5,FALSE,单学位,https://admission.cuhk.edu.hk/programme/becen/
+English Studies (BA) and English Language Education (BEd),Faculty of Education,主校区,5,TRUE,双学位,https://admission.cuhk.edu.hk/programme/eledn/
+Mathematics and Mathematics Education,Faculty of Education,主校区,5,TRUE,交叉学科（单学位）,https://admission.cuhk.edu.hk/programme/bmedn/
+"Physical Education, Exercise Science and Health",Faculty of Education,主校区,5,FALSE,单学位,https://admission.cuhk.edu.hk/programme/peshn/
+Nursing,Faculty of Medicine,主校区,5,FALSE,单学位,https://admission.cuhk.edu.hk/programme/nursn/
+Bachelor of Medicine and Bachelor of Surgery (MBChB),Faculty of Medicine,主校区,6,TRUE,单学位,https://admission.cuhk.edu.hk/programme/medun/
+Bachelor of Medicine and Bachelor of Surgery – Global Physician-Leadership Stream (MBChB-GPS),Faculty of Medicine,主校区,6,TRUE,单学位,https://admission.cuhk.edu.hk/programme/medun-gps/
+Chinese Medicine,Faculty of Medicine,主校区,6,FALSE,单学位,https://admission.cuhk.edu.hk/programme/bcmen/
+Interdisciplinary Data Analytics & X Double Major Programme,Faculty of Business Administration+Faculty of Engineering+Faculty of Science,主校区+Shenzhen,2+2,TRUE,联合培养,https://admission.cuhk.edu.hk/programme/indan/
+Human Movement Science and Health Studies,Faculty of Education,主校区+BSU,2+2,TRUE,联合培养,https://admission.cuhk.edu.hk/programme/hmshn/
+Aerospace Science and Earth Informatics & X Double Major Programme,Faculty of Engineering+Faculty of Science+Faculty of Social Science,主校区+Shenzhen,2+2,TRUE,联合培养,https://admission.cuhk.edu.hk/programme/asein/
+Economics (CUHK-Tsinghua University Dual Undergraduate Degree Programme),Faculty of Social Science,主校区+Tsinghua University,2+2,TRUE,联合培养,https://admission.cuhk.edu.hk/programme/ecotu/

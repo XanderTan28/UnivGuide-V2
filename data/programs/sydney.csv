@@ -1,0 +1,107 @@
+﻿program,faculty,campus,duration,eng_taught,type,url
+Bachelor of Commerce,University of Sydney Business School,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce.html
+Bachelor of Science,Faculty of Science,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science.html
+Bachelor of Arts,Faculty of Arts and Social Sciences,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts.html
+Bachelor of Psychology,Faculty of Science,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-psychology.html
+Bachelor of Architecture and Environments,"Sydney School of Architecture, Design and Planning",主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-architecture-and-environments.html
+Bachelor of Nursing (Advanced Studies),Faculty of Medicine and Health,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-nursing-advanced-studies.html
+Bachelor of Mathematical Sciences,Faculty of Science,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-mathematical-sciences.html
+Bachelor of Oral Health,Faculty of Medicine and Health,主校区+Westmead Campus,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-oral-health.html
+Bachelor of Science (Medical Science),Faculty of Science,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-medical-science.html
+Bachelor of Biomedicine and Health,Faculty of Medicine and Health,Westmead Campus,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-biomedicine-and-health.html
+Bachelor of Media and Communications,Faculty of Arts and Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-media-and-communications.html
+Bachelor of Animal and Veterinary Bioscience,Faculty of Science,主校区+Camden Campus (Veterinary Science),3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-animal-and-veterinary-bioscience.html
+Bachelor of Languages,Faculty of Arts and Social Sciences,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-languages.html
+"Bachelor of International Studies",Faculty of Arts and Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-international-studies.html
+"Bachelor of Politics, Philosophy, and Economics",Faculty of Arts and Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-politics-philosophy-and-economics.html
+Bachelor of Design (Interaction Design),"Sydney School of Architecture, Design and Planning",主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-design-interaction-design.html
+Bachelor of Applied Science (Exercise and Sport Science),Faculty of Medicine and Health,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-applied-science-exercise-and-sport-science0.html
+Bachelor of Visual Arts,"Sydney School of Architecture, Design and Planning",主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-visual-arts.html
+Bachelor of Science (Health),Faculty of Science,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-health.html
+Bachelor of Economics,University of Sydney Business School,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics.html
+Bachelor of Liberal Arts and Science,Faculty of Arts and Social Sciences+Faculty of Science,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-liberal-arts-and-science0.html
+Bachelor of Project Management,Faculty of Engineering,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-project-management0.html
+Bachelor of Science (Advanced),Faculty of Science,主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-advanced.html
+Bachelor of Liberal Arts and Science (Advanced),Faculty of Arts and Social Sciences+Faculty of Science,主校区,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-liberal-arts-and-science-advanced.html
+Bachelor of Agricultural Science,Faculty of Science,主校区+Camden Campus (Plant Breeding Institute),3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-agricultural-science.html
+"Bachelor of Wildlife Conservation (Taronga)",Faculty of Science,主校区+Taronga Conservation Society of Australia,3,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-wildlife-conservation-taronga.html
+"Bachelor of Design in Architecture","Sydney School of Architecture, Design and Planning",主校区,3,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-design-in-architecture.html
+Bachelor of Science and Bachelor of Advanced Studies (Dalyell Scholars),Faculty of Science,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-bachelor-of-advanced-studies-dalyell-scholars.html
+Bachelor of Science (Health) and Master of Nursing,Faculty of Medicine and Health,主校区,4,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-health-and-master-of-nursing.html
+Bachelor of Arts and Master of Nursing,Faculty of Medicine and Health,主校区,4,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-and-master-of-nursing.html
+Bachelor of Science and Master of Nursing,Faculty of Medicine and Health,主校区,4,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-master-of-nursing.html
+Bachelor of Music,Sydney Conservatorium of Music,主校区+Sydney Conservatorium of Music,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-music.html
+Bachelor of Commerce and Bachelor of Advanced Studies (Dalyell Scholars),"University of Sydney Business School",主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce-and-bachelor-of-advanced-studies-dalyell-scholars.html
+Bachelor of Advanced Computing,Faculty of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-advanced-computing.html
+Bachelor of Economics and Bachelor of Arts,University of Sydney Business School,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics-and-bachelor-of-arts.html
+Bachelor of Science and Bachelor of Arts,Faculty of Science,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-bachelor-of-arts.html
+Bachelor of Commerce and Bachelor of Arts,University of Sydney Business School,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce-and-bachelor-of-arts.html
+Bachelor of Commerce and Bachelor of Science,University of Sydney Business School,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce-and-bachelor-of-science.html
+"Bachelor of Design and Bachelor of Advanced Studies (Interaction Design)","Sydney School of Architecture, Design and Planning",主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-design-and-bachelor-of-advanced-studies-interaction-design.html
+"Bachelor of Economics and Bachelor of Advanced Studies",University of Sydney Business School,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics-and-bachelor-of-advanced-studies.html
+"Bachelor of Science and Bachelor of Advanced Studies (Medical Science)",Faculty of Science,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-bachelor-of-advanced-studies-medical-science.html
+Bachelor of Science and Bachelor of Advanced Studies (Health),Faculty of Science,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-bachelor-of-advanced-studies-health.html
+Bachelor of Science and Bachelor of Advanced Studies (Advanced),"Faculty of Science",主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-bachelor-of-advanced-studies-advanced.html
+Bachelor of Science and Bachelor of Advanced Studies,Faculty of Science,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-bachelor-of-advanced-studies.html
+Bachelor of Arts and Bachelor of Advanced Studies,Faculty of Arts and Social Sciences,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-and-bachelor-of-advanced-studies.html
+Bachelor of Visual Arts and Bachelor of Advanced Studies,"Sydney School of Architecture, Design and Planning",主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-visual-arts-and-bachelor-of-advanced-studies.html
+Bachelor of Commerce and Bachelor of Advanced Studies,University of Sydney Business School,主校区,4,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce-and-bachelor-of-advanced-studies.html
+Bachelor of Education (Secondary),Faculty of Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-education-secondary.html
+Bachelor of Education (Early Childhood),Faculty of Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-education-early-childhood0.html
+Bachelor of Music (Composition),"Sydney Conservatorium of Music",Sydney Conservatorium of Music,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-music-composition.html
+Bachelor of Music (Performance),Sydney Conservatorium of Music,Sydney Conservatorium of Music,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-music-performance.html
+Bachelor of Engineering Honours (Software Engineering),"Faculty of Engineering",主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-software-engineering1.html
+Bachelor of Engineering Honours with Space,Faculty of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-with-space.html
+Bachelor of Education (Primary),Faculty of Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-education-primary0.html
+Bachelor of Education (Health and Physical Education),Faculty of Arts and Social Sciences,主校区,4,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-education-health-and-physical-education0.html
+Bachelor of Science (Extended)(Health),Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-extended-health.html
+Bachelor of Liberal Arts and Science (Extended),Faculty of Arts and Social Sciences+Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-liberal-arts-and-science-extended.html
+Bachelor of Arts (Extended),Faculty of Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-extended.html
+Bachelor of Engineering Honours (Aeronautical Engineering),"Faculty of Engineering",主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-aeronautical-engineering2.html
+Bachelor of Engineering Honours (Biomedical Engineering),"Faculty of Engineering",主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-biomedical-engineering2.html
+Bachelor of Engineering Honours (Environmental Engineering),Faculty of Engineering,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-environmental-engineering.html
+Bachelor of Engineering Honours (Mechanical Engineering),Faculty of Engineering,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-mechanical-engineering2.html
+Bachelor of Engineering Honours (Chemical and Biomolecular Engineering),Faculty of Engineering,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-chemical-and-biomolecular-engineering2.html
+Bachelor of Engineering Honours (Dalyell Scholars),"Faculty of Engineering",主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-dalyell-scholars.html
+Bachelor of Engineering Honours (Mechatronic Engineering),"Faculty of Engineering",主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-mechatronic-engineering2.html
+Bachelor of Engineering Honours (Flexible First Year),"Faculty of Engineering",主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-flexible-first-year.html
+Bachelor of Engineering Honours (Electrical Engineering),Faculty of Engineering,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-electrical-engineering2.html
+Bachelor of Applied Science (Occupational Therapy),Faculty of Medicine and Health,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-applied-science-occupational-therapy0.html
+Bachelor of Social Work,Faculty of Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-social-work0.html
+Bachelor of Applied Science (Exercise Physiology),Faculty of Medicine and Health,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-applied-science-exercise-physiology7.html
+Bachelor of Applied Science (Physiotherapy),Faculty of Medicine and Health,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-applied-science-physiotherapy.html
+Bachelor of Applied Science (Speech Pathology),Faculty of Medicine and Health,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-applied-science-speech-pathology.html
+Bachelor of Applied Science (Diagnostic Radiography),Faculty of Medicine and Health,主校区,4,TRUE,单学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-applied-science-diagnostic-radiography.html
+Bachelor of Music (Music Education),Sydney Conservatorium of Music,Sydney Conservatorium of Music,4,TRUE,交叉学科（单学位）,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-music-music-education.html
+Bachelor of Engineering Honours and Bachelor of Science (Medical Science),"Faculty of Engineering",主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-and-bachelor-of-science-medical-science.html
+Bachelor of Economics and Bachelor of Laws,University of Sydney Business School,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics-and-bachelor-of-laws.html
+Bachelor of Science and Bachelor of Laws,Faculty of Science,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-bachelor-of-laws.html
+Bachelor of Arts and Bachelor of Laws,Faculty of Arts and Social Sciences,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-and-bachelor-of-laws.html
+Bachelor of Commerce and Bachelor of Laws,University of Sydney Business School,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-commerce-and-bachelor-of-laws.html
+"Bachelor of Education and Bachelor of Advanced Studies (Secondary)",Faculty of Arts and Social Sciences,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-education-and-bachelor-of-advanced-studies-secondary.html
+"Bachelor of Pharmacy (Honours) and Master of Pharmacy Practice",Faculty of Medicine and Health,主校区,5,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-pharmacy-honours-and-master-of-pharmacy-practice.html
+"Bachelor of Music and Bachelor of Advanced Studies (Composition)",Sydney Conservatorium of Music,Sydney Conservatorium of Music,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-music-and-bachelor-of-advanced-studies-composition.html
+Bachelor of Music and Bachelor of Advanced Studies (Performance),Sydney Conservatorium of Music,Sydney Conservatorium of Music,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-music-and-bachelor-of-advanced-studies-performance.html
+Bachelor of Engineering Honours and Bachelor of Project Management,Faculty of Engineering,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-and-bachelor-of-project-management.html
+Bachelor of Advanced Computing and Bachelor of Science (Medical Science),Faculty of Engineering,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-advanced-computing-and-bachelor-of-science-medical-science.html
+Bachelor of Engineering Honours (Biomedical Engineering) and Bachelor of Science (Health),Faculty of Engineering,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-biomedical-engineering-and-bachelor-of-science-health.html
+Bachelor of Advanced Computing and Bachelor of Science (Health),Faculty of Engineering,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-advanced-computing-and-bachelor-of-science-health.html
+Bachelor of Advanced Computing and Bachelor of Science,Faculty of Engineering,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-advanced-computing-and-bachelor-of-science.html
+Bachelor of Advanced Computing and Bachelor of Commerce,Faculty of Engineering,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-advanced-computing-and-bachelor-of-commerce.html
+Bachelor of Engineering Honours and Bachelor of Science,Faculty of Engineering,主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-and-bachelor-of-science.html
+Bachelor of Science and Master of Nutrition and Dietetics,Faculty of Medicine and Health,主校区,5,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-master-of-nutrition-and-dietetics.html
+Bachelor of Arts and Bachelor of Social Work,"Faculty of Arts and Social Sciences",主校区,5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-and-bachelor-of-social-work.html
+Bachelor of Design in Architecture (Honours) and Master of Architecture,"Sydney School of Architecture, Design and Planning",主校区,5,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-design-in-architecture-honours-and-master-of-architecture.html
+Bachelor of Engineering Honours and Bachelor of Arts,Faculty of Engineering,主校区,5.5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-and-bachelor-of-arts1.html
+Bachelor of Engineering Honours and Bachelor of Commerce,Faculty of Engineering,主校区,5.5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-and-bachelor-of-commerce1.html
+Bachelor of Veterinary Biology and Doctor of Veterinary Medicine,Faculty of Science,主校区+Camden Campus (Veterinary Science),6,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-veterinary-biology-and-doctor-of-veterinary-medicine0.html
+"Bachelor of Pharmacy and Management (Honours) and Master of Pharmacy Practice",Faculty of Medicine and Health,主校区,6,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-pharmacy-and-management-honours-and-master-of-pharmacy-practice.html
+Bachelor of Engineering Honours and Bachelor of Laws,Faculty of Engineering,主校区,6.5,TRUE,双学位,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-and-bachelor-of-laws.html
+Bachelor of Arts and Doctor of Medicine,Faculty of Medicine and Health,主校区,7,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-and-doctor-of-medicine.html
+Bachelor of Science and Doctor of Medicine,Faculty of Medicine and Health,主校区,7,TRUE,本硕连读,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science-and-doctor-of-medicine.html
+"Bachelor of Arts (Dual Degree: Sciences Po, France)",Faculty of Arts and Social Sciences,主校区+Sciences Po (Le Havre),2+2,TRUE,联合培养,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-dual-degree-sciences-po-france0.html
+"Bachelor of Arts (Dual Degree: Sciences Po, France)",Faculty of Arts and Social Sciences,主校区+Sciences Po (Menton),2+2,TRUE,联合培养,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-dual-degree-sciences-po-france0.html
+"Bachelor of Arts (Dual Degree: Sciences Po, France)","Faculty of Arts and Social Sciences",主校区+Sciences Po (Reims),2+2,TRUE,联合培养,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts-dual-degree-sciences-po-france0.html
+"Bachelor of Economics (Dual Degree: Sciences Po, France)",University of Sydney Business School,主校区+France - Sciences Po (Le Havre),2+2,TRUE,联合培养,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics-dual-degree-sciences-po-france0.html
+"Bachelor of Economics (Dual Degree: Sciences Po, France)",University of Sydney Business School,主校区+France - Sciences Po (Menton),2+2,TRUE,联合培养,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics-dual-degree-sciences-po-france0.html
+"Bachelor of Economics (Dual Degree: Sciences Po, France)",University of Sydney Business School,主校区+France - Sciences Po (Reims),2+2,TRUE,联合培养,https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics-dual-degree-sciences-po-france0.html

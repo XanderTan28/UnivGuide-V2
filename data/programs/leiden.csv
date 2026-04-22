@@ -1,0 +1,71 @@
+program,faculty,campus,duration,eng_taught,type,url
+African Studies (BA),Humanities,主校区,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/african-studies
+Ancient Near Eastern Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/oude-nabije-oosten-studies
+Arabic Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/midden-oostenstudies/arabic-language-and-culture
+Archaeology (BA),Archaeology,主校区,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/archaeology
+Art History (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/kunstgeschiedenis
+"Arts, Media and Society (BA)",Humanities,主校区,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/arts-media-and-society
+Astronomy (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/astronomy
+Bio-Pharmaceutical Sciences (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/bio-pharmaceutical-sciences
+Biology (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/biology
+Biomedical Sciences (BSc),Medicine/LUMC,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/biomedical-sciences
+Chinese Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/chinastudies
+Classics (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/griekse-en-latijnse-taal-en-cultuur
+Clinical Technology (BSc),Medicine/LUMC,主校区+Delft+Rotterdam,3,FALSE,联合培养,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/clinical-technology
+Computer Science & Economics (BSc),Science,主校区,3,FALSE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/computer-science/computer-science--economics
+Computer Science (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/computer-science
+Criminology (BSc),Law,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/criminologie
+Cultural Anthropology and Development Sociology (BSc),Social and Behavioural Sciences,主校区,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/cultural-anthropology-and-development-sociology
+"Culture, History and Society (BA Major of Liberal Arts and Sciences: Global Challenges)",Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/liberal-arts-and-sciences-global-challenges-leiden-university-college/culture-history-society-ba
+Cybersecurity & Cybercrime (BSc),Governance and Global Affairs,Campus The Hague,3,FALSE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/fgga-cybersecurity--cybercrime
+Data Science and Artificial Intelligence (BSc),Science,主校区,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/data-science-and-artificial-intelligence
+"Digitalisation, Governance and Society (BSc)",Governance and Global Affairs,Campus The Hague,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/public-administration/digitalisation-governance-and-society
+Dutch Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/nederlandse-taal-en-cultuur
+Dutch Studies (BA),Humanities,主校区,3,FALSE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/dutch-studies
+"Earth, Energy and Sustainability (BSc Major of Liberal Arts and Sciences: Global Challenges)",Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/liberal-arts-and-sciences-global-challenges-leiden-university-college/earth-energy-and-sustainability-bsc
+"Economics, Public Administration and Management (BSc)",Governance and Global Affairs,Campus The Hague,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/public-administration/economie-bestuur-en-management
+"Economie & Samenleving (BSc)",Law,Campus The Hague,3,FALSE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/fdr-economics--society
+English Language and Culture (BA),Humanities,主校区,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/english-language-and-culture
+Film and Literary Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/film--en-literatuurwetenschap
+French Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/franse-taal-en-cultuur
+German Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/duitse-taal-en-cultuur
+"Global Health, Innovation and Society (BSc Major of Liberal Arts and Sciences: Global Challenges)",Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/liberal-arts-and-sciences-global-challenges-leiden-university-college/global-health-innov-soc-bsc
+"Governance, Economics and Development (BSc Major of Liberal Arts and Sciences: Global Challenges)",Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/liberal-arts-and-sciences-global-challenges-leiden-university-college/governance-economics-and-development-bsc
+Hebrew Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/midden-oostenstudies/hebrew-language-and-culture
+History (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/geschiedenis
+"International Justice (BA Major of Liberal Arts and Sciences: Global Challenges)",Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/liberal-arts-and-sciences-global-challenges-leiden-university-college/international-justice-ba
+"International Relations and Organisations (BSc)",Social and Behavioural Sciences,Campus The Hague,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/political-science/international-relations-and-organisations
+International Studies (BA),Humanities,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/international-studies
+Italian Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/italiaanse-taal-en-cultuur
+Japanese Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/japanstudies
+Korean Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/koreastudies
+Latin American Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/latijns-amerikastudies
+Law (LL.B.),Law,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/law
+Liberal Arts and Sciences: Global Challenges (BA/BSc) - Leiden University College,Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/liberal-arts-and-sciences-global-challenges-leiden-university-college
+Life Science and Technology (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/life-science--technology
+Linguistics (BA),Humanities,主校区,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/linguistics
+Mathematics (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/mathematics
+Medicine (BSc),Medicine/LUMC,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/medicine
+Middle Eastern Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/midden-oostenstudies
+Modern Middle Eastern Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/midden-oostenstudies/modern-middle-eastern-studies
+Molecular Science & Technology (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/molecular-science--technology
+National and International Politics (BSc),Social and Behavioural Sciences,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/political-science/nationale-en-internationale-politiek-bsc
+Notarial Law (LL.B.),Law,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/notarial-law
+Pedagogical Sciences (BSc),Social and Behavioural Sciences,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/pedagogical-sciences
+Persian Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/midden-oostenstudies/persian-language-and-culture
+Philosophy (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/filosofie
+Philosophy: Global and Comparative Perspectives (BA),Humanities,主校区,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/philosophy-global-and-comparative-perspectives
+Physics (BSc),Science,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/physics
+"Policy, Public Administration and Organisation (BSc)",Governance and Global Affairs,Campus The Hague,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/public-administration/beleid-bestuur-en-organisatie
+Political Science (BSc),Social and Behavioural Sciences,主校区+Campus The Hague,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/political-science
+Psychology (BSc),Social and Behavioural Sciences,主校区,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/psychology
+Public Administration Science (BSc),Governance and Global Affairs,Campus The Hague,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/public-administration
+Religious Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/religious-studies
+Russian Studies (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/russische-studies
+Science for Sustainable Societies (BSc),Science,主校区,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/science-for-sustainable-societies
+Security Studies (BSc),Governance and Global Affairs,Campus The Hague,3,TRUE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/security-studies
+South and Southeast Asian Studies (BA),Humanities,主校区,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/south-and-southeast-asian-studies
+Tax Law (LL.B.),Law,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/tax-law
+Turkish Language and Culture (BA),Humanities,主校区,3,FALSE,单学位,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/midden-oostenstudies/turkish-language-and-culture
+Urban Studies (BA),Humanities+Law+Social and Behavioural Sciences+Science+Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/urban-studies
+World Politics (BA Major of Liberal Arts and Sciences: Global Challenges),Governance and Global Affairs,Campus The Hague,3,TRUE,交叉学科（单学位）,https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/liberal-arts-and-sciences-global-challenges-leiden-university-college/world-politics-ba

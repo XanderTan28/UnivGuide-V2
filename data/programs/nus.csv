@@ -1,0 +1,61 @@
+program,faculty,campus,duration,eng_taught,type,url
+Anthropology,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Chinese Languages and Cultures,College of Humanities and Sciences,主校区,4,FALSE,单学位,https://fass.nus.edu.sg/cs/discoverchs/
+Chinese Studies (Bilingual),College of Humanities and Sciences,主校区,4,TRUE,单学位,https://fass.nus.edu.sg/cs/discoverchs/
+Chemistry,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Communications and New Media,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Data Science and Analytics,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Economics,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+English Language and Linguistics,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+English Literature,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Food Science and Technology,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://www.fst.nus.edu.sg/education/undergraduate-programme/course-structure/primary-major-in-fst/
+Geography,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Global Studies,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+History,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Japanese Studies,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Life Sciences,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Malay Studies,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Mathematics,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Pharmaceutical Science,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://pharmacy.nus.edu.sg/study/undergraduate/bachelor-of-science-pharmaceutical-science/
+Philosophy,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Physics,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Political Science,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Psychology,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Quantitative Finance,College of Humanities and Sciences,主校区,4,TRUE,交叉学科（单学位）,https://www.math.nus.edu.sg/ug/majmin/primajors/qf/
+Social Work,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Sociology,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+South Asian Studies,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Southeast Asian Studies,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Statistics,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Theatre and Performance Studies,College of Humanities and Sciences,主校区,4,TRUE,单学位,https://chs.nus.edu.sg/programmes/
+Data Science and Economics,College of Humanities and Sciences,主校区,4,TRUE,交叉学科（单学位）,https://chs.nus.edu.sg/programmes/dse/
+Environmental Studies,College of Humanities and Sciences,主校区,4,TRUE,交叉学科（单学位）,https://chs.nus.edu.sg/programmes/bes/
+Geospatial Intelligence,College of Humanities and Sciences,主校区,4,TRUE,交叉学科（单学位）,https://chs.nus.edu.sg/programmes/gi/
+"Philosophy, Politics, and Economics",College of Humanities and Sciences,主校区,4,TRUE,交叉学科（单学位）,https://chs.nus.edu.sg/programmes/ppe/
+Architecture,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Biomedical Engineering,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Chemical Engineering,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Civil Engineering,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Electrical Engineering,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Engineering Science,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Environmental and Sustainability Engineering,College of Design and Engineering,主校区,4,TRUE,交叉学科（单学位）,https://cde.nus.edu.sg/undergraduate/
+Industrial Design,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Industrial and Systems Engineering,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Infrastructure and Project Management,College of Design and Engineering,主校区,4,TRUE,交叉学科（单学位）,https://cde.nus.edu.sg/undergraduate/
+Landscape Architecture,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Materials Science and Engineering,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Mechanical Engineering,College of Design and Engineering,主校区,4,TRUE,单学位,https://cde.nus.edu.sg/undergraduate/
+Robotics and Machine Intelligence,College of Design and Engineering,主校区,4,TRUE,交叉学科（单学位）,https://cde.nus.edu.sg/undergraduate/
+Artificial Intelligence,School of Computing,主校区,4,TRUE,单学位,https://www.comp.nus.edu.sg/programmes/ug/ai/
+Business Analytics,School of Computing,主校区,4,TRUE,交叉学科（单学位）,https://www.comp.nus.edu.sg/programmes/ug/ba/
+Business Artificial Intelligence Systems,School of Computing,主校区,4,TRUE,交叉学科（单学位）,https://www.comp.nus.edu.sg/programmes/ug/bais/
+Computer Engineering,School of Computing,主校区,4,TRUE,单学位,https://www.comp.nus.edu.sg/programmes/ug/ceg/
+Computer Science,School of Computing,主校区,4,TRUE,单学位,https://www.comp.nus.edu.sg/programmes/ug/cs/
+Information Security,School of Computing,主校区,4,TRUE,单学位,https://www.comp.nus.edu.sg/programmes/ug/isc/
+Business Administration,NUS Business School,主校区,4,TRUE,单学位,https://bba.nus.edu.sg/
+Dentistry,Faculty of Dentistry,主校区,4,TRUE,单学位,https://www.dentistry.nus.edu.sg/ug/
+Law,Faculty of Law,主校区,4,TRUE,单学位,https://law1a.nus.edu.sg/admissions/llb_prog.html
+Medicine,Yong Loo Lin School of Medicine,主校区,5,TRUE,单学位,https://medicine.nus.edu.sg/prospective-students/bachelor-of-medicine-and-bachelor-of-surgery-mbbs/
+Music,Yong Siew Toh Conservatory of Music,主校区,4,TRUE,单学位,https://www.ystmusic.nus.edu.sg/programmes-bachelor-of-music/
+Nursing,Alice Lee Centre for Nursing Studies,主校区,4,TRUE,单学位,https://medicine.nus.edu.sg/nursing/education-admissions/undergraduate/bachelor-of-science-nursing-bachelor-of-science-nursing-honours/
+Pharmacy,NUS Pharmacy and Pharmaceutical Sciences,主校区,4,TRUE,单学位,https://pharmacy.nus.edu.sg/study/undergraduate/bachelor-of-pharmacy/

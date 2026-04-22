@@ -1,0 +1,79 @@
+program,faculty,campus,duration,eng_taught,type,url
+Actuarial Mathematics,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/actuarial-mathematics
+Anthropology,Faculty of Social Sciences,City Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/anthropology
+Art History,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/art-history
+Asian Studies (China Studies),Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/china-studies
+Asian Studies (India and South Asian Studies),Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/asian-studies-india-and-south-asian-studies
+Asian Studies (Japan Studies),Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/japan-studies
+Asian Studies (Korean Studies),Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/korean-studies
+Audiologopedics,Faculty of Humanities,South Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/audiologopedics
+Biochemistry,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/biochemistry
+Bioinformatics,Faculty of Science,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/bioinformatics
+Biology,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/biology
+Biomedical Engineering,DTU (joint with UCPH),DTU,3,FALSE,联合培养,https://www.ku.dk/studies/bachelor/biomedical-engineering
+Biotechnology,Faculty of Science,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/biotechnology
+Chemistry,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/chemistry
+Classical Archaeology,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/classical-archaeology
+Classical Greek,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/classical-greek
+Cognitive Data Science,Faculty of Social Sciences,City Campus+North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/cognitive-data-science
+Communication and IT,Faculty of Humanities,South Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/communication-and-it
+Comparative Literature,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/comparative-literature
+Computer Science,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/computer-science
+Computer Science and Economics,Faculty of Science,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/computer-science-and-economics
+Danish,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/danish
+Dental Hygiene,Faculty of Health and Medical Sciences,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/dental-hygiene
+Dental Surgery,Faculty of Health and Medical Sciences,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/dental-surgery
+East European Studies,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/east-european-studies
+Economics,Faculty of Social Sciences,City Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/economics
+Education,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/education
+English,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/english
+Environmental and Food Economics,Faculty of Science,Frederiksberg Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/environmental-and-food-economics
+European Ethnology,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/european-ethnology
+Exercise and Sport Sciences,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/exercise-and-sport-sciences
+Film and Media Studies,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/film-and-media-studies
+Food and Nutrition,Faculty of Science,Frederiksberg Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/food-and-nutrition
+Forest and Landscape Engineering,Faculty of Science,Frederiksberg Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/forest-and-landscape-engineering
+French Language and Culture,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/french-language-and-culture
+Geography and Geoinformatics,Faculty of Science,Frederiksberg Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/geography-and-geoinformatics
+Geology-Geoscience,Faculty of Science,Frederiksberg Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/geology-geoscience
+German Language and Culture,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/german-language-and-culture
+Greenlandic and Arctic Studies,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/greenlandic-and-arctic-studies
+Health Informatics,Faculty of Health and Medical Sciences,City Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/health-informatics
+History,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/history
+Information Studies,Faculty of Humanities,South Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/information-studies
+Italian Language and Culture,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/italian-language-and-culture
+Landscape Architecture,Faculty of Science,Frederiksberg Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/landscape-architecture
+Latin,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/latin
+Laws,Faculty of Law,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/laws
+Linguistics,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/linguistics
+Machine Learning and Data Science,Faculty of Science,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/machine-learning-and-data-science
+Mathematics,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/mathematics
+Mathematics-Economics,Faculty of Science,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/mathematics-economics
+Medicinal Chemistry,Faculty of Science,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/medicinal-chemistry
+Medicine (Copenhagen),Faculty of Health and Medical Sciences,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/medicine-copenhagen
+Medicine (Køge),Faculty of Health and Medical Sciences,Køge,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/medicine-koege
+Mesoamerican Studies,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/mesoamerican-studies
+Middle Eastern Language and Society,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/middle-eastern-language-and-society
+Middle Eastern Language and Society (Archaeology of t. Middle East),Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/middle-eastern-language-and-society-archaeology-of-the-middle-east
+Middle Eastern Language and Society (Assyriology),Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/middle-eastern-language-and-society-assyriology
+Middle Eastern Language and Society (Egyptology),Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/middle-eastern-language-and-society-egyptology
+Molecular Biomedicine,Faculty of Health and Medical Sciences,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/molecular-biomedicine
+Musicology,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/musicology
+Nanoscience,Faculty of Science,North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/nanoscience
+Natural Resources,Faculty of Science,Frederiksberg Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/natural-resources
+Pharmacy,Faculty of Health and Medical Sciences,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/pharmacy
+Philosophy,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/philosophy
+Physics,Faculty of Science,North Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/physics
+Political Science,Faculty of Social Sciences,City Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/political-science
+Prehistoric Archaeology,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/prehistoric-archaeology
+Psychology,Faculty of Social Sciences,City Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/psychology
+Public Health,Faculty of Health and Medical Sciences,City Campus+North Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/public-health
+Religious Studies,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/religious-studies
+Rhetoric,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/rhetoric
+Social Science,Faculty of Social Sciences,City Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/social-science
+Sociology,Faculty of Social Sciences,City Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/sociology
+Spanish and Latin American Language and Culture,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/spanish-and-latin-american-language-and-culture
+Theatre and Performance Studies,Faculty of Humanities,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/theatre-and-performance-studies
+Theology,Faculty of Theology,South Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/theology
+Urban Landscape Engineering,Faculty of Science,Frederiksberg Campus,3,FALSE,交叉学科（单学位）,https://www.ku.dk/studies/bachelor/urban-landscape-engineering
+Veterinary Medicine,Faculty of Health and Medical Sciences,Frederiksberg Campus,3,FALSE,单学位,https://www.ku.dk/studies/bachelor/veterinary-medicine

@@ -1,0 +1,65 @@
+program,faculty,campus,duration,eng_taught,type,url
+Actuarial Science,Faculty of Economics and Business,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/actuarial-science/actuarial-science.html
+Ancient Studies,Faculty of Humanities,University Quarter,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/ancient-studies/ancient-studies.html
+Arabische taal en cultuur,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/arabische-taal-en-cultuur/arabische-taal-en-cultuur.html
+Archaeology,Faculty of Humanities,University Quarter,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/archaeology/archaeology.html
+Artificial Intelligence,Faculty of Science,Science Park,3,FALSE,交叉学科（单学位）,https://www.uva.nl/programmas/bachelors/kunstmatige-intelligentie/kunstmatige-intelligentie.html
+Biology,Faculty of Science,Science Park,3,FALSE,单学位,https://www.uva.nl/shared-content/programmas/en/bachelors/biology/biology.html
+Biomedical Sciences,Faculty of Science,Science Park+Amsterdam UMC,3,FALSE,单学位,https://www.uva.nl/shared-content/programmas/en/bachelors/biomedical-sciences/biomedical-sciences.html
+Business Administration,Faculty of Economics and Business,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/business-administration/business-administration.html
+Business Analytics,Faculty of Economics and Business,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/business-analytics/business-analytics.html
+Bèta-gamma (Natural and Social Sciences),Faculty of Science (Institute for Interdisciplinary Studies),Science Park+Roeterseiland,3,FALSE,交叉学科（单学位）,https://www.uva.nl/programmas/bachelors/beta-gamma/beta-gamma.html
+Chemistry,Faculty of Science,Science Park,3,FALSE,单学位,https://www.uva.nl/shared-content/programmas/en/bachelors/chemistry/chemistry.html
+"Cognition, Language and Communication",Faculty of Humanities,University Quarter,3,FALSE,交叉学科（单学位）,https://www.uva.nl/programmas/bachelors/cognition-language-and-communication/cognition-language-and-communication.html
+Computational Social Science,Faculty of Social and Behavioural Sciences,Roeterseiland,3,TRUE,交叉学科（单学位）,https://www.uva.nl/en/programmes/bachelors/computational-social-science/computational-social-science.html
+Computer Science,Faculty of Science,Science Park,3,FALSE,单学位,https://www.uva.nl/shared-content/programmas/en/bachelors/computer-science/computer-science.html
+Cultural Anthropology and Development Sociology,Faculty of Social and Behavioural Sciences,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/cultural-anthropology-and-development-sociology/cultural-anthropology-and-development-sociology.html
+Duitslandstudies,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/duitslandstudies/duitslandstudies.html
+Econometrics and Data Science,Faculty of Economics and Business,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/econometrics-and-data-science/econometrics-and-data-science.html
+Economics and Business Economics,Faculty of Economics and Business,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/economics-and-business-economics/economics-and-business-economics.html
+English Language and Culture,Faculty of Humanities,University Quarter,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/english-language-and-culture/english-language-and-culture.html
+European Studies,Faculty of Humanities,University Quarter,3,TRUE,交叉学科（单学位）,https://www.uva.nl/en/programmes/bachelors/european-studies/european-studies.html
+Filosofie,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/filosofie/filosofie.html
+Fiscaal Recht,Amsterdam Law School,Roeterseiland,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/fiscaal-recht/fiscaal-recht.html
+Fiscale Economie,Faculty of Economics and Business,Roeterseiland,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/fiscale-economie/fiscale-economie.html
+Franse taal en cultuur,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/franse-taal-en-cultuur/franse-taal-en-cultuur.html
+Future Planet Studies,Faculty of Science (Institute for Interdisciplinary Studies),Science Park+Roeterseiland,3,FALSE,交叉学科（单学位）,https://www.uva.nl/programmas/bachelors/future-planet-studies/future-planet-studies.html
+Geneeskunde,Faculty of Medicine,Amsterdam UMC - location AMC,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/geneeskunde/geneeskunde.html
+Geschiedenis,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/geschiedenis/geschiedenis.html
+"Global Arts, Culture and Politics",Faculty of Humanities,University Quarter,3,TRUE,交叉学科（单学位）,https://www.uva.nl/en/programmes/bachelors/global-arts-culture-and-politics/global-arts-culture-and-politics.html
+Global Communication Science (Communication Science),Faculty of Social and Behavioural Sciences,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/communication-science/communication-science.html
+Griekse en Latijnse taal en cultuur,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/griekse-en-latijnse-taal-en-cultuur/griekse-en-latijnse-taal-en-cultuur.html
+Hebreeuwse taal en cultuur,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/hebreeuwse-taal-en-cultuur/hebreeuwse-taal-en-cultuur.html
+Human Geography and Planning,Faculty of Social and Behavioural Sciences,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/human-geography-and-planning/human-geography-and-planning.html
+Information Studies,Faculty of Science,Science Park,3,FALSE,单学位,https://www.uva.nl/en/programmes/bachelors/information-studies/information-studies.html
+Interdisciplinaire sociale wetenschap,Faculty of Social and Behavioural Sciences,Roeterseiland,3,FALSE,交叉学科（单学位）,https://www.uva.nl/programmas/bachelors/interdisciplinaire-sociale-wetenschap/interdisciplinaire-sociale-wetenschap.html
+Italië studies,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/italiaanse-taal-en-cultuur/italie-studies.html
+Kunstgeschiedenis,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/kunstgeschiedenis/kunstgeschiedenis.html
+Liberal Arts and Sciences (Amsterdam University College),Amsterdam University College (joint UvA/VU),Amsterdam University College (AUC),3,TRUE,联合培养,https://www.auc.nl/academic-programme/liberal-arts-and-sciences/liberal-arts--sciences.html
+Linguistics,Faculty of Humanities,University Quarter,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/linguistics/linguistics.html
+Literary and Cultural Analysis (Literary Studies),Faculty of Humanities,University Quarter,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/literary-and-cultural-analysis-literary-studies/literary-studies-literary-and-cultural-analysis.html
+Mathematics,Faculty of Science,Science Park,3,FALSE,单学位,https://www.uva.nl/shared-content/programmas/en/bachelors/mathematics/mathematics.html
+Media and Culture,Faculty of Humanities,University Quarter,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/media-and-culture/media-and-culture.html
+Media and Information,Faculty of Humanities,University Quarter,3,TRUE,交叉学科（单学位）,https://www.uva.nl/en/programmes/bachelors/media-and-information/media-and-information.html
+Medische informatiekunde,Faculty of Medicine,Amsterdam UMC - location AMC,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/medische-informatiekunde/medische-informatiekunde.html
+Muziekwetenschap,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/muziekwetenschap/muziekwetenschap.html
+Nederlandse taal en cultuur,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/nederlandse-taal-en-cultuur/nederlandse-taal-en-cultuur.html
+Nieuwgriekse taal en cultuur,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/nieuwgriekse-taal-en-cultuur/nieuwgriekse-taal-en-cultuur.html
+Onderwijswetenschappen,Faculty of Social and Behavioural Sciences,Roeterseiland,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/onderwijswetenschappen/onderwijswetenschappen.html
+Pedagogische wetenschappen,Faculty of Social and Behavioural Sciences,Roeterseiland,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/pedagogische-wetenschappen/pedagogische-wetenschappen.html
+Physics and Astronomy,Faculty of Science,Science Park,3,FALSE,单学位,https://www.uva.nl/shared-content/programmas/en/bachelors/physics-and-astronomy/physics-and-astronomy.html
+Political Science,Faculty of Social and Behavioural Sciences,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/political-science/political-science.html
+"Politics, Psychology, Law and Economics (PPLE)",Amsterdam Law School,Roeterseiland,3,TRUE,交叉学科（单学位）,https://pple.uva.nl/
+Psychobiology,Faculty of Science,Science Park,3,FALSE,单学位,https://www.uva.nl/shared-content/programmas/en/bachelors/psychobiology/psychobiology.html
+Psychology,Faculty of Social and Behavioural Sciences,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/psychology/psychology.html
+Rechtsgeleerdheid,Amsterdam Law School,Roeterseiland,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/rechtsgeleerdheid/rechtsgeleerdheid.html
+Religiewetenschappen,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/religiewetenschappen/religiewetenschappen.html
+Scandinavië studies,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/scandinavische-talen-en-culturen/scandinavie-studies.html
+"Science, Technology & Innovation",Faculty of Science,Science Park,3,FALSE,交叉学科（单学位）,https://www.uva.nl/programmas/bachelors/science-technology-and-innovation/science-technology-and-innovation.html
+Sign Language Linguistics (Linguistics),Faculty of Humanities,University Quarter,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/sign-language-linguistics-linguistics/sign-language-linguistics.html
+Slavische talen en culturen,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/slavische-talen-en-culturen/russische-en-slavische-studies.html
+Sociology,Faculty of Social and Behavioural Sciences,Roeterseiland,3,TRUE,单学位,https://www.uva.nl/en/programmes/bachelors/sociology/sociology.html
+Spaanse en Latijns-Amerikaanse studies,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/spaanse-en-latijns-amerikaanse-studies/spaanse-en-latijns-amerikaanse-studies.html
+Tandheelkunde,Faculty of Dentistry (ACTA),ACTA,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/tandheelkunde/tandheelkunde.html
+Theaterwetenschap,Faculty of Humanities,University Quarter,3,FALSE,单学位,https://www.uva.nl/programmas/bachelors/theaterwetenschap/theaterwetenschap.html
+Universitaire Pabo van Amsterdam,Faculty of Social and Behavioural Sciences,Roeterseiland,4,FALSE,联合培养,https://www.uva.nl/programmas/bachelors/universitaire-pabo-van-amsterdam/universitaire-pabo-van-amsterdam.html

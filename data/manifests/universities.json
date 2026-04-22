@@ -1,0 +1,81 @@
+[
+  {
+    "slug": "hku",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
+    "slug": "nus",
+    "enabled": true,
+    "uniColor": "red"
+  }, 
+  {
+    "slug": "eth",
+    "enabled": true,
+    "uniColor": "gray"
+  },
+  {
+    "slug": "ntu",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
+    "slug": "hkust",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {"slug": "cuhk",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
+    "slug": "melbourne",
+    "enabled": true,
+    "uniColor": "red"
+  }, 
+  {
+    "slug": "tum",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
+    "slug": "epfl",
+    "enabled": true,
+    "uniColor": "gray"
+  },
+  {
+    "slug": "sydney",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
+    "slug": "unsw",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
+    "slug": "uva",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
+    "slug": "copenhagen",
+    "enabled": true,
+    "uniColor": "gray"
+  },
+  {
+    "slug": "kth",
+    "enabled": true,
+    "uniColor": "green"
+  },
+  {
+    "slug": "leiden",
+    "enabled": true,
+    "uniColor": "green"
+  },
+  {
+    "slug": "erasmus",
+    "enabled": true,
+    "uniColor": "blue"
+  }
+]
