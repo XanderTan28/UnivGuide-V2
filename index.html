@@ -134,8 +134,9 @@
         </div>
       </section>
 
-      <section class="dashboard-row" aria-label="结果总览与评分">
-        <div class="dashboard-panel">
+      <section class="content-shell" aria-label="结果与辅助模块">
+        <div class="content-main">
+          <section class="dashboard-panel" aria-label="结果总览与统计">
           <div class="dashboard-main-column">
             <section class="overview-panel panel" aria-labelledby="overviewPanelTitle">
               <div class="panel__head">
@@ -230,33 +231,7 @@
             </article>
 
           </section>
-        </div>
-
-        <aside class="scoring-sidebar panel" aria-labelledby="scoringSidebarTitle">
-          <div class="panel__head score-panel__head">
-            <div class="score-panel__heading">
-              <h2 id="scoringSidebarTitle" class="panel__title">加权评分器</h2>
-              <div id="scorePanelSummary" class="score-panel__summary">
-                仅对学校总分生效，权重为 0 表示不参与评分。
-              </div>
-            </div>
-
-            <div class="score-panel__tools">
-              <button id="clearScoreWeightsBtn" class="btn btn--secondary" type="button">
-                重置
-              </button>
-              <button id="recommendedScoreWeightsBtn" class="btn btn--secondary" type="button">
-                推荐权重
-              </button>
-            </div>
-          </div>
-
-          <div class="panel__body">
-            <div id="scoreWeightGrid" class="score-weight-grid"></div>
-            <div id="scoreWeightStatus" class="score-weight-status" aria-live="polite"></div>
-          </div>
-        </aside>
-      </section>
+          </section>
 
       <section class="school-table-section panel" aria-labelledby="schoolTableTitle">
         <div class="table-sort-row" aria-labelledby="sortToolbarTitle">
@@ -286,20 +261,9 @@
             <table class="data-table">
               <thead>
                 <tr>
-                  <th>排位</th>
                   <th>大学</th>
-                  <th>项目</th>
-                  <th>学院</th>
-                  <th>校区</th>
-                  <th>城市</th>
-                  <th>国家</th>
-                  <th>地区</th>
-                  <th>学制</th>
-                  <th>英授</th>
-                  <th>类型</th>
-                  <th>QS</th>
-                  <th>THE</th>
-                  <th>US News</th>
+                  <th>地点</th>
+                  <th>排名</th>
                   <th>总分</th>
                 </tr>
               </thead>
@@ -309,6 +273,51 @@
             </table>
           </div>
         </div>
+      </section>
+        </div>
+
+        <aside class="content-side" aria-label="辅助模块">
+          <div id="contentSideInner" class="content-side-inner">
+        <section class="scoring-sidebar panel" aria-labelledby="scoringSidebarTitle">
+          <div class="panel__head score-panel__head">
+            <div class="score-panel__heading">
+              <h2 id="scoringSidebarTitle" class="panel__title">加权评分器</h2>
+              <div id="scorePanelSummary" class="score-panel__summary">
+                仅对学校总分生效，权重为 0 表示不参与评分。
+              </div>
+            </div>
+
+            <div class="score-panel__tools">
+              <button id="clearScoreWeightsBtn" class="btn btn--secondary" type="button">
+                重置
+              </button>
+              <button id="recommendedScoreWeightsBtn" class="btn btn--secondary" type="button">
+                推荐权重
+              </button>
+            </div>
+          </div>
+
+          <div class="panel__body">
+            <div id="scoreWeightGrid" class="score-weight-grid"></div>
+            <div id="scoreWeightStatus" class="score-weight-status" aria-live="polite"></div>
+          </div>
+        </section>
+
+            <section
+              id="locationScenePanel"
+              class="location-scene-panel panel"
+              aria-labelledby="locationSceneTitle"
+            >
+              <div class="panel__head location-scene-panel__head">
+                <div>
+                  <h2 id="locationSceneTitle" class="panel__title">地点</h2>
+                  <p id="locationSceneSummary" class="panel__subtitle">点击表格中的城市 / 国家 / 地区查看</p>
+                </div>
+              </div>
+              <div id="locationSceneMount" class="location-scene-mount"></div>
+            </section>
+          </div>
+        </aside>
       </section>
     </main>
   </div>

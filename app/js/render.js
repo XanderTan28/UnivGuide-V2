@@ -12,6 +12,7 @@ import {
   compareNullableNumber,
   compareNullableText
 } from './utils.js';
+import { renderLocationScene } from './render_location_scene.js';
 
 const expandedUniversitySet = new Set();
 let currentOpenDropdownHostId = null;
@@ -881,24 +882,13 @@ function groupProgramsByUniversity(programs) {
 }
 
 function buildLocationPayload(location) {
-  return encodeURIComponent(JSON.stringify(location?.items || []));
-}
+  const items = Array.isArray(location?.items)
+    ? location.items
+    : location
+      ? [location]
+      : [];
 
-function renderLocationCell(type, location) {
-  const label =
-    type === 'city' ? location.city :
-    type === 'country' ? location.country :
-    location.region;
-
-  return `
-    <button
-      type="button"
-      class="inline-link-btn location-trigger"
-      data-location="${buildLocationPayload(location)}"
-    >
-      ${escapeHtml(label || '')}
-    </button>
-  `;
+  return encodeURIComponent(JSON.stringify(items));
 }
 
 function renderLocationDetailCards(locations) {
@@ -960,7 +950,10 @@ function bindLocationTriggers() {
       const payload = btn.dataset.location;
       if (!payload) return;
       const locations = JSON.parse(decodeURIComponent(payload));
-      openLocationDialog(locations);
+      const renderedInSidePanel = renderLocationScene(locations);
+      if (!renderedInSidePanel) {
+        openLocationDialog(locations);
+      }
     });
   });
 }
@@ -1017,6 +1010,105 @@ function renderProgramLink(programName, url) {
     : escapeHtml(programName);
 }
 
+function renderRankingBlock(qs, the, usnews) {
+  const entries = [
+    ['QS', qs],
+    ['THE', the],
+    ['US News', usnews]
+  ];
+
+  return `
+    <div class="ranking-block">
+      ${entries.map(([label, value]) => `
+        <div class="ranking-block__item">
+          <span class="ranking-block__label">${escapeHtml(label)}</span>
+          <span class="ranking-block__value">${escapeHtml(value ?? '-')}</span>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderLocationMiniCard(location, options = {}) {
+  const { className = '' } = options;
+  const city = String(location?.city || '').trim();
+  const subtitle = [location?.country, location?.region]
+    .map((item) => String(item || '').trim())
+    .filter(Boolean)
+    .join(' · ');
+
+  if (!city && !subtitle) {
+    return '<span class="location-mini-card location-mini-card--empty">-</span>';
+  }
+
+  return `
+    <button
+      type="button"
+      class="location-mini-card ${escapeHtml(className)} location-trigger"
+      data-location="${buildLocationPayload(location)}"
+    >
+      <span class="location-mini-card__city">${escapeHtml(city || '地点')}</span>
+      <span class="location-mini-card__subtitle">${escapeHtml(subtitle)}</span>
+    </button>
+  `;
+}
+
+function renderLocationMiniCardList(locations, options = {}) {
+  const items = (Array.isArray(locations) ? locations : [])
+    .filter(Boolean)
+    .filter((item) => item.city || item.country || item.region);
+
+  if (!items.length) {
+    return '<span class="location-mini-card location-mini-card--empty">-</span>';
+  }
+
+  return `
+    <div class="location-mini-card-list">
+      ${items.map((item) => renderLocationMiniCard(item, options)).join('')}
+    </div>
+  `;
+}
+
+function formatProgramDuration(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return '';
+
+  if (/年|year|yr|semester|term/i.test(raw)) return raw;
+  if (/^\d+(?:\.\d+)?$/.test(raw)) {
+    const n = Number(raw);
+    return `${Number.isInteger(n) ? n : raw}年`;
+  }
+
+  return raw;
+}
+
+function formatProgramEnglishTaught(value) {
+  const normalized = String(value || '').trim().toLowerCase();
+  if (['true', 'yes', 'y', '1'].includes(normalized)) return '英授';
+  if (['false', 'no', 'n', '0'].includes(normalized)) return '非英授';
+  return textYesNo(value || '') || '';
+}
+
+function getProgramAttributeItems(program) {
+  return [
+    formatProgramDuration(program?.duration || ''),
+    formatProgramEnglishTaught(program?.eng_taught || ''),
+    String(program?.type || '').trim()
+  ].filter(Boolean);
+}
+
+function renderProgramAttributeList(program) {
+  const items = getProgramAttributeItems(program);
+
+  if (!items.length) return '-';
+
+  return `
+    <div class="program-attribute-list">
+      ${items.map((item) => `<span>${escapeHtml(item)}</span>`).join('')}
+    </div>
+  `;
+}
+
 function renderSchoolMainRow(school, rank) {
   const program = school.representativeProgram || {};
   const location = buildProgramLocation(program);
@@ -1026,34 +1118,37 @@ function renderSchoolMainRow(school, rank) {
 
   return `
     <tr
-      class="school-row ${isExpanded ? 'is-expanded' : ''}"
+      class="school-row school-summary-row ${isExpanded ? 'is-expanded' : ''}"
       data-university-slug="${escapeHtml(school.university_slug)}"
     >
-      <td class="rank-cell">
-        <div class="rank-cell__inner">
-          <span class="row-toggle" aria-hidden="true">${isExpanded ? '-' : '+'}</span>
-          <span>${rank}</span>
+      <td class="school-summary-cell school-summary-cell--identity">
+        <div class="school-summary">
+          <div class="school-summary__rank">
+            <span class="row-toggle" aria-hidden="true">${isExpanded ? '-' : '+'}</span>
+            <span>${rank}</span>
+          </div>
+          <div class="school-summary__main">
+            <span class="school-name ${escapeHtml(getUniversityColorClass(school.uni_color))}">
+              ${formatUniversityDisplayName(escapeHtml(school.display_name))}
+            </span>
+            <div class="school-summary__meta">
+              <span>${programCount} 个项目</span>
+            </div>
+          </div>
         </div>
       </td>
-      <td class="school-name-cell">
-        <span class="school-name ${escapeHtml(getUniversityColorClass(school.uni_color))}">
-          ${formatUniversityDisplayName(escapeHtml(school.display_name))}
-        </span>
-        <span class="school-program-count">${programCount} 个项目</span>
+
+      <td class="school-summary-cell">
+        ${renderLocationMiniCardList(location.items, { className: 'location-mini-card--school' })}
       </td>
-      <td>${renderProgramLink(program.program, program.url)}</td>
-      <td>${escapeHtml(joinDisplayValues(program.faculty_list || []))}</td>
-      <td>${escapeHtml(joinDisplayValues(program.campus_list || []))}</td>
-      <td class="location-cell">${renderLocationCell('city', location)}</td>
-      <td class="location-cell">${renderLocationCell('country', location)}</td>
-      <td class="location-cell">${renderLocationCell('region', location)}</td>
-      <td>${escapeHtml(program.duration || '')}</td>
-      <td>${escapeHtml(textYesNo(program.eng_taught || ''))}</td>
-      <td>${escapeHtml(program.type || '')}</td>
-      <td>${escapeHtml(school.qs ?? '')}</td>
-      <td>${escapeHtml(school.the ?? '')}</td>
-      <td>${escapeHtml(school.usnews ?? '')}</td>
-      <td class="score-cell">${scoreValue ? `<span class="score-pill">${escapeHtml(scoreValue)}</span>` : ''}</td>
+
+      <td class="school-summary-cell school-summary-cell--ranking">
+        ${renderRankingBlock(school.qs, school.the, school.usnews)}
+      </td>
+
+      <td class="school-summary-cell score-cell">
+        ${scoreValue ? `<span class="score-text">${escapeHtml(scoreValue)}</span>` : '<span class="score-empty">-</span>'}
+      </td>
     </tr>
   `;
 }
@@ -1061,34 +1156,51 @@ function renderSchoolMainRow(school, rank) {
 function renderProgramContinuationRows(school) {
   if (!expandedUniversitySet.has(school.university_slug)) return '';
 
-  const representativeProgramId = school.representativeProgram?.program_id || '';
-
-  return (school.programs || [])
-    .filter((program) => program.program_id !== representativeProgramId)
+  const cards = (school.programs || [])
     .map((program) => {
       const location = buildProgramLocation(program);
 
       return `
-        <tr class="program-row program-row--continuation">
-          <td></td>
-          <td class="program-indent-cell"><span class="program-indent">项目</span></td>
-          <td>${renderProgramLink(program.program, program.url)}</td>
-          <td>${escapeHtml(joinDisplayValues(program.faculty_list || []))}</td>
-          <td>${escapeHtml(joinDisplayValues(program.campus_list || []))}</td>
-          <td class="location-cell">${renderLocationCell('city', location)}</td>
-          <td class="location-cell">${renderLocationCell('country', location)}</td>
-          <td class="location-cell">${renderLocationCell('region', location)}</td>
-          <td>${escapeHtml(program.duration || '')}</td>
-          <td>${escapeHtml(textYesNo(program.eng_taught || ''))}</td>
-          <td>${escapeHtml(program.type || '')}</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
+        <article class="program-card">
+          <div class="program-card__head">
+            <div class="program-card__eyebrow">本科项目</div>
+            <h3 class="program-card__title">${renderProgramLink(program.program, program.url)}</h3>
+          </div>
+
+          <dl class="program-card__grid">
+            <div class="program-card__item program-card__item--wide">
+              <dt>学院</dt>
+              <dd>${escapeHtml(joinDisplayValues(program.faculty_list || [], { unique: true }) || '-')}</dd>
+            </div>
+            <div class="program-card__item program-card__item--wide">
+              <dt>校区</dt>
+              <dd>${escapeHtml(joinDisplayValues(program.campus_list || [], { unique: true }) || '-')}</dd>
+            </div>
+            <div class="program-card__item program-card__item--location-attributes">
+              <div class="program-card__location">
+                <dt>地点</dt>
+                <dd>${renderLocationMiniCardList(location.items, { className: 'location-mini-card--program' })}</dd>
+              </div>
+              <div class="program-card__attributes">
+                <dt>属性</dt>
+                <dd>${renderProgramAttributeList(program)}</dd>
+              </div>
+            </div>
+          </dl>
+        </article>
       `;
     })
     .join('');
+
+  return `
+    <tr class="program-row program-row--expanded">
+      <td colspan="4" class="program-cards-cell">
+        <div class="program-card-list">
+          ${cards || '<div class="empty-state">暂无项目明细</div>'}
+        </div>
+      </td>
+    </tr>
+  `;
 }
 
 export function renderFilterOptions(programs, ui, mappings) {
@@ -1305,7 +1417,7 @@ export function renderTable(
   if (!schools.length) {
     tbody.innerHTML = `
       <tr class="empty-row">
-        <td colspan="15" class="table-empty">没有匹配结果</td>
+        <td colspan="4" class="table-empty">没有匹配结果</td>
       </tr>
     `;
     return;
@@ -1450,6 +1562,7 @@ function cycleThemeMode() {
 export function bindStaticEvents(state, refresh) {
   const ui = state.ui;
   window.__ug_refresh__ = refresh;
+  renderLocationScene([]);
 
   const searchInput = document.getElementById('searchInput');
   if (searchInput) {

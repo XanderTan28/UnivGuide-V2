@@ -35,6 +35,87 @@ const state = {
   }
 };
 
+let sideRailRaf = 0;
+let sideRailResizeObserver = null;
+
+function syncContentSideRail() {
+  const shell = document.querySelector('.content-shell');
+  const side = document.querySelector('.content-side');
+  const sideInner = document.getElementById('contentSideInner');
+  const header = document.querySelector('.app-header');
+
+  if (!shell || !side || !sideInner || !header) return;
+
+  const desktop = window.innerWidth > 1400;
+
+  sideInner.classList.remove('is-rail-fixed', 'is-rail-bottom');
+  side.style.minHeight = '';
+
+  if (!desktop) {
+    side.style.removeProperty('--content-side-left');
+    side.style.removeProperty('--content-side-width');
+    return;
+  }
+
+  const headerHeight = Math.ceil(header.getBoundingClientRect().height);
+  const topOffset = headerHeight + 20;
+
+  side.style.setProperty('--content-side-top', `${topOffset}px`);
+
+  const sideRect = side.getBoundingClientRect();
+  const shellRect = shell.getBoundingClientRect();
+
+  const scrollY = window.scrollY;
+  const shellBottom = shellRect.bottom + scrollY;
+  const sideTop = sideRect.top + scrollY;
+
+  const railHeight = sideInner.offsetHeight;
+  const startStickY = sideTop - topOffset;
+  const endStickY = shellBottom - railHeight - topOffset;
+
+  side.style.setProperty('--content-side-left', `${Math.round(sideRect.left)}px`);
+  side.style.setProperty('--content-side-width', `${Math.round(sideRect.width)}px`);
+  side.style.minHeight = `${railHeight}px`;
+
+  if (scrollY <= startStickY) {
+    return;
+  }
+
+  if (scrollY < endStickY) {
+    sideInner.classList.add('is-rail-fixed');
+    return;
+  }
+
+  sideInner.classList.add('is-rail-bottom');
+}
+
+function requestSyncContentSideRail() {
+  if (sideRailRaf) cancelAnimationFrame(sideRailRaf);
+  sideRailRaf = requestAnimationFrame(() => {
+    sideRailRaf = 0;
+    syncContentSideRail();
+  });
+}
+
+function initContentSideRail() {
+  requestSyncContentSideRail();
+
+  window.addEventListener('scroll', requestSyncContentSideRail, { passive: true });
+  window.addEventListener('resize', requestSyncContentSideRail);
+
+  if (typeof ResizeObserver === 'function') {
+    const shell = document.querySelector('.content-shell');
+    const sideInner = document.getElementById('contentSideInner');
+
+    sideRailResizeObserver = new ResizeObserver(() => {
+      requestSyncContentSideRail();
+    });
+
+    if (shell) sideRailResizeObserver.observe(shell);
+    if (sideInner) sideRailResizeObserver.observe(sideInner);
+  }
+}
+
 function applyCurrentState() {
   const filtered = applyFilters(state.normalized, state.ui);
 
@@ -53,6 +134,7 @@ function applyCurrentState() {
 
 function refresh() {
   applyCurrentState();
+  requestSyncContentSideRail();
 }
 
 async function bootstrap() {
@@ -79,6 +161,7 @@ async function bootstrap() {
 
     applyCurrentState();
     bindStaticEvents(state, refresh);
+    initContentSideRail();
   } catch (error) {
     console.error(error);
   }
