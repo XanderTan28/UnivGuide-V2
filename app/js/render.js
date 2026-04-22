@@ -218,9 +218,14 @@ function renderSortDirectionToggle(hostId, selectedValue = 'asc') {
   `;
 }
 
-function formatWeightValue(value) {
+function normalizeWeightNumber(value, digits = 2) {
   const n = Number(value);
-  if (!Number.isFinite(n)) return '0';
+  if (!Number.isFinite(n)) return 0;
+  return Number(n.toFixed(digits));
+}
+
+function formatWeightValue(value) {
+  const n = normalizeWeightNumber(value, 2);
   if (Number.isInteger(n)) return String(n);
   return String(n);
 }
@@ -229,15 +234,19 @@ function getScoreWeightMeta(ui) {
   const weights = sanitizeScoreWeights(ui?.scoreWeights || {});
   const factorDefs = getScoreFactorDefs();
   const activeCount = factorDefs.filter((factor) => (weights[factor.key] || 0) > 0).length;
-  const totalWeight = factorDefs.reduce((sum, factor) => sum + (Number(weights[factor.key]) || 0), 0);
+  const rawTotalWeight = factorDefs.reduce(
+    (sum, factor) => sum + (Number(weights[factor.key]) || 0),
+    0
+  );
+  const totalWeight = normalizeWeightNumber(rawTotalWeight, 2);
   const hasWeights = hasActiveScoreWeights(weights);
 
   return { weights, factorDefs, activeCount, totalWeight, hasWeights };
 }
 
 function formatWeightShare(value, totalWeight) {
-  const n = Number(value) || 0;
-  const total = Number(totalWeight) || 0;
+  const n = normalizeWeightNumber(value, 2);
+  const total = normalizeWeightNumber(totalWeight, 2);
   if (total <= 0 || n <= 0) return '0%';
   return `${Math.round((n / total) * 100)}%`;
 }
