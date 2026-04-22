@@ -33,10 +33,7 @@
 
       <div class="header-actions">
         <nav class="header-nav" aria-label="主导航">
-          <a href="#guide">指南</a>
-          <a href="#data">数据</a>
           <a href="#favorites">收藏</a>
-          <a href="#login">登录</a>
         </nav>
 
         <button
@@ -52,16 +49,6 @@
     </header>
 
     <main class="page">
-      <section class="hero-search panel" aria-labelledby="heroSearchTitle">
-        <div class="hero-search__copy">
-          <p class="hero-search__eyebrow">本科项目导航平台</p>
-          <h1 id="heroSearchTitle">University Guidebook</h1>
-        </div>
-        <p class="hero-search__summary">
-          用统一的筛选、评分和城市信息视图比较多校本科项目。
-        </p>
-      </section>
-
       <section class="filter-toolbar panel" aria-labelledby="filterToolbarTitle">
         <div class="panel__head filter-toolbar__head">
           <div>
@@ -148,7 +135,7 @@
       </section>
 
       <section class="dashboard-row" aria-label="结果总览与评分">
-        <div class="overview-and-stats">
+        <div class="dashboard-panel">
           <section class="overview-panel panel" aria-labelledby="overviewPanelTitle">
             <div class="panel__head">
               <h2 id="overviewPanelTitle" class="panel__title">结果总览</h2>
@@ -172,7 +159,7 @@
               <div class="panel__head">
                 <div>
                   <h2 class="panel__title">地区</h2>
-                  <p class="panel__subtitle">Region</p>
+                  <p class="panel__subtitle">地区分布</p>
                 </div>
               </div>
               <div class="panel__body">
@@ -184,7 +171,7 @@
               <div class="panel__head">
                 <div>
                   <h2 class="panel__title">城市规模</h2>
-                  <p class="panel__subtitle">City scale</p>
+                  <p class="panel__subtitle">城市规模分布</p>
                 </div>
               </div>
               <div class="panel__body">
@@ -196,7 +183,7 @@
               <div class="panel__head">
                 <div>
                   <h2 class="panel__title">气候</h2>
-                  <p class="panel__subtitle">Climate</p>
+                  <p class="panel__subtitle">气候分布</p>
                 </div>
               </div>
               <div class="panel__body">
@@ -208,7 +195,7 @@
               <div class="panel__head">
                 <div>
                   <h2 class="panel__title">语言环境</h2>
-                  <p class="panel__subtitle">Language</p>
+                  <p class="panel__subtitle">语言环境分布</p>
                 </div>
               </div>
               <div class="panel__body">
@@ -220,7 +207,7 @@
               <div class="panel__head">
                 <div>
                   <h2 class="panel__title">居留</h2>
-                  <p class="panel__subtitle">Residency</p>
+                  <p class="panel__subtitle">居留友好度分布</p>
                 </div>
               </div>
               <div class="panel__body">
@@ -232,7 +219,7 @@
               <div class="panel__head">
                 <div>
                   <h2 class="panel__title">学院大类</h2>
-                  <p class="panel__subtitle">Faculty group</p>
+                  <p class="panel__subtitle">学院大类分布</p>
                 </div>
               </div>
               <div class="panel__body">
@@ -268,28 +255,22 @@
         </aside>
       </section>
 
-      <section class="sort-toolbar panel" aria-labelledby="sortToolbarTitle">
-        <div class="panel__head sort-panel__head">
-          <div class="sort-panel__heading">
-            <h2 id="sortToolbarTitle" class="panel__title">排序</h2>
-            <div id="resultCount" class="sort-panel__summary">0 所大学 / 0 个项目</div>
-          </div>
-
-          <div class="sort-bar__right">
-            <div class="sort-field">
-              <label for="sortMetricSelect">排序指标</label>
-              <div id="sortMetricSelect" class="filter-dropdown-host"></div>
-            </div>
-
-            <div class="sort-field sort-field--direction">
-              <label for="sortDirectionToggle">方向</label>
-              <div id="sortDirectionToggle" class="sort-direction-toggle-host"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section class="school-table-section panel" aria-labelledby="schoolTableTitle">
+        <div class="table-sort-row" aria-labelledby="sortToolbarTitle">
+          <h2 id="sortToolbarTitle" class="panel__title">排序</h2>
+          <div class="sort-field">
+            <label class="sr-only" for="sortMetricSelect">排序指标</label>
+            <div id="sortMetricSelect" class="filter-dropdown-host"></div>
+          </div>
+
+          <div class="sort-field sort-field--direction">
+            <label class="sr-only" for="sortDirectionToggle">方向</label>
+            <div id="sortDirectionToggle" class="sort-direction-toggle-host"></div>
+          </div>
+
+          <div id="resultCount" class="sort-panel__summary">0 所大学 / 0 个项目</div>
+        </div>
+
         <div class="panel__head">
           <div>
             <h2 id="schoolTableTitle" class="panel__title">本科项目明细表</h2>

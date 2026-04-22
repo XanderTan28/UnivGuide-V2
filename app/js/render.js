@@ -224,31 +224,54 @@ function formatWeightValue(value) {
   return String(n);
 }
 
-function renderScoreControls(ui) {
-  const grid = document.getElementById('scoreWeightGrid');
-  const summary = document.getElementById('scorePanelSummary');
-  const status = document.getElementById('scoreWeightStatus');
-  if (!grid) return;
-
+function getScoreWeightMeta(ui) {
   const weights = sanitizeScoreWeights(ui?.scoreWeights || {});
   const factorDefs = getScoreFactorDefs();
-
   const activeCount = factorDefs.filter((factor) => (weights[factor.key] || 0) > 0).length;
   const totalWeight = factorDefs.reduce((sum, factor) => sum + (Number(weights[factor.key]) || 0), 0);
   const hasWeights = hasActiveScoreWeights(weights);
 
+  return { weights, factorDefs, activeCount, totalWeight, hasWeights };
+}
+
+function formatWeightShare(value, totalWeight) {
+  const n = Number(value) || 0;
+  const total = Number(totalWeight) || 0;
+  if (total <= 0 || n <= 0) return '0%';
+  return `${Math.round((n / total) * 100)}%`;
+}
+
+function updateScoreControlReadouts(ui) {
+  const summary = document.getElementById('scorePanelSummary');
+  const status = document.getElementById('scoreWeightStatus');
+  const { weights, factorDefs, activeCount, totalWeight, hasWeights } = getScoreWeightMeta(ui);
+
   if (summary) {
     summary.textContent = hasWeights
-      ? `Active factors: ${activeCount}; total weight: ${formatWeightValue(totalWeight)}`
-      : 'Weights at 0 are ignored. Scores are calculated at school level.';
+      ? `已启用 ${activeCount} 个因子，当前绝对权重总和 ${formatWeightValue(totalWeight)}`
+      : '仅对学校总分生效，权重为 0 表示不参与评分。';
   }
 
   if (status) {
     status.classList.toggle('is-warning', !hasWeights);
     status.textContent = hasWeights
-      ? `Total weight ${formatWeightValue(totalWeight)}. Scores are normalized by active weights.`
-      : 'No active weights yet. The total score column stays empty.';
+      ? `权重总和 ${formatWeightValue(totalWeight)}，各项比例按绝对权重自动计算。`
+      : '尚未启用任何权重，表格总分列将保持为空。';
   }
+
+  factorDefs.forEach((factor) => {
+    const share = document.querySelector(`[data-score-weight-share-key="${factor.key}"]`);
+    if (share) {
+      share.textContent = formatWeightShare(weights[factor.key], totalWeight);
+    }
+  });
+}
+
+function renderScoreControls(ui) {
+  const grid = document.getElementById('scoreWeightGrid');
+  if (!grid) return;
+
+  const { weights, factorDefs, totalWeight } = getScoreWeightMeta(ui);
 
   grid.innerHTML = factorDefs
     .map((factor) => {
@@ -259,7 +282,12 @@ function renderScoreControls(ui) {
         <div class="score-weight-item">
           <div class="score-weight-item__label">
             <span class="score-weight-item__title">${escapeHtml(factor.label)}</span>
-            <span class="score-weight-item__percent">%</span>
+            <span
+              class="score-weight-item__share"
+              data-score-weight-share-key="${escapeHtml(factor.key)}"
+            >
+              ${escapeHtml(formatWeightShare(currentValue, totalWeight))}
+            </span>
           </div>
 
           <div class="score-weight-item__controls">
@@ -271,7 +299,7 @@ function renderScoreControls(ui) {
               class="score-weight-item__slider"
               data-score-weight-key="${escapeHtml(factor.key)}"
               value="${escapeHtml(displayValue)}"
-              aria-label="${escapeHtml(factor.label)} weight slider"
+              aria-label="${escapeHtml(factor.label)}绝对权重滑杆"
             />
             <div class="score-weight-item__number">
               <input
@@ -283,18 +311,20 @@ function renderScoreControls(ui) {
                 data-score-weight-key="${escapeHtml(factor.key)}"
                 value="${escapeHtml(displayValue)}"
                 placeholder="0"
-                aria-label="${escapeHtml(factor.label)} weight value"
+                aria-label="${escapeHtml(factor.label)}绝对权重数值"
               />
-              <span>%</span>
             </div>
           </div>
         </div>
       `;
     })
     .join('');
+
+  updateScoreControlReadouts(ui);
 }
 
-function bindScoreControlEvents(ui, refresh) {
+function bindScoreControlEvents(state, refresh) {
+  const ui = state.ui;
   const grid = document.getElementById('scoreWeightGrid');
   const clearBtn = document.getElementById('clearScoreWeightsBtn');
   const recommendedBtn = document.getElementById('recommendedScoreWeightsBtn');
@@ -302,16 +332,30 @@ function bindScoreControlEvents(ui, refresh) {
   if (grid) {
     grid.querySelectorAll('[data-score-weight-key]').forEach((input) => {
       input.addEventListener('input', (e) => {
-        const key = e.target.dataset.scoreWeightKey;
+        const target = e.target;
+        const key = target.dataset.scoreWeightKey;
         if (!key) return;
 
-        const next = Number(e.target.value);
+        const next = Number(target.value);
         if (!ui.scoreWeights || typeof ui.scoreWeights !== 'object') {
           ui.scoreWeights = getDefaultScoreWeights();
         }
 
         ui.scoreWeights[key] = Number.isFinite(next) && next >= 0 ? next : 0;
-        refresh();
+
+        grid.querySelectorAll(`[data-score-weight-key="${key}"]`).forEach((control) => {
+          if (control !== target && control.value !== target.value) {
+            control.value = target.value;
+          }
+        });
+
+        updateScoreControlReadouts(ui);
+        renderTable(
+          state.filtered,
+          ui.sortMetric,
+          ui.sortDirection,
+          ui.scoreWeights
+        );
       });
     });
   }
@@ -986,14 +1030,16 @@ function renderSchoolMainRow(school, rank) {
       data-university-slug="${escapeHtml(school.university_slug)}"
     >
       <td class="rank-cell">
-        <span class="row-toggle" aria-hidden="true">${isExpanded ? '-' : '+'}</span>
-        <span>${rank}</span>
+        <div class="rank-cell__inner">
+          <span class="row-toggle" aria-hidden="true">${isExpanded ? '-' : '+'}</span>
+          <span>${rank}</span>
+        </div>
       </td>
       <td class="school-name-cell">
         <span class="school-name ${escapeHtml(getUniversityColorClass(school.uni_color))}">
           ${formatUniversityDisplayName(escapeHtml(school.display_name))}
         </span>
-        <span class="school-program-count">${programCount} programs</span>
+        <span class="school-program-count">${programCount} 个项目</span>
       </td>
       <td>${renderProgramLink(program.program, program.url)}</td>
       <td>${escapeHtml(joinDisplayValues(program.faculty_list || []))}</td>
@@ -1025,7 +1071,7 @@ function renderProgramContinuationRows(school) {
       return `
         <tr class="program-row program-row--continuation">
           <td></td>
-          <td class="program-indent-cell"><span class="program-indent">Program</span></td>
+          <td class="program-indent-cell"><span class="program-indent">项目</span></td>
           <td>${renderProgramLink(program.program, program.url)}</td>
           <td>${escapeHtml(joinDisplayValues(program.faculty_list || []))}</td>
           <td>${escapeHtml(joinDisplayValues(program.campus_list || []))}</td>
@@ -1349,22 +1395,22 @@ function applyTheme(mode) {
   if (themeToggleBtn) {
     themeToggleBtn.setAttribute(
       'aria-label',
-      mode === 'auto' ? 'Theme: auto' :
-      mode === 'dark' ? 'Theme: dark' :
-      'Theme: light'
+      mode === 'auto' ? '主题：跟随系统' :
+      mode === 'dark' ? '主题：深色' :
+      '主题：浅色'
     );
 
     themeToggleBtn.setAttribute(
       'title',
-      mode === 'auto' ? 'Theme: auto' :
-      mode === 'dark' ? 'Theme: dark' :
-      'Theme: light'
+      mode === 'auto' ? '主题：跟随系统' :
+      mode === 'dark' ? '主题：深色' :
+      '主题：浅色'
     );
 
     themeToggleBtn.textContent =
-      mode === 'auto' ? 'A' :
-      mode === 'dark' ? 'D' :
-      'L';
+      mode === 'auto' ? '自' :
+      mode === 'dark' ? '深' :
+      '浅';
   }
 }
 
@@ -1487,5 +1533,5 @@ export function bindDynamicFilterEvents(state, refresh) {
 
   bindSingleSelectDropdown('sortMetricSelect', ui, 'sortMetric', refresh);
   bindSortDirectionToggle('sortDirectionToggle', ui, refresh);
-  bindScoreControlEvents(ui, refresh);
+  bindScoreControlEvents(state, refresh);
 }
