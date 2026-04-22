@@ -136,23 +136,37 @@
 
       <section class="dashboard-row" aria-label="结果总览与评分">
         <div class="dashboard-panel">
-          <section class="overview-panel panel" aria-labelledby="overviewPanelTitle">
-            <div class="panel__head">
-              <h2 id="overviewPanelTitle" class="panel__title">结果总览</h2>
-            </div>
-            <div class="panel__body">
-              <div class="overview-metrics">
-                <div class="overview-metric">
-                  <span class="overview-metric__value" id="overviewSchoolCount">0</span>
-                  <span class="overview-metric__label">所大学</span>
-                </div>
-                <div class="overview-metric">
-                  <span class="overview-metric__value" id="overviewProgramCount">0</span>
-                  <span class="overview-metric__label">个项目</span>
+          <div class="dashboard-main-column">
+            <section class="overview-panel panel" aria-labelledby="overviewPanelTitle">
+              <div class="panel__head">
+                <h2 id="overviewPanelTitle" class="panel__title">结果总览</h2>
+              </div>
+              <div class="panel__body">
+                <div class="overview-metrics">
+                  <div class="overview-metric">
+                    <span class="overview-metric__value" id="overviewSchoolCount">0</span>
+                    <span class="overview-metric__label">所大学</span>
+                  </div>
+                  <div class="overview-metric">
+                    <span class="overview-metric__value" id="overviewProgramCount">0</span>
+                    <span class="overview-metric__label">个项目</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+
+            <article class="stats-card stats-card--faculty panel">
+              <div class="panel__head">
+                <div>
+                  <h2 class="panel__title">学院大类</h2>
+                  <p class="panel__subtitle">学院大类分布</p>
+                </div>
+              </div>
+              <div class="panel__body">
+                <div id="facultyGroupStats" class="stats-list"></div>
+              </div>
+            </article>
+          </div>
 
           <section class="stats-panel" aria-label="统计分布">
             <article class="stats-card panel">
@@ -215,17 +229,6 @@
               </div>
             </article>
 
-            <article class="stats-card panel">
-              <div class="panel__head">
-                <div>
-                  <h2 class="panel__title">学院大类</h2>
-                  <p class="panel__subtitle">学院大类分布</p>
-                </div>
-              </div>
-              <div class="panel__body">
-                <div id="facultyGroupStats" class="stats-list"></div>
-              </div>
-            </article>
           </section>
         </div>
 
