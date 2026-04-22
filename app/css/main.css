@@ -2960,7 +2960,8 @@ body.dark *::-webkit-scrollbar-thumb {
   min-width: 0;
   display: grid;
   grid-template-columns: minmax(210px, 240px) minmax(0, 1fr);
-  gap: 0;
+  gap: 18px;
+  padding: 16px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -2987,18 +2988,18 @@ body.dark .stats-card {
 }
 
 .overview-panel {
-  border-right: 1px solid var(--line);
+  border-right: none;
 }
 
 .stats-panel {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0;
+  gap: 16px;
 }
 
 .stats-card {
   min-height: 186px;
-  border-left: 1px solid var(--line);
-  border-top: 1px solid var(--line);
+  border-left: none;
+  border-top: none;
 }
 
 .stats-card:nth-child(-n + 3) {
@@ -3030,8 +3031,15 @@ body.dark .stats-card {
 
 .overview-metric__label {
   margin-left: 2px;
-  color: var(--text);
+  color: var(--muted);
+  font-family:
+    "Iowan Old Style",
+    "Palatino Linotype",
+    "Times New Roman",
+    "Songti SC",
+    serif;
   font-size: 14px;
+  letter-spacing: 0.02em;
 }
 
 .score-weight-item__input::-webkit-outer-spin-button,
@@ -3050,8 +3058,8 @@ body.dark .stats-card {
   align-items: center;
   justify-content: flex-start;
   gap: 12px;
-  padding: 15px 16px 12px;
-  border-bottom: 1px solid var(--line);
+  padding: 15px 16px 6px;
+  border-bottom: none;
 }
 
 .table-sort-row .panel__title {
@@ -3093,10 +3101,11 @@ body.dark .stats-card {
 
 .school-table-section .panel__head {
   border-bottom: none;
+  padding-top: 8px;
 }
 
 .school-table-section .table-wrap {
-  border-top: 1px solid var(--line);
+  border-top: none;
 }
 
 @media (max-width: 1400px) {
@@ -3106,8 +3115,8 @@ body.dark .stats-card {
 
   .stats-card:nth-child(-n + 3),
   .stats-card:nth-child(3n + 1) {
-    border-top: 1px solid var(--line);
-    border-left: 1px solid var(--line);
+    border-top: none;
+    border-left: none;
   }
 
   .stats-card:nth-child(-n + 2) {
@@ -3126,7 +3135,7 @@ body.dark .stats-card {
 
   .overview-panel {
     border-right: none;
-    border-bottom: 1px solid var(--line);
+    border-bottom: none;
   }
 }
 
@@ -3160,7 +3169,7 @@ body.dark .stats-card {
   .stats-card:nth-child(-n + 3),
   .stats-card:nth-child(3n + 1) {
     border-left: none;
-    border-top: 1px solid var(--line);
+    border-top: none;
   }
 
   .stats-card:first-child {
