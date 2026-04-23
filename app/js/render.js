@@ -1101,6 +1101,26 @@ function renderLocationMiniCardList(locations, options = {}) {
   `;
 }
 
+function renderLivingConditionCard(location) {
+  const entries = [
+    ['\u57ce\u5e02\u89c4\u6a21', location?.city_scale],
+    ['\u6c14\u5019', location?.climate],
+    ['\u8bed\u8a00\u73af\u5883', location?.language],
+    ['\u5c45\u7559', location?.residency]
+  ];
+
+  return `
+    <div class="living-condition-card">
+      ${entries.map(([label, value]) => `
+        <div class="living-condition-card__item">
+          <span class="living-condition-card__label">${escapeHtml(label)}</span>
+          <span class="living-condition-card__value">${escapeHtml(String(value || '').trim() || '-')}</span>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
 function formatProgramDuration(value) {
   const raw = String(value || '').trim();
   if (!raw) return '';
@@ -1174,6 +1194,10 @@ function renderSchoolMainRow(school, rank) {
         ${renderLocationMiniCardList(locationItems, { className: 'location-mini-card--school' })}
       </td>
 
+      <td class="school-summary-cell school-summary-cell--living">
+        ${renderLivingConditionCard(location)}
+      </td>
+
       <td class="school-summary-cell school-summary-cell--ranking">
         ${renderRankingBlock(school.qs, school.the, school.usnews)}
       </td>
@@ -1226,7 +1250,7 @@ function renderProgramContinuationRows(school) {
 
   return `
     <tr class="program-row program-row--expanded">
-      <td colspan="4" class="program-cards-cell">
+      <td colspan="5" class="program-cards-cell">
         <div class="program-card-list">
           ${cards || '<div class="empty-state">暂无项目明细</div>'}
         </div>
@@ -1449,7 +1473,7 @@ export function renderTable(
   if (!schools.length) {
     tbody.innerHTML = `
       <tr class="empty-row">
-        <td colspan="4" class="table-empty">没有匹配结果</td>
+        <td colspan="5" class="table-empty">没有匹配结果</td>
       </tr>
     `;
     return;
