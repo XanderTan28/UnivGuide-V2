@@ -1,0 +1,168 @@
+program,faculty,campus,duration,eng_taught,type,url
+Accounting,Faculty of Business and Economics,Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/accounting-b2029
+Actuarial Science,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/actuarial-science-b2033
+Actuarial Science and Actuarial Studies,Faculty of Business and Economics,主校区,4,TRUE,本硕连读,https://www.monash.edu/study/courses/find-a-course/actuarial-science-and-actuarial-studies-b6060
+Applied Data Science,Faculty of Information Technology,主校区+Malaysia,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/applied-data-science-s2010
+Applied Data Science Advanced,Faculty of Information Technology,主校区,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/applied-data-science-advanced-s3003
+Architectural Design,"Faculty of Art, Design and Architecture",Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/architectural-design-f2001
+Architectural Design and Architecture,"Faculty of Art, Design and Architecture",Caulfield,5,TRUE,本硕连读,https://www.monash.edu/study/courses/find-a-course/architectural-design-and-architecture-f6003
+Architectural Studies and Business,"Faculty of Art, Design and Architecture + Faculty of Business and Economics",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/architectural-studies-and-business-f2016
+Architectural Studies and Design,"Faculty of Art, Design and Architecture",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/architectural-studies-and-design-f2019
+Architectural Studies and Fine Art,"Faculty of Art, Design and Architecture",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/architectural-studies-and-fine-art-f2018
+Architectural Studies and Information Technology,"Faculty of Art, Design and Architecture + Faculty of Information Technology",Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/architectural-studies-and-information-technology-f2017
+Art and Design (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/art-and-design-2613
+Art and Design (International students),Monash College,Docklands,1.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/art-and-design-u0602
+Arts (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/arts-2618
+Arts,Faculty of Arts,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/arts-a2000
+Arts,Faculty of Arts,主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/arts-a3701
+Arts - Education (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/arts-education-2645
+Arts (International students),Monash College,Docklands,1.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/arts-u0601
+Arts and Criminology,Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/arts-and-criminology-a2012
+Arts and Fine Art,"Faculty of Arts + Faculty of Art, Design and Architecture",主校区+Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/arts-and-fine-art-a2005
+Arts and Global Studies,Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/arts-and-global-studies-a2018
+Arts and Health Sciences,"Faculty of Arts + Faculty of Medicine, Nursing and Health Sciences",主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/arts-and-health-sciences-a2017
+Arts and Media Communication,Faculty of Arts,主校区+Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/arts-and-media-communication-a2019
+Arts and Music,Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/arts-and-music-a2004
+Banking and Finance,Faculty of Business and Economics,Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/banking-and-finance-b2042
+Biomedical Science,"Faculty of Medicine, Nursing and Health Sciences",主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/biomedical-science-m2003
+Biomedical Science,"Faculty of Medicine, Nursing and Health Sciences",主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/biomedical-science-m3702
+Business,Faculty of Business and Economics,Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/business-b2000
+Business - Business (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/business-business-2607
+Business - Commerce (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/business-commerce-2608
+Business - Education (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/business-education-2647
+Business (International students),Monash College,Docklands,1.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/business-u0603
+Business Administration,Faculty of Business and Economics,Peninsula,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/business-administration-b2007
+Business and Accounting,Faculty of Business and Economics,Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/business-and-accounting-b2040
+Business and Arts,Faculty of Business and Economics + Faculty of Arts,Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/business-and-arts-b2019
+Business and Banking and Finance,Faculty of Business and Economics,Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/business-and-banking-and-finance-b2035
+Business and Information Technology,Faculty of Business and Economics + Faculty of Information Technology,Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/business-and-information-technology-b2017
+Business and International Relations,Faculty of Business and Economics + Faculty of Arts,Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/business-and-international-relations-b2056
+Business and Marketing,Faculty of Business and Economics,Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/business-and-marketing-b2037
+Business and Media Communication,Faculty of Business and Economics + Faculty of Arts,Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/business-and-media-communication-b2028
+Commerce,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/commerce-b2001
+Commerce,Faculty of Business and Economics,主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/commerce-b3701
+Commerce and Actuarial Science,Faculty of Business and Economics,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-actuarial-science-b2030
+Commerce and Arts,Faculty of Business and Economics + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-arts-b2020
+Commerce and Biomedical Science,"Faculty of Business and Economics + Faculty of Medicine, Nursing and Health Sciences",主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-biomedical-science-b2021
+Commerce and Computer Science,Faculty of Business and Economics + Faculty of Information Technology,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-computer-science-b2008
+Commerce and Economics,Faculty of Business and Economics,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-economics-b2032
+Commerce and Finance,Faculty of Business and Economics,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-finance-b2043
+Commerce and Global Studies,Faculty of Business and Economics + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-global-studies-b2006
+Commerce and Information Technology,Faculty of Business and Economics + Faculty of Information Technology,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-information-technology-b2025
+Commerce and Music,Faculty of Business and Economics + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-music-b2022
+"Commerce and Politics, Philosophy and Economics",Faculty of Business and Economics + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-politics-philosophy-and-economics-b2047
+Commerce and Science,Faculty of Business and Economics + Faculty of Science,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/commerce-and-science-b2023
+Computer Science,Faculty of Information Technology,主校区+Malaysia,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/computer-science-c2001
+Computer Science,Faculty of Information Technology,主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/computer-science-c3702
+Computer Science Advanced,Faculty of Information Technology,主校区,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/computer-science-advanced-c3001
+Criminology,Faculty of Arts,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/criminology-a2008
+Criminology and Information Technology,Faculty of Arts + Faculty of Information Technology,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/criminology-and-information-technology-a2009
+Design,"Faculty of Art, Design and Architecture",Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/design-f2010
+Design and Arts,"Faculty of Art, Design and Architecture + Faculty of Arts",Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/design-and-arts-f2014
+Design and Business,"Faculty of Art, Design and Architecture + Faculty of Business and Economics",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/design-and-business-f2011
+Design and Fine Art,"Faculty of Art, Design and Architecture",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/design-and-fine-art-f2020
+Design and Information Technology,"Faculty of Art, Design and Architecture + Faculty of Information Technology",Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/design-and-information-technology-f2012
+Design and Media Communication,"Faculty of Art, Design and Architecture + Faculty of Arts",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/design-and-media-communication-f2009
+Digital Business,Faculty of Business and Economics,Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/digital-business-b2049
+Digital Business and Business,Faculty of Business and Economics,Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/digital-business-and-business-b2051
+Digital Business and Information Technology,Faculty of Business and Economics + Faculty of Information Technology,Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/digital-business-and-information-technology-b2050
+Economics,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/economics-b2031
+Education,Faculty of Education,主校区,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/education-d3001
+Education and Arts,Faculty of Education + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/education-and-arts-d3002
+Education and Business,Faculty of Education + Faculty of Business and Economics,主校区+Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/education-and-business-d3007
+Education and Fine Art,"Faculty of Education + Faculty of Art, Design and Architecture",主校区+Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/education-and-fine-art-d3006
+Education and Music,Faculty of Education + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/education-and-music-d3004
+Education and Science,Faculty of Education + Faculty of Science,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/education-and-science-d3005
+Engineering (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/engineering-2612
+Engineering,Faculty of Engineering,主校区+Malaysia,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/engineering-e3001
+Engineering (International students),Monash College,Docklands,1.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/engineering-u0604
+Engineering and Architectural Design,"Faculty of Engineering + Faculty of Art, Design and Architecture",主校区+Caulfield,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-architectural-design-e3009
+Engineering and Arts,Faculty of Engineering + Faculty of Arts,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-arts-e3002
+Engineering and Biomedical Science,"Faculty of Engineering + Faculty of Medicine, Nursing and Health Sciences",主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-biomedical-science-e3004
+Engineering and Commerce,Faculty of Engineering + Faculty of Business and Economics,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-commerce-e3005
+Engineering and Computer Science,Faculty of Engineering + Faculty of Information Technology,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-computer-science-e3010
+Engineering and Design,"Faculty of Engineering + Faculty of Art, Design and Architecture",主校区+Caulfield,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-design-e3012
+Engineering and Engineering,Faculty of Engineering,主校区,5,TRUE,本硕连读,https://www.monash.edu/study/courses/find-a-course/engineering-and-engineering-e6003
+Engineering and Information Technology,Faculty of Engineering + Faculty of Information Technology,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-information-technology-e3011
+Engineering and Pharmaceutical Science,Faculty of Engineering + Faculty of Pharmacy and Pharmaceutical Sciences,主校区+Parkville,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-pharmaceutical-science-e3008
+Engineering and Science,Faculty of Engineering + Faculty of Science,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/engineering-and-science-e3007
+Finance,Faculty of Business and Economics,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/finance-b2034
+Fine Art,"Faculty of Art, Design and Architecture",Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/fine-art-f2003
+Fine Art,"Faculty of Art, Design and Architecture",Caulfield,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/fine-art-f3701
+Fine Art and Business,"Faculty of Art, Design and Architecture + Faculty of Business and Economics",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/fine-art-and-business-f2007
+Fine Art and Information Technology,"Faculty of Art, Design and Architecture + Faculty of Information Technology",Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/fine-art-and-information-technology-f2006
+Fine Art and Media Communication,"Faculty of Art, Design and Architecture + Faculty of Arts",Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/fine-art-and-media-communication-f2013
+Global Studies,Faculty of Arts,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/global-studies-a2001
+Global Studies and Information Technology,Faculty of Arts + Faculty of Information Technology,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/global-studies-and-information-technology-a2016
+Health Sciences,"Faculty of Medicine, Nursing and Health Sciences",主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/health-sciences-m2014
+Health Sciences,"Faculty of Medicine, Nursing and Health Sciences",主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/health-sciences-m3705
+Information Technology (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/information-technology-2638
+Information Technology,Faculty of Information Technology,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/information-technology-c2000
+Information Technology,Faculty of Information Technology,主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/information-technology-c3703
+Information Technology (International students),Monash College,Docklands,1.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/information-technology-u0605
+Information Technology and Arts,Faculty of Information Technology + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/information-technology-and-arts-c2002
+Information Technology and Science,Faculty of Information Technology + Faculty of Science,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/information-technology-and-science-c2003
+International Relations,Faculty of Arts,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/international-relations-a2020
+Laws,Faculty of Law,主校区,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/laws-l3001
+Laws and Arts,Faculty of Law + Faculty of Arts,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-arts-l3003
+Laws and Biomedical Science,"Faculty of Law + Faculty of Medicine, Nursing and Health Sciences",主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-biomedical-science-l3004
+Laws and Commerce,Faculty of Law + Faculty of Business and Economics,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-commerce-l3005
+Laws and Computer Science,Faculty of Law + Faculty of Information Technology,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-computer-science-l3019
+Laws and Criminology,Faculty of Law + Faculty of Arts,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-criminology-l3012
+Laws and Engineering,Faculty of Law + Faculty of Engineering,主校区,6,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-engineering-l3018
+Laws and Global Studies,Faculty of Law + Faculty of Arts,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-global-studies-l3006
+Laws and Information Technology,Faculty of Law + Faculty of Information Technology,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-information-technology-l3011
+Laws and International Relations,Faculty of Law + Faculty of Arts,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-international-relations-l3017
+Laws and Music,Faculty of Law + Faculty of Arts,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-music-l3009
+"Laws and Politics, Philosophy and Economics",Faculty of Law + Faculty of Arts,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-politics-philosophy-and-economics-l3016
+Laws and Psychology,"Faculty of Law + Faculty of Medicine, Nursing and Health Sciences",主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-psychology-l3013
+Laws and Science,Faculty of Law + Faculty of Science,主校区,5,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/laws-and-science-l3007
+Learning Design and Technology,Faculty of Education,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/learning-design-and-technology-d3010
+Marketing,Faculty of Business and Economics,Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/marketing-b2036
+Marketing and Arts,Faculty of Business and Economics + Faculty of Arts,Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/marketing-and-arts-b2039
+Marketing and Media Communication,Faculty of Business and Economics + Faculty of Arts,Caulfield,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/marketing-and-media-communication-b2044
+Media Communication,Faculty of Arts,Caulfield,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/media-communication-a2002
+Media Communication and Music,Faculty of Arts,Caulfield+主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/media-communication-and-music-a2021
+Medical Science,"Faculty of Medicine, Nursing and Health Sciences",主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/medical-science-m3701
+Medical Science and Medicine (Direct entry),"Faculty of Medicine, Nursing and Health Sciences",主校区,5,TRUE,本硕连读,https://www.monash.edu/study/courses/find-a-course/medical-science-and-medicine-m6011
+Medical Science and Medicine (Graduate Entry),"Faculty of Medicine, Nursing and Health Sciences",主校区,4,TRUE,本硕连读,https://www.monash.edu/study/courses/find-a-course/medical-science-and-medicine-m6018
+Monash Advanced Preparation Program,Monash College,Docklands,0.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/monash-advanced-preparation-program-u0401
+Monash University Foundation Year - Extended,Monash College,Docklands,1.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/monash-university-foundation-year-extended-3633
+Monash University Foundation Year - Standard,Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/monash-university-foundation-year-standard-3611
+Music,Faculty of Arts,主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/music-a2003
+Music,Faculty of Arts,主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/music-a3702
+Nursing,"Faculty of Medicine, Nursing and Health Sciences",主校区+Peninsula,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/nursing-m2006
+Nursing,"Faculty of Medicine, Nursing and Health Sciences",主校区+Peninsula,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/nursing-m3704
+Nursing and Midwifery,"Faculty of Medicine, Nursing and Health Sciences",Peninsula,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/nursing-and-midwifery-m3007
+Nutrition Science,"Faculty of Medicine, Nursing and Health Sciences",主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/nutrition-science-m2001
+Occupational Therapy,"Faculty of Medicine, Nursing and Health Sciences",Peninsula,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/occupational-therapy-m3001
+Paramedicine,"Faculty of Medicine, Nursing and Health Sciences",Peninsula,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/paramedicine-m2011
+Paramedicine,"Faculty of Medicine, Nursing and Health Sciences",Peninsula,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/paramedicine-m3707
+Pharmaceutical Science,Faculty of Pharmacy and Pharmaceutical Sciences,Parkville,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/pharmaceutical-science-p2001
+Pharmaceutical Science,Faculty of Pharmacy and Pharmaceutical Sciences,Parkville,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/pharmaceutical-science-p3701
+Pharmaceutical Science Advanced,Faculty of Pharmacy and Pharmaceutical Sciences,Parkville,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/pharmaceutical-science-advanced-p3002
+Pharmacy,Faculty of Pharmacy and Pharmaceutical Sciences,Parkville,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/pharmacy-p3001
+Pharmacy,Faculty of Pharmacy and Pharmaceutical Sciences,Parkville,5,TRUE,本硕连读,https://www.monash.edu/study/courses/find-a-course/pharmacy-p6001
+Physiotherapy,"Faculty of Medicine, Nursing and Health Sciences",Peninsula,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/physiotherapy-m3002
+"Politics, Philosophy and Economics",Faculty of Arts,主校区,3,TRUE,交叉学科（单学位）,https://www.monash.edu/study/courses/find-a-course/politics-philosophy-and-economics-a2010
+"Politics, Philosophy and Economics and Arts",Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/politics-philosophy-and-economics-and-arts-a2013
+Psychology,"Faculty of Medicine, Nursing and Health Sciences",主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/psychology-m2018
+Psychology,"Faculty of Medicine, Nursing and Health Sciences",主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/psychology-m3708
+Psychology and Arts,"Faculty of Medicine, Nursing and Health Sciences + Faculty of Arts",主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/psychology-and-arts-m2019
+Psychology and Commerce,"Faculty of Medicine, Nursing and Health Sciences + Faculty of Business and Economics",主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/psychology-and-commerce-m2020
+Psychology and Science,"Faculty of Medicine, Nursing and Health Sciences + Faculty of Science",主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/psychology-and-science-m2021
+Public Health,"Faculty of Medicine, Nursing and Health Sciences",主校区,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/public-health-m2012
+Radiography and Medical Imaging,"Faculty of Medicine, Nursing and Health Sciences",主校区,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/radiography-and-medical-imaging-m3006
+Science (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/science-2637
+Science - Education (Domestic students),Monash College,Docklands,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/science-education-2646
+Science,Faculty of Science,主校区+Malaysia,3,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/science-s2000
+Science,Faculty of Science,主校区,1,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/science-s3701
+Science (International students),Monash College,Docklands,1.5,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/science-u0606
+Science Advanced - Global Challenges,Faculty of Science,主校区,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/science-advanced-global-challenges-s3001
+Science Advanced - Research,Faculty of Science,主校区,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/science-advanced-research-s3002
+Science and Arts,Faculty of Science + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/science-and-arts-s2006
+Science and Biomedical Science,"Faculty of Science + Faculty of Medicine, Nursing and Health Sciences",主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/science-and-biomedical-science-s2007
+Science and Computer Science,Faculty of Science + Faculty of Information Technology,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/science-and-computer-science-s2004
+Science and Global Studies,Faculty of Science + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/science-and-global-studies-s2003
+Science and Music,Faculty of Science + Faculty of Arts,主校区,4,TRUE,双学位,https://www.monash.edu/study/courses/find-a-course/science-and-music-s2005
+Speech Pathology,"Faculty of Medicine, Nursing and Health Sciences",Peninsula,4,TRUE,单学位,https://www.monash.edu/study/courses/find-a-course/speech-pathology-m3008

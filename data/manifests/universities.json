@@ -89,6 +89,11 @@
     "uniColor": "orange"
   },
   {
+    "slug": "monash",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
     "slug": "copenhagen",
     "enabled": true,
     "uniColor": "gray"
