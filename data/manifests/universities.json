@@ -74,6 +74,11 @@
     "uniColor": "orange"
   },
   {
+    "slug": "tu_delft",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
     "slug": "copenhagen",
     "enabled": true,
     "uniColor": "gray"

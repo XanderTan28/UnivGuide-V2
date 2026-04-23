@@ -1,0 +1,17 @@
+program,faculty,campus,duration,eng_taught,type,url
+Aerospace Engineering,Faculty of Aerospace Engineering,主校区,3,TRUE,单学位,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/ae/bsc-aerospace-engineering
+Applied Mathematics,"Faculty of Electrical Engineering, Mathematics and Computer Science",主校区,3,FALSE,单学位,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/tw/bsc-technische-wiskunde
+Applied Physics,Faculty of Applied Sciences,主校区,3,FALSE,单学位,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/tn/bsc-technische-natuurkunde
+"Architecture, Urbanism and Building Sciences",Faculty of Architecture and the Built Environment,主校区,3,FALSE,交叉学科（单学位）,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/bk/bsc-bouwkunde
+Civil Engineering,Faculty of Civil Engineering and Geosciences,主校区,3,FALSE,单学位,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/civiele-techniek/bsc-civiele-techniek
+Clinical Technology,Faculty of Mechanical Engineering+LUMC+Erasmus MC,主校区+LUMC+Erasmus MC,3,FALSE,联合培养,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/klinische-technologie/bsc-klinische-technologie
+Computer Science & Engineering,"Faculty of Electrical Engineering, Mathematics and Computer Science",主校区,3,TRUE,单学位,https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering
+"Earth, Climate and Technology",Faculty of Civil Engineering and Geosciences,主校区,3,TRUE,交叉学科（单学位）,https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/ect/bsc-earth-climate-and-technology
+Electrical Engineering,"Faculty of Electrical Engineering, Mathematics and Computer Science",主校区,3,FALSE,单学位,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/ee/bsc-electrical-engineering
+Industrial Design Engineering,Faculty of Industrial Design Engineering,主校区,3,FALSE,交叉学科（单学位）,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/industrieel-ontwerpen/bsc-industrieel-ontwerpen
+Life Science and Technology,Faculty of Applied Sciences+Leiden University,主校区+Leiden University,3,FALSE,联合培养,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/lst/bsc-life-science-and-technology
+Marine Technology,Faculty of Mechanical Engineering,主校区,3,FALSE,单学位,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/maritieme-techniek/bsc-maritieme-techniek
+Mechanical Engineering,Faculty of Mechanical Engineering,主校区,3,FALSE,单学位,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/wb/bsc-werktuigbouwkunde
+Molecular Science and Technology,Faculty of Applied Sciences+Leiden University,主校区+Leiden University,3,FALSE,联合培养,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/mst/bsc-molecular-science-and-technology
+Nanobiology,Faculty of Applied Sciences+Erasmus MC,主校区+Erasmus MC,3,TRUE,联合培养,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/nb/bsc-nanobiology
+"Systems Engineering, Policy Analysis & Management","Faculty of Technology, Policy and Management",主校区,3,FALSE,交叉学科（单学位）,https://www.tudelft.nl/onderwijs/opleidingen/bachelors/tbm/bsc-technische-bestuurskunde
