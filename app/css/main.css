@@ -2006,10 +2006,10 @@ body.dark .app-header {
   align-items: center;
   gap: 4px;
   min-height: 36px;
-  padding: 0 8px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--control-bg);
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
 }
 
 .score-weight-item__number span {
@@ -2029,8 +2029,8 @@ body.dark .app-header {
 .score-weight-status {
   margin-top: 8px;
   padding: 10px 11px;
-  border-radius: 8px;
-  background: rgba(110, 135, 125, 0.1);
+  border-radius: 0;
+  background: transparent;
   color: var(--text);
   font-size: 12px;
   line-height: 1.45;
@@ -2040,7 +2040,7 @@ body.dark .app-header {
 .score-weight-status.is-warning {
   color: var(--muted);
   background: transparent;
-  border: 1px dashed var(--line-strong);
+  border: none;
 }
 
 .sort-toolbar {
@@ -2449,8 +2449,10 @@ body.dark *::-webkit-scrollbar-thumb {
 
 .overview-panel,
 .stats-card,
+ .scoring-sidebar,
 body.dark .overview-panel,
-body.dark .stats-card {
+ body.dark .stats-card,
+ body.dark .scoring-sidebar {
   background: transparent;
   border: none;
   border-radius: 0;
@@ -2458,7 +2460,8 @@ body.dark .stats-card {
 }
 
 .overview-panel:hover,
-.stats-card:hover {
+.stats-card:hover,
+.scoring-sidebar:hover {
   background: transparent;
 }
 
@@ -3860,6 +3863,9 @@ body.dark .program-card {
 
 /* Compact scoring tool */
 .scoring-sidebar {
+  background: transparent;
+  border: none;
+  border-radius: 0;
   box-shadow: none;
 }
 
@@ -3926,11 +3932,20 @@ body.dark .program-card {
 .scoring-sidebar .btn {
   min-height: 24px;
   padding: 0 7px;
+  border: none;
   border-radius: 6px;
+  background: transparent;
+  box-shadow: none;
   font-size: 11px;
   line-height: 1;
   font-weight: 800;
   white-space: nowrap;
+}
+
+.scoring-sidebar .btn:hover {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
 }
 
 .scoring-sidebar .score-panel__tools .btn {
@@ -4029,10 +4044,10 @@ body.dark .program-card {
   grid-template-columns: 1fr;
   align-items: center;
   min-height: 22px;
-  padding: 0 4px;
-  border: 1px solid rgba(216, 206, 193, 0.58);
-  border-radius: 6px;
-  background: var(--control-bg);
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
 }
 
 .score-weight-item__input {
@@ -4062,7 +4077,7 @@ body.dark .score-weight-item__input:focus {
   padding: 4px 6px;
   border: none;
   border-radius: 6px;
-  background: rgba(110, 135, 125, 0.07);
+  background: transparent;
   color: var(--muted);
   font-size: 10.5px;
   line-height: 1.2;
@@ -4072,6 +4087,6 @@ body.dark .score-weight-item__input:focus {
 .score-weight-status.is-warning {
   padding: 4px 6px;
   border: none;
-  background: rgba(172, 124, 77, 0.06);
+  background: transparent;
   color: var(--muted);
 }

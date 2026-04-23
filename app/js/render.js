@@ -901,9 +901,8 @@ function compareSchools(a, b, metric, direction) {
     }
 
     case 'language': {
-      const byOrder = compareNullableNumber(a.sort_language_order, b.sort_language_order, 'asc');
-      if (byOrder !== 0) return byOrder;
-      const byScore = compareNullableNumber(a.sort_language_score, b.sort_language_score, 'asc');
+      const scoreDirection = direction === 'asc' ? 'desc' : 'asc';
+      const byScore = compareNullableNumber(a.sort_language_score, b.sort_language_score, scoreDirection);
       if (byScore !== 0) return byScore;
       return compareNullableText(a.sort_language, b.sort_language, direction);
     }
