@@ -1,0 +1,47 @@
+program,faculty,campus,duration,eng_taught,type,url
+"Accounting and Finance (Accountancy / Accounting and Finance / Digital Finance and Investment) - BBA (Hons) Scheme",Faculty of Business,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3060
+"Applied Mathematics and Finance Analytics (Applied Mathematics / Investment Science and Finance Analytics / Quantitative Finance and FinTech) - BSc (Hons) Scheme",Faculty of Computer and Mathematical Sciences,主校区,4,TRUE,本硕连读,https://www.polyu.edu.hk/study/ug/jupas/2026/js3220
+"Applied Social Sciences (Social Work / Social Policy and Social Entrepreneurship) - BA (Hons) Scheme",Faculty of Health and Social Sciences,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3250
+Architectural Studies - BSc (Hons),Faculty of Construction and Environment,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3214
+"Aviation Engineering (Aeronautical Engineering / Air Transport Engineering) - BEng (Hons) Scheme",Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3140
+Biomedical Engineering - BSc (Hons),Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3150
+Biotechnology and Chemical Technology - BSc (Hons) Scheme,Faculty of Science,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3011
+Building Engineering and Management - BSc (Hons),Faculty of Construction and Environment,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3791
+Building Sciences and Engineering - BEng (Hons),Faculty of Construction and Environment,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3211
+Business Administration - Bachelor's Degree Scheme,Faculty of Business,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3003
+Chinese History and Culture - BA (Hons),Faculty of Humanities,主校区,4,FALSE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3320
+Civil Engineering - BEng (Hons),Faculty of Construction and Environment,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3739
+Computer and Mathematical Sciences - Bachelor's Degree Scheme,Faculty of Computer and Mathematical Sciences,主校区,4,TRUE,双学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3006
+"Computing and AI (Computer Science / Enterprise Information Systems) - BSc (Hons) Scheme",Faculty of Computer and Mathematical Sciences,主校区,4,TRUE,双学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3868
+Construction and Environment - Bachelor's Degree Scheme,Faculty of Construction and Environment,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3004
+"Data Science and Artificial Intelligence (Data Science and Analytics / Financial Technology and Artificial Intelligence) - BSc (Hons) Scheme",Faculty of Computer and Mathematical Sciences,主校区,4,TRUE,双学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3223
+"Design (Advertising Design / Environmental Design / Immersive Media and Game Design / Information Design / Interaction Design / Interior Design / Product Design / Service Design / Social Design) - BA (Hons) Scheme",School of Design,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3569
+"Electrical Engineering (Electrical Engineering / Transportation Systems Engineering) - BEng (Hons) Scheme",Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3170
+Engineering - Bachelor's Degree Scheme,Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3005
+English and Applied Linguistics - BA (Hons),Faculty of Humanities,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3240
+Environmental Engineering and Sustainable Development - BEng (Hons),Faculty of Construction and Environment,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3375
+"Fashion (Fashion Design / Knitwear Design / Contour Fashion and Activewear / Fashion Business / Fashion Innovation and Technology) - BA (Hons) Scheme",School of Fashion and Textiles,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3050
+"Food Science and Nutrition (Food Safety and Technology / Human Nutrition and Health) - BSc (Hons) Scheme",Faculty of Science,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3255
+"Global Business and Logistics, Aviation, Maritime, and Supply Chain Management - BBA (Hons) Scheme",Faculty of Business,主校区+Copenhagen Business School,2+2,TRUE,联合培养,https://www.polyu.edu.hk/study/ug/jupas/2026/js3070
+"Hotel and Tourism Management (Hotel Management / Smart Tourism and Hospitality / Event and Experience Management) - BSc (Hons) Scheme",School of Hotel and Tourism Management,School of Hotel and Tourism Management+Modul University Vienna,2+2,TRUE,联合培养,https://www.polyu.edu.hk/study/ug/jupas/2026/js3310
+Humanities - Bachelor's Degree Scheme,Faculty of Humanities,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3007
+"Information and Artificial Intelligence Engineering (Internet-of-Things / Artificial Intelligence / Information Security) - BEng (Hons) / BSc (Hons) Scheme",Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3180
+"Intelligent Supply Chain and Engineering Management (Intelligent Supply Chain / Engineering Management with Data Analytics / Aviation Operations and Systems) - BSc (Hons) Scheme",Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3237
+Interdisciplinary Studies - Bachelor's Degree Scheme,College of Undergraduate Studies,主校区,4,TRUE,交叉学科（单学位）,https://www.polyu.edu.hk/study/ug/jupas/2026/js3000
+Language Science and Technology - BSc (Hons),Faculty of Humanities,主校区,4,TRUE,交叉学科（单学位）,https://www.polyu.edu.hk/study/ug/jupas/2026/js3243
+"Management and Marketing (Management / Marketing) - BBA (Hons) Scheme",Faculty of Business,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3080
+"Mechanical Engineering (Intelligent Robotics Engineering / Mechanical Engineering) - BEng (Hons) Scheme",Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3741
+Medical Laboratory Science - BSc (Hons),Faculty of Health and Social Sciences,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3478
+Mental Health Nursing - BSc (Hons),Faculty of Health and Social Sciences,主校区,5,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3337
+Nursing - BSc (Hons),Faculty of Health and Social Sciences,主校区,5,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3648
+Occupational Therapy - BSc (Hons),Faculty of Health and Social Sciences,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3624
+Optometry - BSc (Hons),Faculty of Health and Social Sciences,主校区,5,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3290
+Physics with a Secondary Major in Artificial Intelligence & Data Analytics (AIDA) / Innovation and Entrepreneurship (IE) - BSc (Hons),Faculty of Science,主校区,4,TRUE,交叉学科（单学位）,https://www.polyu.edu.hk/study/ug/jupas/2026/js3030
+Physiotherapy - BSc (Hons),Faculty of Health and Social Sciences,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3636
+"Product Innovation and Smart Manufacturing (Product Innovation with Marketing / Smart Manufacturing) - BEng (Hons) Scheme",Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3236
+Radiography - BSc (Hons),Faculty of Health and Social Sciences,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3612
+Science - Bachelor's Degree Scheme,Faculty of Science,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3008
+"Spatial Data Science and Smart Cities (Land Surveying and Geo-Informatics / Urban Informatics and Smart Cities) - BSc (Hons) Scheme",Faculty of Construction and Environment,主校区,4,TRUE,交叉学科（单学位）,https://www.polyu.edu.hk/study/ug/jupas/2026/js3130
+Speech Therapy - BSc (Hons),Faculty of Humanities,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3242
+Sports Science and Technology - BSc (Hons),Faculty of Engineering,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3160
+Surveying - BSc (Hons),Faculty of Construction and Environment,主校区,4,TRUE,单学位,https://www.polyu.edu.hk/study/ug/jupas/2026/js3789
