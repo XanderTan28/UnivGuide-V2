@@ -64,6 +64,11 @@
     "uniColor": "red"
   },
   {
+    "slug": "anu",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
     "slug": "uva",
     "enabled": true,
     "uniColor": "orange"

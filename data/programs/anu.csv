@@ -1,0 +1,93 @@
+program,faculty,campus,duration,eng_taught,type,url
+Bachelor of Accounting,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bacct
+Bachelor of Accounting (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hacct
+Bachelor of Actuarial Studies,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bacts
+Bachelor of Actuarial Studies (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hacts
+Bachelor of Advanced Computing (Honours),ANU College of Systems and Society,主校区,4,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/aacom
+Bachelor of Advanced Computing (Research and Development) (Honours),ANU College of Systems and Society,主校区,4,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/aacrd
+Bachelor of Applied Data Analytics,ANU College of Systems and Society,主校区,3,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/badan
+Bachelor of Applied Data Analytics (Honours),ANU College of Systems and Society,主校区,1,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/hadan
+Bachelor of Archaeological Practice (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/haprc
+Bachelor of Art History and Curatorship (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hahcr
+Bachelor of Arts,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/barts
+Bachelor of Arts (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hart2
+Bachelor of Arts (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/harts
+Bachelor of Arts (with Year in Asia),ANU College of Arts and Social Sciences,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/barty
+Bachelor of Asian Studies,ANU College of Asia and the Pacific,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/basia
+Bachelor of Asian Studies (Honours),ANU College of Asia and the Pacific,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hasia
+Bachelor of Asian Studies (with Year in Asia),ANU College of Asia and the Pacific,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/basy
+Bachelor of Asia-Pacific Affairs,ANU College of Asia and the Pacific,主校区+Ritsumeikan University,4,TRUE,联合培养,https://programsandcourses.anu.edu.au/program/bapaf
+Bachelor of Asia-Pacific Affairs (Ritsumeikan),ANU College of Asia and the Pacific,主校区+Osaka Ibaraki campus,4,TRUE,联合培养,https://programsandcourses.anu.edu.au/program/bapar
+Bachelor of Biotechnology,ANU College of Science and Medicine,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bbiot
+Bachelor of Biotechnology (Honours),ANU College of Science and Medicine,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hbiot
+Bachelor of Business Administration,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bbusa
+Bachelor of Business Administration (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hbusa
+Bachelor of Classical Studies (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hclas
+Bachelor of Commerce,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bcomm
+Bachelor of Commerce (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hcomm
+Bachelor of Computing,ANU College of Systems and Society,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bcomp
+Bachelor of Computing (Honours),ANU College of Systems and Society,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hcomp
+Bachelor of Criminology (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hcrim
+Bachelor of Design,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bdesn
+Bachelor of Design (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hdesn
+Bachelor of Development Studies (Honours),ANU College of Asia and the Pacific,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hdevs
+Bachelor of Development Studies (with Year in Asia),ANU College of Asia and the Pacific,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bdevy
+Bachelor of Economics,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/becon
+Bachelor of Economics (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hecon
+Bachelor of Engineering (Honours),ANU College of Systems and Society,主校区,4,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/aengi
+Bachelor of Engineering (Honours) in Software Engineering,ANU College of Systems and Society,主校区,4,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/aense
+Bachelor of Engineering (Research and Development) (Honours),ANU College of Systems and Society,主校区,4,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/aenrd
+Bachelor of Environment and Sustainability,ANU College of Systems and Society,主校区,3,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/bensu
+Bachelor of Environment and Sustainability (Honours),ANU College of Systems and Society,主校区,1,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/hensu
+Bachelor of Finance,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bfinn
+Bachelor of Finance (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hfinn
+"Bachelor of Finance, Economics and Statistics (Honours)",ANU College of Business and Economics,主校区,4,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/afest
+Bachelor of Genetics,ANU College of Science and Medicine,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bgene
+Bachelor of Genetics (Honours),ANU College of Science and Medicine,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hgene
+Bachelor of Health Science,ANU College of Science and Medicine,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bhlth
+Bachelor of Health Science (Honours),ANU College of Science and Medicine,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hhlth
+Bachelor of Information Technology (Honours),ANU College of Systems and Society,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hit
+Bachelor of International Business,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/binbs
+Bachelor of International Business (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hinbs
+Bachelor of International Relations,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bir
+Bachelor of International Relations (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hir
+Bachelor of International Relations (With Year in Asia),ANU College of Arts and Social Sciences,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/biry
+Bachelor of International Security Studies,ANU College of Asia and the Pacific,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/binss
+Bachelor of International Security Studies (Honours),ANU College of Asia and the Pacific,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hinss
+Bachelor of International Security Studies (with Year in Asia),ANU College of Asia and the Pacific,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/binsy
+Bachelor of Languages,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/blang
+Bachelor of Languages (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hlang
+Bachelor of Languages (with Year in Asia),ANU College of Arts and Social Sciences,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/blany
+Bachelor of Laws (Honours),ANU College of Law, Governance and Policy,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/allb
+Bachelor of Mathematical Sciences,ANU College of Science and Medicine,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bmasc
+Bachelor of Mathematical Sciences (Honours),ANU College of Science and Medicine,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hmasc
+Bachelor of Medical Science,ANU College of Science and Medicine,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bmeds
+Bachelor of Medical Science (Honours),ANU College of Science and Medicine,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hmeds
+Bachelor of Music,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bmusi
+Bachelor of Music (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hmusi
+Bachelor of Pacific Studies,ANU College of Asia and the Pacific,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bpast
+Bachelor of Pacific Studies (Honours),ANU College of Asia and the Pacific,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hpast
+Bachelor of Philosophy (Honours) - Science,ANU College of Science and Medicine,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/aphsc
+Bachelor of Philosophy (Honours)—Humanities and Social Sciences,ANU College of Asia and the Pacific,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/ahuss
+"Bachelor of Philosophy, Neuroscience, and Psychology",ANU College of Arts and Social Sciences and ANU College of Science and Medicine,主校区,3,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/bpnp
+Bachelor of Political Science,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bplsc
+Bachelor of Political Science (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hplsc
+"Bachelor of Politics, Philosophy and Economics",ANU College of Arts and Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/bppe
+"Bachelor of Politics, Philosophy and Economics (Honours)",ANU College of Arts and Social Sciences,主校区,1,TRUE,交叉学科（单学位）,https://programsandcourses.anu.edu.au/program/hppe
+Bachelor of Public Policy,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bppol
+Bachelor of Public Policy (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hppol
+Bachelor of Science,ANU College of Science and Medicine,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bsc
+Bachelor of Science (Advanced) (Honours),ANU College of Science and Medicine,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/ascad
+Bachelor of Science (Honours),ANU College of Science and Medicine,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hsc
+Bachelor of Science (Psychology),ANU College of Science and Medicine,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bspsy
+Bachelor of Science (Psychology) (Honours),ANU College of Science and Medicine,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hspsy
+Bachelor of Science (with Year in Asia),ANU College of Science and Medicine,主校区,4,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bscy
+Bachelor of Statistics,ANU College of Business and Economics,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bstat
+Bachelor of Statistics (Honours),ANU College of Business and Economics,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hstat
+Bachelor of Visual Arts,ANU College of Arts and Social Sciences,主校区,3,TRUE,单学位,https://programsandcourses.anu.edu.au/program/bvart
+Bachelor of Visual Arts (Honours),ANU College of Arts and Social Sciences,主校区,1,TRUE,单学位,https://programsandcourses.anu.edu.au/program/hvart
+Flexible Double Degree - Advanced Computing (Honours),The Australian National University,主校区,5,TRUE,双学位,https://programsandcourses.anu.edu.au/program/4850fdd
+"Flexible Double Degree - Arts, Social Sciences, Business, Science",The Australian National University,主校区,4,TRUE,双学位,https://programsandcourses.anu.edu.au/program/4050fdd
+Flexible Double Degree - Engineering,The Australian National University,主校区,5.5,TRUE,双学位,https://programsandcourses.anu.edu.au/program/4855fdd
+Flexible Double Degree - Law (Honours),The Australian National University,主校区,5,TRUE,双学位,https://programsandcourses.anu.edu.au/program/4350fdd
+Flexible Double Degree PhB Advanced Arts Social Sciences Business & Science,The Australian National University,主校区,5,TRUE,双学位,https://programsandcourses.anu.edu.au/program/4569fdd
