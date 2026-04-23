@@ -59,6 +59,11 @@
     "uniColor": "red"
   },
   {
+    "slug": "ip_paris",
+    "enabled": true,
+    "uniColor": "red"
+  },
+  {
     "slug": "uva",
     "enabled": true,
     "uniColor": "orange"
