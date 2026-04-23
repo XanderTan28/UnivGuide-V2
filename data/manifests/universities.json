@@ -84,6 +84,11 @@
     "uniColor": "orange"
   },
   {
+    "slug": "cityu",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
     "slug": "copenhagen",
     "enabled": true,
     "uniColor": "gray"

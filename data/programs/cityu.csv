@@ -1,0 +1,54 @@
+program,faculty,campus,duration,eng_taught,type,url
+BEng Biomedical Engineering,College of Biomedicine,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/beng-biomedical-engineering
+Biomedical Sciences,College of Biomedicine,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/department-biomedical-sciences-options-bsc-biological-sciences-bsc-biomedical-sciences
+BSc Biological Sciences,College of Biomedicine,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bsc-biological-sciences
+BSc Biomedical Sciences,College of Biomedicine,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bsc-biomedical-sciences
+BSc Computational Finance and Financial Technology,College of Business,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsc-computational-finance-and-financial-technology
+BBA Global Business,College of Business,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bba-global-business
+BBA Accountancy,College of Business,主校区+National Taiwan University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bba-accountancy
+BBA Management,College of Business,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bba-management
+BBA Marketing,College of Business,主校区+National Taiwan University+ESSEC Business School,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bba-marketing
+Economics and Finance,College of Business,主校区+Columbia University+National Taiwan University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/economics-and-finance-majors-bba-business-economics-bba-finance
+Intelligent Information Systems,College of Business,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/department-information-systems-options-bba-global-business-systems-management-bba
+BBA Global Business Systems Management,College of Business,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bba-global-business-systems-management
+BBA Artificial Intelligence in Business,College of Business,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/bba-information-management
+BBA Business Decision Analytics,College of Business,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bba-business-decision-analytics
+BBA Global Operations Management,College of Business,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bba-global-operations-management
+BSc Environment and Sustainable Business,College of Business+School of Energy and Environment+Interdisciplinary,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/bsc-environment-and-sustainable-business
+BEng Environmental Science and Engineering and BBA Finance,College of Business+School of Energy and Environment+Interdisciplinary,主校区,5,TRUE,双学位,https://www.cityu.edu.hk/admo/programmes/bachelor-engineering-environmental-science-and-engineering-and-bachelor-business
+"AI, Computing and Transformation (ACT)",College of Computing,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/ACT
+Data Science,College of Computing,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/data-science-majors-bsc-data-science-bsc-data-and-systems-engineering
+BSc Data Science,College of Computing,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bsc-data-science
+BSc Data and Systems Engineering,College of Computing,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/bsc-data-and-systems-engineering
+BSc Computer Science,College of Computing,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsc-computer-science
+BSc Cybersecurity,College of Computing,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bsc-cybersecurity
+Architecture and Civil Engineering,College of Engineering,主校区+National Taiwan University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/architecture-and-civil-engineering-majors-beng-architectural-engineering-beng-civil
+Electrical Engineering,College of Engineering,"主校区+CentraleSupélec, Paris-Saclay University",4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/electrical-engineering-majors-beng-computer-and-data-engineering-beng-electronic-and
+Mechanical Engineering,College of Engineering,"主校区+CentraleSupélec, Paris-Saclay University",4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/mechanical-engineering-majors-beng-aerospace-engineering-beng-mechanical-engineering-beng
+BEng Materials Science and Engineering,College of Engineering,"主校区+National Taiwan University+CentraleSupélec, Paris-Saclay University",4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/beng-materials-science-and-engineering
+BEng Intelligent Manufacturing Engineering,College of Engineering,"主校区+CentraleSupélec, Paris-Saclay University",4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/beng-intelligent-manufacturing-engineering
+"Pathway for Research, Innovation, and Multinational Engineering (PRIME)",College of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/pathway-research-innovation-and-multinational-engineering-prime
+BEng Innovation and Enterprise Engineering,College of Engineering,"主校区+CentraleSupélec, Paris-Saclay University",4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/beng-innovation-and-enterprise-engineering
+BSocSc International Relations and Global Affairs,College of Liberal Arts and Social Sciences,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsocsc-international-relations-and-global-affairs
+BA Chinese and History,College of Liberal Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/ba-chinese-and-history
+BA English,College of Liberal Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/ba-english
+Media and Communication,College of Liberal Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/media-and-communication-majors-ba-digital-television-and-broadcasting-ba-media-and
+BSocSc Public Affairs and Management,College of Liberal Arts and Social Sciences,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsocsc-public-affairs-and-management
+BA Linguistics and Language Applications,College of Liberal Arts and Social Sciences,主校区+Columbia University+National Taiwan University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/ba-linguistics-and-language-applications
+BSocSc Crime Science,College of Liberal Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bsocsc-crime-science
+BSocSc Psychology,College of Liberal Arts and Social Sciences,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsocsc-psychology
+BSocSc Social Work,College of Liberal Arts and Social Sciences,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bsocsc-social-work
+Global Research Enrichment and Technopreneurship (GREAT),College of Science,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/global-research-enrichment-and-technopreneurship-great
+BSc Chemistry,College of Science,主校区+The University of Manchester,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsc-chemistry
+BSc Computing Mathematics,College of Science,主校区+Columbia University+The University of Edinburgh,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsc-computing-mathematics
+BSc Physics,College of Science,主校区+Columbia University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bsc-physics
+Bachelor of Veterinary Medicine,Jockey Club College of Veterinary Medicine and Life Sciences,主校区,6,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bachelor-veterinary-medicine
+Creative Arts and Technology Excellence (CREATE),School of Creative Media,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/creative-arts-and-technology-excellence-create
+Creative Media,School of Creative Media,主校区+Leuphana University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/creative-media
+BA Creative Media,School of Creative Media,主校区+Leuphana University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/ba-creative-media
+BSc Creative Media,School of Creative Media,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/bsc-creative-media
+BAS New Media,School of Creative Media,主校区+Leuphana University,4,TRUE,联合培养,https://www.cityu.edu.hk/admo/programmes/bas-new-media
+"International Sustainability Programme for Innovation, Research & Entrepreneurship (INSPIRE)",School of Energy and Environment,主校区,4,TRUE,交叉学科（单学位）,https://www.cityu.edu.hk/admo/programmes/international-sustainability-programme-innovation-research-entrepreneurship-inspire
+Energy and Environment,School of Energy and Environment,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/energy-and-environment
+Bachelor of Laws,School of Law,主校区,4,TRUE,单学位,https://www.cityu.edu.hk/admo/programmes/bachelor-laws
+Bachelor of Laws and BBA Accountancy,College of Business+School of Law+Interdisciplinary,主校区,5,TRUE,双学位,https://www.cityu.edu.hk/admo/programmes/bachelor-laws-and-bachelor-business-administration-accountancy
