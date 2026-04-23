@@ -757,6 +757,75 @@ function getRepresentativeProgram(programs) {
   );
 }
 
+function normalizeLocationText(value) {
+  return String(value || '').trim();
+}
+
+function normalizeLocationOrder(value) {
+  if (value === null || value === undefined || value === '') return null;
+
+  const normalized =
+    typeof value === 'number'
+      ? value
+      : Number.parseFloat(String(value).trim());
+
+  return Number.isFinite(normalized) ? normalized : null;
+}
+
+function normalizeLocationItemForDisplay(location) {
+  if (!location) return null;
+
+  const campus = normalizeLocationText(location.campus);
+  const city = normalizeLocationText(location.city);
+  const country = normalizeLocationText(location.country);
+  const region = normalizeLocationText(location.region);
+  const cityScale = normalizeLocationText(location.cityScale ?? location.city_scale);
+  const climate = normalizeLocationText(location.climate);
+  const language = normalizeLocationText(location.language);
+  const residency = normalizeLocationText(location.residency);
+  const languageScore = normalizeLocationOrder(
+    location.languageScore ?? location.language_score
+  );
+  const cityScaleOrder = normalizeLocationOrder(
+    location.cityScaleOrder ?? location.city_scale_order
+  );
+  const climateOrder = normalizeLocationOrder(
+    location.climateOrder ?? location.climate_order
+  );
+  const languageOrder = normalizeLocationOrder(
+    location.languageOrder ?? location.language_order
+  );
+  const residencyOrder = normalizeLocationOrder(
+    location.residencyOrder ?? location.residency_order
+  );
+
+  return {
+    campus,
+    city,
+    country,
+    region,
+    cityScale,
+    climate,
+    language,
+    residency,
+    languageScore,
+    cityScaleOrder,
+    climateOrder,
+    languageOrder,
+    residencyOrder,
+    city_scale: cityScale,
+    language_score: languageScore,
+    climate_order: climateOrder,
+    language_order: languageOrder,
+    residency_order: residencyOrder,
+    city_scale_order: cityScaleOrder
+  };
+}
+
+function normalizeSchoolRepresentativeLocation(location) {
+  return normalizeLocationItemForDisplay(location);
+}
+
 function getRepresentativeLocation(programs) {
   const items = Array.isArray(programs) ? programs : [];
 
@@ -765,7 +834,7 @@ function getRepresentativeLocation(programs) {
     .find((item) => String(item?.campus || '').trim() === '主校区');
 
   if (mainCampusLocation) {
-    return mainCampusLocation;
+    return normalizeSchoolRepresentativeLocation(mainCampusLocation);
   }
 
   const firstProgram = items[0] || null;
@@ -773,19 +842,13 @@ function getRepresentativeLocation(programs) {
     ? firstProgram.location_items[0] || null
     : null;
 
-  return firstLocation || null;
+  return normalizeSchoolRepresentativeLocation(firstLocation);
 }
 
 function buildProgramLocation(program) {
-  const items = (program?.location_items || []).map((item) => ({
-    city: item.city || '',
-    country: item.country || '',
-    region: item.region || '',
-    cityScale: item.city_scale || '',
-    climate: item.climate || '',
-    language: item.language || '',
-    residency: item.residency || ''
-  }));
+  const items = (program?.location_items || [])
+    .map((item) => normalizeLocationItemForDisplay(item))
+    .filter(Boolean);
 
   return {
     items,
@@ -838,8 +901,10 @@ function compareSchools(a, b, metric, direction) {
     }
 
     case 'language': {
-      const byOrder = compareNullableNumber(a.sort_language_order, b.sort_language_order, direction);
+      const byOrder = compareNullableNumber(a.sort_language_order, b.sort_language_order, 'asc');
       if (byOrder !== 0) return byOrder;
+      const byScore = compareNullableNumber(a.sort_language_score, b.sort_language_score, 'asc');
+      if (byScore !== 0) return byScore;
       return compareNullableText(a.sort_language, b.sort_language, direction);
     }
 
@@ -900,31 +965,40 @@ function groupProgramsByUniversity(programs) {
       sort_city: representativeLocation?.city || '',
       sort_country: representativeLocation?.country || '',
       sort_region: representativeLocation?.region || '',
-      sort_city_scale: representativeLocation?.city_scale || '',
+      sort_city_scale: representativeLocation?.cityScale || '',
       sort_climate: representativeLocation?.climate || '',
       sort_language: representativeLocation?.language || '',
       sort_residency: representativeLocation?.residency || '',
 
-      sort_city_scale_order: representativeLocation?.city_scale_order ?? null,
-      sort_climate_order: representativeLocation?.climate_order ?? null,
-      sort_language_order: representativeLocation?.language_order ?? null,
-      sort_residency_order: representativeLocation?.residency_order ?? null
+      sort_city_scale_order: representativeLocation?.cityScaleOrder ?? null,
+      sort_climate_order: representativeLocation?.climateOrder ?? null,
+      sort_language_score: representativeLocation?.languageScore ?? null,
+      sort_language_order: representativeLocation?.languageOrder ?? null,
+      sort_residency_order: representativeLocation?.residencyOrder ?? null
     };
   });
 }
 
 function buildLocationPayload(location) {
-  const items = Array.isArray(location?.items)
-    ? location.items
-    : location
-      ? [location]
-      : [];
+  const rawItems = Array.isArray(location)
+    ? location
+    : Array.isArray(location?.items)
+      ? location.items
+      : location
+        ? [location]
+        : [];
+
+  const items = rawItems
+    .map((item) => normalizeLocationItemForDisplay(item))
+    .filter(Boolean);
 
   return encodeURIComponent(JSON.stringify(items));
 }
 
 function renderLocationDetailCards(locations) {
-  const items = Array.isArray(locations) ? locations.filter(Boolean) : [];
+  const items = (Array.isArray(locations) ? locations : [])
+    .map((location) => normalizeLocationItemForDisplay(location))
+    .filter(Boolean);
 
   if (!items.length) {
     return `
@@ -944,7 +1018,7 @@ function renderLocationDetailCards(locations) {
           <h4 class="detail-location-hero__title">${escapeHtml(location.city || '地区信息')}</h4>
           <p class="detail-location-hero__subtitle">
             ${escapeHtml(
-              [location.country, location.region].filter(Boolean).join(' · ')
+              [location.country, location.region].filter(Boolean).join(' / ') || '-'
             )}
           </p>
         </div>
@@ -953,22 +1027,22 @@ function renderLocationDetailCards(locations) {
       <dl class="detail-meta-grid">
         <div class="detail-meta-item">
           <dt>城市规模</dt>
-          <dd>${escapeHtml(location.cityScale || '')}</dd>
+          <dd>${escapeHtml(location.cityScale || '-')}</dd>
         </div>
 
         <div class="detail-meta-item">
           <dt>气候</dt>
-          <dd>${escapeHtml(location.climate || '')}</dd>
+          <dd>${escapeHtml(location.climate || '-')}</dd>
         </div>
 
         <div class="detail-meta-item">
           <dt>语言环境</dt>
-          <dd>${escapeHtml(location.language || '')}</dd>
+          <dd>${escapeHtml(location.language || '-')}</dd>
         </div>
 
         <div class="detail-meta-item">
           <dt>居留</dt>
-          <dd>${escapeHtml(location.residency || '')}</dd>
+          <dd>${escapeHtml(location.residency || '-')}</dd>
         </div>
       </dl>
     </section>
@@ -995,7 +1069,9 @@ function openLocationDialog(locations) {
   const body = document.getElementById('locationDetailBody');
   if (!dialog || !body) return;
 
-  const items = Array.isArray(locations) ? locations.filter(Boolean) : [];
+  const items = (Array.isArray(locations) ? locations : [])
+    .map((location) => normalizeLocationItemForDisplay(location))
+    .filter(Boolean);
 
   body.innerHTML = renderLocationDetailCards(items);
 
@@ -1103,7 +1179,7 @@ function renderLocationMiniCardList(locations, options = {}) {
 
 function renderLivingConditionCard(location) {
   const entries = [
-    ['\u57ce\u5e02\u89c4\u6a21', location?.city_scale],
+    ['\u57ce\u5e02\u89c4\u6a21', location?.cityScale ?? location?.city_scale],
     ['\u6c14\u5019', location?.climate],
     ['\u8bed\u8a00\u73af\u5883', location?.language],
     ['\u5c45\u7559', location?.residency]

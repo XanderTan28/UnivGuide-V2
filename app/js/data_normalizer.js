@@ -26,8 +26,14 @@ function buildValueOrderMaps(rows, keyField, valueField) {
 
     if (key) valueMap[key] = value;
 
-    if (value && order != null && orderMap[value] == null) {
-      orderMap[value] = order;
+    if (order != null) {
+      if (key && orderMap[key] == null) {
+        orderMap[key] = order;
+      }
+
+      if (value && orderMap[value] == null) {
+        orderMap[value] = order;
+      }
     }
   });
 
@@ -130,11 +136,14 @@ function buildLocationItems({
   countryMap,
   regionMap,
   cityScaleMap,
+  cityScaleOrderMap,
   climateMap,
+  climateOrderMap,
   languageDifficultyMap,
   languageScoreMap,
   languageOrderMap,
-  residencyMap
+  residencyMap,
+  residencyOrderMap
 }) {
   const items = [];
   const seenCities = new Set();
@@ -149,11 +158,14 @@ function buildLocationItems({
     const country = countryMap[city] || '';
     const region = country ? (regionMap[country] || '') : '';
     const cityScale = cityScaleMap[city] || '';
+    const cityScaleOrder = cityScaleOrderMap[city] ?? null;
     const climate = climateMap[city] || '';
+    const climateOrder = climateOrderMap[city] ?? null;
     const language = languageDifficultyMap[city] || '';
     const languageScore = languageScoreMap[city] ?? null;
     const languageOrder = languageOrderMap[city] ?? null;
     const residency = country ? (residencyMap[country] || '') : '';
+    const residencyOrder = country ? (residencyOrderMap[country] ?? null) : null;
 
     items.push({
       campus,
@@ -161,11 +173,14 @@ function buildLocationItems({
       country,
       region,
       city_scale: cityScale,
+      city_scale_order: cityScaleOrder,
       climate,
+      climate_order: climateOrder,
       language,
       language_score: languageScore,
       language_order: languageOrder,
-      residency
+      residency,
+      residency_order: residencyOrder
     });
   });
 
@@ -246,11 +261,14 @@ export function normalizePrograms(loaded) {
         countryMap,
         regionMap,
         cityScaleMap,
+        cityScaleOrderMap,
         climateMap,
+        climateOrderMap,
         languageDifficultyMap,
         languageScoreMap,
         languageOrderMap,
-        residencyMap
+        residencyMap,
+        residencyOrderMap
       });
 
       const cityList = unique(
