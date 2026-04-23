@@ -1087,7 +1087,7 @@ function formatUniversityDisplayName(displayName) {
   const raw = String(displayName || '').trim();
   if (!raw) return '';
 
-  const match = raw.match(/^(.*)\(([A-Za-z0-9._-]+)\)$/);
+  const match = raw.match(/^(.*?)\(([^()]+)\)$/);
   if (!match) return raw;
 
   const mainName = String(match[1] || '').trim();
