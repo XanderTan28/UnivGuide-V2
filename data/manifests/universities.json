@@ -99,6 +99,11 @@
     "uniColor": "orange"
   },
   {
+    "slug": "lmu",
+    "enabled": true,
+    "uniColor": "gray"
+  },
+  {
     "slug": "copenhagen",
     "enabled": true,
     "uniColor": "gray"
