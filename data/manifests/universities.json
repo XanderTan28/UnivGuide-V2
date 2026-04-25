@@ -114,6 +114,11 @@
     "uniColor": "gray"
   },
   {
+    "slug": "ku_leuven",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
     "slug": "copenhagen",
     "enabled": true,
     "uniColor": "gray"

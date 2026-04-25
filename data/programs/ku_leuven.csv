@@ -1,0 +1,9 @@
+program,faculty,campus,duration,eng_taught,type,url
+Bachelor of Theology and Religious Studies,Faculty of Theology and Religious Studies,主校区,3,TRUE,单学位,https://www.kuleuven.be/programmes/bachelor-theology-religious-studies
+Bachelor of Philosophy,Institute of Philosophy,主校区,3,TRUE,单学位,https://www.kuleuven.be/programmes/bachelor-philosophy
+Bachelor of Engineering Technology,Faculty of Engineering Technology,主校区 (Group T Leuven Campus),3,TRUE,单学位,https://www.kuleuven.be/programmes/bachelor-engineering-technology
+Bachelor of Business Administration,Faculty of Economics and Business,Brussels Campus,3,TRUE,单学位,https://www.kuleuven.be/programmes/bachelor-business-administration
+Bachelor of Business Engineering,Faculty of Economics and Business,Brussels Campus + UCLouvain Saint-Louis Bruxelles,3,TRUE,联合培养,https://www.kuleuven.be/programmes/bachelor-business-engineering
+Bachelor of Arts in European Studies,Faculty of Social Sciences,主校区 + Alma Mater Studiorum Università di Bologna + Universidad Complutense de Madrid + Uniwersytet Jagiellonski w Krakowie + Universität Zürich + The University of Edinburgh + Université Paris 1 Panthéon-Sorbonne + Helsingin Yliopisto / Helsingfors Universitet + Universiteit Leiden + University College Dublin,3,TRUE,联合培养,https://www.kuleuven.be/programmes/bachelor-european-studies
+Bachelor of Laws (Trilingual: Dutch, French and English),Faculty of Law and Criminology,Brussels Campus + UCLouvain Saint-Louis Bruxelles,3,TRUE,联合培养,https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_57662723
+Joint Bachelor in Sustainability,Faculty of Economics and Business,Brussels Campus + Uniwersytet Jagielloński w Krakowie + Helsingin Yliopisto / Helsingfors Universitet + Universidad Complutense de Madrid + Université Paris 1 Panthéon-Sorbonne + Universität Zürich + Freie Universität Berlin + The University of Edinburgh,3,TRUE,联合培养,https://www.kuleuven.be/programmes/joint-bachelor-in-sustainability
