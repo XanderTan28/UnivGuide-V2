@@ -109,6 +109,11 @@
     "uniColor": "orange"
   },
   {
+    "slug": "paris_saclay",
+    "enabled": true,
+    "uniColor": "gray"
+  },
+  {
     "slug": "copenhagen",
     "enabled": true,
     "uniColor": "gray"

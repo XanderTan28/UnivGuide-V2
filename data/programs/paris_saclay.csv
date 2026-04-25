@@ -1,0 +1,41 @@
+program,faculty,campus,duration,eng_taught,type,url
+"(LDD) Chimie, Sciences de la vie",UFR Sciences,主校区+Campus Versailles,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/ldd-chimie-sciences-de-la-vie
+"(LDD) Physique, Chimie",UFR Sciences,主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/ldd-physique-chimie
+Administration économique et sociale,UFR Droit Economie Management,Site Guyancourt+Site Evry,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/administration-economique-et-sociale
+Chimie,IUT d'Orsay,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/university-technology-degree/chimie
+Chimie,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/chimie
+"Droit, Economie",UFR Droit Economie Management,Campus Sceaux,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/droit-economie
+"Droit, Informatique",UFR Droit Economie Management+UFR Sciences,Campus Sceaux+主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/droit-informatique
+"Droit, Sciences et Innovation",UFR Droit Economie Management+UFR Sciences,Campus Sceaux+主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/droit-sciences-et-innovation
+Droit,UFR Droit Economie Management,Campus Sceaux+Site Evry,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/droit
+Economie et gestion,UFR Droit Economie Management,Campus Sceaux+Site Evry,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/economie-et-gestion
+"Economie, Mathématiques",UFR Droit Economie Management+UFR Sciences,Campus Sceaux+主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/economie-mathematiques
+Gestion des entreprises et des administrations,IUT Sceaux,Campus Sceaux,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/university-technology-degree/gestion-des-entreprises-et-des-administrations
+Génie mécanique et productique,IUT Cachan,Campus Cachan,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/university-technology-degree/genie-mecanique-et-productique
+Génie électrique et informatique industrielle,IUT Cachan,Campus Cachan,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/university-technology-degree/genie-electrique-et-informatique-industrielle
+Histoire,UFR Sciences Sociales,Site Guyancourt,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/histoire
+"Informatique, Mathématiques",UFR Sciences,主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/informatique-mathematiques
+"Informatique, Sciences de la vie",UFR Sciences,主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/informatique-sciences-de-la-vie
+Informatique,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/informatique
+Informatique,IUT Orsay,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/university-technology-degree/informatique
+Langues étrangères appliquées,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/langues-etrangeres-appliquees
+"Mathématiques, Physique et Sciences pour l'Ingénieur",UFR Sciences,主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/mathematiques-physique-et-sciences-pour-lingenieur
+"Mathématiques, Sciences de la vie",UFR Sciences,主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/mathematiques-sciences-de-la-vie
+Mathématiques,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/mathematiques
+Mesures Physiques,IUT Orsay,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/university-technology-degree/mesures-physiques
+Physique,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/physique
+Professorat des écoles,Université Paris-Saclay,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/professorat-des-ecoles
+"STAPS, Sciences pour l'ingénieur",UFR Sciences du Sport+UFR Sciences,Campus Orsay-Bures+主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/staps-sciences-pour-lingenieur
+STAPS-Activité Physique Adaptée-Santé,UFR Sciences du Sport,Campus Orsay-Bures,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/staps-activite-physique-adaptee-sante
+STAPS-Education et Motricité,UFR Sciences du Sport,Campus Orsay-Bures,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/staps-education-et-motricite
+STAPS-Entraînement sportif,UFR Sciences du Sport,Campus Orsay-Bures,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/staps-entrainement-sportif
+STAPS-Management du Sport,UFR Sciences du Sport,Campus Orsay-Bures,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/staps-management-du-sport
+"Science des données, société et santé",Université Paris-Saclay,主校区+Jouy-en-Josas+Palaiseau,3,FALSE,交叉学科（单学位）,https://www.universite-paris-saclay.fr/en/education/cpes-multidisciplinary-higher-education-programme/science-des-donnees-societe-et-sante
+Sciences de la Terre,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/sciences-de-la-terre
+Sciences de la Vie,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/sciences-de-la-vie
+Sciences de la terre et Sciences Physique,UFR Sciences,主校区,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/sciences-de-la-terre-et-sciences-physique
+Sciences et technologies,UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/sciences-et-technologies
+"Sciences, Enseignement, Médiation",UFR Sciences,主校区,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/sciences-enseignement-mediation
+"Sociologie, Science politique",UFR Sciences Sociales+UFR Droit Economie Management,Site Guyancourt+Campus Sceaux,3,FALSE,双学位,https://www.universite-paris-saclay.fr/en/education/licence-double-diplome-undergraduate-double-degree/sociologie-science-politique
+Sociologie,UFR Sciences Sociales,Site Guyancourt+Site Evry,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/licence-undergraduate-programme/sociologie
+Techniques de commercialisation,IUT Sceaux,Campus Sceaux,3,FALSE,单学位,https://www.universite-paris-saclay.fr/en/education/university-technology-degree/techniques-de-commercialisation
