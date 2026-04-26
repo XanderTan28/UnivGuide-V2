@@ -119,6 +119,21 @@
     "uniColor": "orange"
   },
   {
+    "slug": "auckland",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
+    "slug": "uwa",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
+    "slug": "adelaide",
+    "enabled": true,
+    "uniColor": "orange"
+  },
+  {
     "slug": "copenhagen",
     "enabled": true,
     "uniColor": "gray"

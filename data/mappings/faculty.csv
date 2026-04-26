@@ -1,250 +1,274 @@
-faculty,faculty_group
-Faculty of Social Sciences,社会科学与公共政策
-"Department of Humanities, Social and Political Sciences",社会科学与公共政策
-School of Social Sciences,社会科学与公共政策
-School of Humanities and Social Science,社会科学与公共政策
-Faculty of Social Science,社会科学与公共政策
-TUM School of Social Sciences and Technology,社会科学与公共政策
-Faculty of Arts and Social Sciences,社会科学与公共政策
-School of Social Sciences (SSS),社会科学与公共政策
-Faculty of Social and Behavioural Sciences,社会科学与公共政策
-Erasmus School of Social and Behavioural Sciences,社会科学与公共政策
-Governance and Global Affairs,社会科学与公共政策
-Social and Behavioural Sciences,社会科学与公共政策
-Dauphine-PSL,社会科学与公共政策
-ANU College of Asia and the Pacific,社会科学与公共政策
-"Faculty of Technology, Policy and Management",社会科学与公共政策
-"Department of Mathematics",理学
-Faculty of Science,理学
-"College of Humanities and Sciences",理学
-Department of Biology,理学
-Department of Chemistry and Applied Biosciences,理学
-"Department of Earth and Planetary Sciences",理学
-Department of Physics,理学
-"Department of Environmental Systems Science",理学
-School of Biological Sciences,理学
-School of Physical and Mathematical Sciences,理学
-The Asian School of the Environment,理学
-School of Science,理学
-TUM School of Life Sciences,理学
-"TUM School of Natural Sciences",理学
-"School of Basic Sciences (SB)",理学
-School of Biological Sciences (SBS),理学
-School of Physical and Mathematical Sciences (SPMS),理学
-The Asian School of the Environment (ASE),理学
-Science,理学
-Faculty of Science (Institute for Interdisciplinary Studies),理学
-Department of Mathematics,理学
-"Department of Physics",理学
-ANU College of Science and Medicine,理学
-"Faculty of Applied Sciences",理学
-Leiden University,理学
-Faculty of Law,法律
-Law & Justice,法律
-"Amsterdam Law School",法律
-Erasmus School of Law,法律
-Law,法律
-Dauphine-PSL,法律
+﻿faculty,faculty_group
+"Arts, Design & Architecture",传媒、设计与创意科技
+CELSA,传媒、设计与创意科技
+"College of Creative Arts, Design and Humanities",传媒、设计与创意科技
+ENSAD - PSL,传媒、设计与创意科技
+ENSCI,传媒、设计与创意科技
+"Erasmus School of History, Culture and Communication",传媒、设计与创意科技
+Faculty of Industrial Design Engineering,传媒、设计与创意科技
+"School of Art, Design and Media",传媒、设计与创意科技
+"School of Art, Design and Media (ADM)",传媒、设计与创意科技
+School of Creative Media,传媒、设计与创意科技
+School of Design,传媒、设计与创意科技
+School of Fashion and Textiles,传媒、设计与创意科技
+School of Future Media,传媒、设计与创意科技
+Wee Kim Wee School of Communication and Information,传媒、设计与创意科技
+Wee Kim Wee School of Communication and Information (WKWSCI),传媒、设计与创意科技
+Academy of Interdisciplinary Studies,创新与跨学科
+Amsterdam University College (joint UvA/VU),创新与跨学科
+College of Science,创新与跨学科
+"College of Science, Humanities and Society of Université PSL",创新与跨学科
+College of Undergraduate Studies,创新与跨学科
+Division of Environment and Sustainability,创新与跨学科
+Erasmus University College,创新与跨学科
+Interdisciplinary,创新与跨学科
+Monash College,创新与跨学科
+NTU Honours College,创新与跨学科
+School of Innovation,创新与跨学科
+The Australian National University,创新与跨学科
+The University of Auckland,创新与跨学科
+Université Paris-Saclay,创新与跨学科
+Universiteit Leiden,创新与跨学科
+Amsterdam Law School,法律
 "ANU College of Law, Governance and Policy",法律
-Faculty of Education,教育
-National Institute of Education,教育
-National Institute of Education (NIE),教育
-Université PSL,教育
-Lycée Henri-IV,教育
-Faculty of Architecture,建筑与建成环境
-"Faculty of Architecture, Building and Planning",建筑与建成环境
-Department of Architecture,建筑与建成环境
-"Department of Civil, Environmental and Geomatic Engineering",建筑与建成环境
-"School of Architecture, Civil and Environmental Engineering (ENAC)",建筑与建成环境
-"Sydney School of Architecture, Design and Planning","建筑与建成环境"
-Paris-Malaquais - PSL,建筑与建成环境
-"Faculty of Architecture and the Built Environment",建筑与建成环境
-Faculty of Engineering,工程、计算与技术
-School of Biomedical Engineering,工程、计算与技术
-School of Computing and Data Science,工程、计算与技术
+Auckland Law School,法律
+College of Business and Law,法律
+Dauphine-PSL,法律
+Erasmus School of Law,法律
+Faculty of Law,法律
+Faculty of Law and Criminology,法律
+Law,法律
+Law & Justice,法律
+Panthéon-Assas Université,法律
+School of Law,法律
+UFR Droit Economie Management,法律
+UWA Law School,法律
+ANU College of Systems and Society,工程、计算与技术
+College of Computing,工程、计算与技术
+College of Computing and Data Science,工程、计算与技术
+College of Computing and Data Science (CCDS),工程、计算与技术
 College of Design and Engineering,工程、计算与技术
-School of Computing,工程、计算与技术
+College of Engineering,工程、计算与技术
+College of Engineering (CoE),工程、计算与技术
+College of Engineering and Information Technology,工程、计算与技术
+Dauphine-PSL,工程、计算与技术
 Department of Biosystems Science and Engineering,工程、计算与技术
 Department of Computer Science,工程、计算与技术
 Department of Information Technology and Electrical Engineering,工程、计算与技术
 Department of Materials,工程、计算与技术
 Department of Mechanical and Process Engineering,工程、计算与技术
-"College of Computing and Data Science",工程、计算与技术
-"School of Chemistry, Chemical Engineering and Biotechnology",工程、计算与技术
-School of Civil and Environmental Engineering,工程、计算与技术
-School of Electrical and Electronic Engineering,工程、计算与技术
-School of Materials Science and Engineering,工程、计算与技术
-School of Mechanical and Aerospace Engineering,工程、计算与技术
-College of Engineering,工程、计算与技术
-School of Engineering,工程、计算与技术
-"TUM School of Computation, Information and Technology",工程、计算与技术
-TUM School of Engineering and Design,工程、计算与技术
-TUM Asia,工程、计算与技术
-Singapore Institute of Technology,工程、计算与技术
-School of Computer and Communication Sciences (IC),工程、计算与技术
-School of Engineering (STI),工程、计算与技术
-College of Computing and Data Science (CCDS),工程、计算与技术
-"School of Chemistry, Chemical Engineering and Biotechnology (CCEB)",工程、计算与技术
-School of Civil and Environmental Engineering (CEE),工程、计算与技术
-School of Electrical and Electronic Engineering (EEE),工程、计算与技术
-School of Materials Science and Engineering (MSE),工程、计算与技术
-School of Mechanical and Aerospace Engineering (MAE),工程、计算与技术
-"College of Engineering (CoE)",工程、计算与技术
-Engineering,工程、计算与技术
 DTU (joint with UCPH),工程、计算与技术
-"School of Electrical Engineering and Computer Science",工程、计算与技术
 École normale supérieure - PSL,工程、计算与技术
-Mines Paris-PSL,工程、计算与技术
-Dauphine-PSL,工程、计算与技术
-Department of Computer Science,工程、计算与技术
-ANU College of Systems and Society,工程、计算与技术
+Engineering,工程、计算与技术
+Engineering and Design,工程、计算与技术
 Faculty of Aerospace Engineering,工程、计算与技术
 Faculty of Civil Engineering and Geosciences,工程、计算与技术
-"Faculty of Electrical Engineering, Mathematics and Computer Science",工程、计算与技术
-Faculty of Mechanical Engineering,工程、计算与技术
-Faculty of Business and Economics,商业、经济与管理
-HKU Business School,商业、经济与管理
-NUS Business School,商业、经济与管理
-"Department of Management, Technology, and Economics",商业、经济与管理
-Nanyang Business School,商业、经济与管理
-School of Business and Management,商业、经济与管理
-University of Southern California,商业、经济与管理
-Bocconi University,商业、经济与管理
-Nazarbayev University Graduate School of Business,商业、经济与管理
-Faculty of Business Administration,商业、经济与管理
-TUM School of Management,商业、经济与管理
-"University of Sydney Business School",商业、经济与管理
-Nanyang Business School (NBS),商业、经济与管理
-UNSW Business School,商业、经济与管理
-UNSW Canberra,商业、经济与管理
-Faculty of Economics and Business,商业、经济与管理
-Erasmus School of Economics,商业、经济与管理
-"Rotterdam School of Management, Erasmus University",商业、经济与管理
-Dauphine-PSL,商业、经济与管理
-Department of Economics,商业、经济与管理
-"ANU College of Business and Economics",商业、经济与管理
-Faculty of Dentistry,医学与健康
-"Faculty of Medicine, Dentistry and Health Sciences",医学与健康
-Li Ka Shing Faculty of Medicine,医学与健康
-Yong Loo Lin School of Medicine,医学与健康
-Alice Lee Centre for Nursing Studies,医学与健康
-"NUS Pharmacy and Pharmaceutical Sciences",医学与健康
-Department of Health Sciences and Technology,医学与健康
-Lee Kong Chian School of Medicine,医学与健康
-Faculty of Medicine,医学与健康
-TUM School of Medicine and Health,医学与健康
-School of Life Sciences (SV),医学与健康
-Faculty of Medicine and Health,医学与健康
-Lee Kong Chian School of Medicine (LKCMedicine),医学与健康
-Medicine & Health,医学与健康
-Faculty of Dentistry (ACTA),医学与健康
-Faculty of Health and Medical Sciences,医学与健康
-Erasmus MC,医学与健康
-Erasmus School of Health Policy & Management,医学与健康
-Medicine/LUMC,医学与健康
-LUMC,医学与健康
-Erasmus MC,医学与健康
-School of Innovation,创新与跨学科
-NTU Honours College,创新与跨学科
-Academy of Interdisciplinary Studies,创新与跨学科
-Division of Environment and Sustainability,创新与跨学科
-Amsterdam University College (joint UvA/VU),创新与跨学科
-"Erasmus University College",创新与跨学科
-Universiteit Leiden,创新与跨学科
-"College of Science, Humanities and Society of Université PSL",创新与跨学科
-The Australian National University,创新与跨学科
-School of Future Media,传媒、设计与创意科技
-"School of Art, Design and Media",传媒、设计与创意科技
-Wee Kim Wee School of Communication and Information,传媒、设计与创意科技
-"School of Art, Design and Media (ADM)",传媒、设计与创意科技
-Wee Kim Wee School of Communication and Information (WKWSCI),传媒、设计与创意科技
-"Arts, Design & Architecture",传媒、设计与创意科技
-"Erasmus School of History, Culture and Communication",传媒、设计与创意科技
-"ENSAD - PSL",传媒、设计与创意科技
-"Faculty of Industrial Design Engineering",传媒、设计与创意科技
-Faculty of Arts,人文、艺术与文化
-Yong Siew Toh Conservatory of Music,人文、艺术与文化
-School of Humanities,人文、艺术与文化
-Sydney Conservatorium of Music,人文、艺术与文化
-School of Humanities (SOH),人文、艺术与文化
-Faculty of Humanities,人文、艺术与文化
-Erasmus School of Philosophy,人文、艺术与文化
-Archaeology,人文、艺术与文化
-Humanities,人文、艺术与文化
-CNSAD-PSL,人文、艺术与文化
-ANU College of Arts and Social Sciences,人文、艺术与文化
-Faculty of Business,商业、经济与管理
 Faculty of Computer and Mathematical Sciences,工程、计算与技术
-Faculty of Health and Social Sciences,医学与健康
-Faculty of Construction and Environment,建筑与建成环境
-School of Design,传媒、设计与创意科技
-School of Fashion and Textiles,传媒、设计与创意科技
-School of Hotel and Tourism Management,商业、经济与管理
-College of Undergraduate Studies,创新与跨学科
-Copenhagen Business School,商业、经济与管理
-Modul University Vienna,商业、经济与管理
-College of Biomedicine,医学与健康
-College of Business,商业、经济与管理
-College of Computing,工程、计算与技术
-College of Engineering,工程、计算与技术
-College of Liberal Arts and Social Sciences,社会科学与公共政策
-College of Science,理学
-Interdisciplinary,创新与跨学科
-Jockey Club College of Veterinary Medicine and Life Sciences,医学与健康
-School of Creative Media,传媒、设计与创意科技
-School of Energy and Environment,理学
-School of Law,法律
+"Faculty of Electrical Engineering, Mathematics and Computer Science",工程、计算与技术
+Faculty of Engineering,工程、计算与技术
+Faculty of Engineering Technology,工程、计算与技术
+"Faculty of Engineering, Architecture and Information Technology",工程、计算与技术
+Faculty of Information Technology,工程、计算与技术
+"Faculty of Mathematics, Informatics and Statistics",工程、计算与技术
+Faculty of Mechanical Engineering,工程、计算与技术
+Faculty of Science and Engineering,工程、计算与技术
+IUT Cachan,工程、计算与技术
+Mines Paris-PSL,工程、计算与技术
+School of Biomedical Engineering,工程、计算与技术
+"School of Chemistry, Chemical Engineering and Biotechnology",工程、计算与技术
+"School of Chemistry, Chemical Engineering and Biotechnology (CCEB)",工程、计算与技术
+School of Civil and Environmental Engineering,工程、计算与技术
+School of Civil and Environmental Engineering (CEE),工程、计算与技术
+School of Computer and Communication Sciences (IC),工程、计算与技术
+School of Computing,工程、计算与技术
+School of Computing and Data Science,工程、计算与技术
+"School of Data, Science and Engineering",工程、计算与技术
+School of Electrical and Electronic Engineering,工程、计算与技术
+School of Electrical and Electronic Engineering (EEE),工程、计算与技术
+School of Electrical Engineering and Computer Science,工程、计算与技术
+School of Engineering,工程、计算与技术
+School of Engineering,工程、计算与技术
+School of Engineering (STI),工程、计算与技术
+School of Materials Science and Engineering,工程、计算与技术
+School of Materials Science and Engineering (MSE),工程、计算与技术
+School of Mechanical and Aerospace Engineering,工程、计算与技术
+School of Mechanical and Aerospace Engineering (MAE),工程、计算与技术
+"School of Physics, Mathematics and Computing",工程、计算与技术
+Singapore Institute of Technology,工程、计算与技术
+TUM Asia,工程、计算与技术
+"TUM School of Computation, Information and Technology",工程、计算与技术
+TUM School of Engineering and Design,工程、计算与技术
+"College of Creative Arts, Design and Humanities",建筑与建成环境
+Department of Architecture,建筑与建成环境
+"Department of Civil, Environmental and Geomatic Engineering",建筑与建成环境
+Faculty of Architecture,建筑与建成环境
+Faculty of Architecture and the Built Environment,建筑与建成环境
+"Faculty of Architecture, Building and Planning",建筑与建成环境
 Faculty of Art,建筑与建成环境
 "Faculty of Art, Design and Architecture",建筑与建成环境
-Faculty of Arts,人文、艺术与文化
-Faculty of Business and Economics,商业、经济与管理
+Faculty of Construction and Environment,建筑与建成环境
+Paris-Malaquais - PSL,建筑与建成环境
+"School of Architecture, Civil and Environmental Engineering (ENAC)",建筑与建成环境
+School of Design,建筑与建成环境
+"Sydney School of Architecture, Design and Planning",建筑与建成环境
+"College of Education, Behavioural and Social Sciences",教育
 Faculty of Education,教育
-Faculty of Engineering,工程、计算与技术
-Faculty of Information Technology,工程、计算与技术
-Faculty of Law,法律
-"Faculty of Medicine, Nursing and Health Sciences",医学与健康
-Faculty of Pharmacy and Pharmaceutical Sciences,医学与健康
-Faculty of Science,理学
-Monash College,创新与跨学科
-"Faculty of Business, Economics and Law",商业、经济与管理
-"Faculty of Engineering, Architecture and Information Technology",工程、计算与技术
-"Faculty of Health, Medicine and Behavioural Sciences",医学与健康
-"Faculty of Humanities, Arts and Social Sciences",人文、艺术与文化
-Faculty for the Study of Culture,人文、艺术与文化
-Faculty of Business Administration - Munich School of Management,商业、经济与管理
-Faculty of Chemistry and Pharmacy,理学
-Faculty of Economics,商业、经济与管理
-Faculty of Geosciences,理学
-Faculty of History and the Arts,人文、艺术与文化
-Faculty of Languages and Literatures,人文、艺术与文化
-Faculty of Mathematics, Informatics and Statistics,工程、计算与技术
-"Faculty of Philosophy, Philosophy of Science and Religious Studies",人文、艺术与文化
-Faculty of Physics,理学
 Faculty of Psychology and Educational Sciences,教育
-Faculty of Social Sciences,社会科学与公共政策
+Graduate School of Education,教育
+Lycée Henri-IV,教育
+National Institute of Education,教育
+National Institute of Education (NIE),教育
+Université PSL,教育
+ANU College of Science and Medicine,理学
+College of Humanities and Sciences,理学
+College of Science,理学
+Department of Biology,理学
+Department of Chemistry and Applied Biosciences,理学
+Department of Earth and Planetary Sciences,理学
+Department of Environmental Systems Science,理学
+Department of Mathematics,理学
+Department of Mathematics,理学
+Department of Physics,理学
+Department of Physics,理学
+Faculty of Applied Sciences,理学
 Faculty of Biology,理学
-"School of Data, Science and Engineering",工程、计算与技术
-School of Arts and Humanities,人文、艺术与文化
-"School of Law, Economics and Business",商业、经济与管理
-Faculty of Arts and Humanities,人文、艺术与文化
-Faculty of Science and Engineering,工程、计算与技术
-Panthéon-Assas Université,法律
-Faculty of Health,医学与健康
-CELSA,传媒、设计与创意科技
-ENSCI,传媒、设计与创意科技
-faculty,faculty_group
-UFR Sciences,理学
-UFR Droit Economie Management,"法律+商业、经济与管理"
+Faculty of Chemistry and Pharmacy,理学
+Faculty of Geosciences,理学
+Faculty of Physics,理学
+Faculty of Science,理学
+Faculty of Science (Institute for Interdisciplinary Studies),理学
 IUT d'Orsay,理学
 IUT Orsay,理学
-IUT Sceaux,"商业、经济与管理"
-IUT Cachan,工程、计算与技术
-UFR Sciences Sociales,社会科学与公共政策
-Université Paris-Saclay,创新与跨学科
-UFR Sciences du Sport,医学与健康
+Leiden University,理学
+Oceans Graduate School,理学
+School of Basic Sciences (SB),理学
+School of Biological Sciences,理学
+School of Biological Sciences (SBS),理学
+School of Earth Sciences,理学
+School of Energy and Environment,理学
+School of Molecular Sciences,理学
+School of Physical and Mathematical Sciences,理学
+School of Physical and Mathematical Sciences (SPMS),理学
+School of Science,理学
+Science,理学
+The Asian School of the Environment,理学
+The Asian School of the Environment (ASE),理学
+TUM School of Life Sciences,理学
+TUM School of Natural Sciences,理学
+UFR Sciences,理学
+UWA School of Agriculture and Environment,理学
+ANU College of Arts and Social Sciences,人文、艺术与文化
+Archaeology,人文、艺术与文化
+Arts and Education,人文、艺术与文化
+CNSAD-PSL,人文、艺术与文化
+"College of Creative Arts, Design and Humanities",人文、艺术与文化
+Erasmus School of Philosophy,人文、艺术与文化
+Faculty for the Study of Culture,人文、艺术与文化
+Faculty of Arts,人文、艺术与文化
+Faculty of Arts and Humanities,人文、艺术与文化
+Faculty of History and the Arts,人文、艺术与文化
+Faculty of Humanities,人文、艺术与文化
+"Faculty of Humanities, Arts and Social Sciences",人文、艺术与文化
+Faculty of Languages and Literatures,人文、艺术与文化
+"Faculty of Philosophy, Philosophy of Science and Religious Studies",人文、艺术与文化
 Faculty of Theology and Religious Studies,人文、艺术与文化
+Humanities,人文、艺术与文化
 Institute of Philosophy,人文、艺术与文化
-Faculty of Engineering Technology,工程、计算与技术
+School of Arts and Humanities,人文、艺术与文化
+School of Humanities,人文、艺术与文化
+School of Humanities (SOH),人文、艺术与文化
+Sydney Conservatorium of Music,人文、艺术与文化
+UWA Conservatorium of Music,人文、艺术与文化
+Yong Siew Toh Conservatory of Music,人文、艺术与文化
+ANU College of Business and Economics,商业、经济与管理
+Bocconi University,商业、经济与管理
+Business School,商业、经济与管理
+College of Business,商业、经济与管理
+College of Business and Law,商业、经济与管理
+Copenhagen Business School,商业、经济与管理
+Dauphine-PSL,商业、经济与管理
+Department of Economics,商业、经济与管理
+"Department of Management, Technology, and Economics",商业、经济与管理
+Erasmus School of Economics,商业、经济与管理
+Faculty of Business,商业、经济与管理
+Faculty of Business Administration,商业、经济与管理
+Faculty of Business Administration - Munich School of Management,商业、经济与管理
+Faculty of Business and Economics,商业、经济与管理
+"Faculty of Business, Economics and Law",商业、经济与管理
+Faculty of Economics,商业、经济与管理
 Faculty of Economics and Business,商业、经济与管理
+Faculty of Economics and Business,商业、经济与管理
+HKU Business School,商业、经济与管理
+IUT Sceaux,商业、经济与管理
+Modul University Vienna,商业、经济与管理
+Nanyang Business School,商业、经济与管理
+Nanyang Business School (NBS),商业、经济与管理
+Nazarbayev University Graduate School of Business,商业、经济与管理
+NUS Business School,商业、经济与管理
+"Rotterdam School of Management, Erasmus University",商业、经济与管理
+School of Business and Management,商业、经济与管理
+School of Hotel and Tourism Management,商业、经济与管理
+"School of Law, Economics and Business",商业、经济与管理
+TUM School of Management,商业、经济与管理
+UFR Droit Economie Management,商业、经济与管理
+University of Southern California,商业、经济与管理
+University of Sydney Business School,商业、经济与管理
+UNSW Business School,商业、经济与管理
+UNSW Canberra,商业、经济与管理
+UWA Business School,商业、经济与管理
+ANU College of Asia and the Pacific,社会科学与公共政策
+"College of Education, Behavioural and Social Sciences",社会科学与公共政策
+College of Liberal Arts and Social Sciences,社会科学与公共政策
+Dauphine-PSL,社会科学与公共政策
+"Department of Humanities, Social and Political Sciences",社会科学与公共政策
+Erasmus School of Social and Behavioural Sciences,社会科学与公共政策
+Faculty of Arts and Social Sciences,社会科学与公共政策
+Faculty of Social and Behavioural Sciences,社会科学与公共政策
+Faculty of Social Science,社会科学与公共政策
 Faculty of Social Sciences,社会科学与公共政策
-Faculty of Law and Criminology,法律
+"Faculty of Technology, Policy and Management",社会科学与公共政策
+Governance and Global Affairs,社会科学与公共政策
+School of Humanities and Social Science,社会科学与公共政策
+School of Indigenous Studies,社会科学与公共政策
+School of Psychological Science,社会科学与公共政策
+School of Social Sciences,社会科学与公共政策
+School of Social Sciences (SSS),社会科学与公共政策
+Social and Behavioural Sciences,社会科学与公共政策
+TUM School of Social Sciences and Technology,社会科学与公共政策
+UFR Sciences Sociales,社会科学与公共政策
+Alice Lee Centre for Nursing Studies,医学与健康
+College of Biomedicine,医学与健康
+College of Health,医学与健康
+Dental School,医学与健康
+Department of Health Sciences and Technology,医学与健康
+Erasmus MC,医学与健康
+Erasmus School of Health Policy & Management,医学与健康
+Faculty of Dentistry,医学与健康
+Faculty of Dentistry (ACTA),医学与健康
+Faculty of Health,医学与健康
+Faculty of Health and Medical Sciences,医学与健康
+Faculty of Health and Social Sciences,医学与健康
+"Faculty of Health, Medicine and Behavioural Sciences",医学与健康
+Faculty of Medicine,医学与健康
+Faculty of Medicine and Health,医学与健康
+"Faculty of Medicine, Dentistry and Health Sciences",医学与健康
+"Faculty of Medicine, Nursing and Health Sciences",医学与健康
+Faculty of Pharmacy and Pharmaceutical Sciences,医学与健康
+Jockey Club College of Veterinary Medicine and Life Sciences,医学与健康
+Lee Kong Chian School of Medicine,医学与健康
+Lee Kong Chian School of Medicine (LKCMedicine),医学与健康
+Li Ka Shing Faculty of Medicine,医学与健康
+LUMC,医学与健康
+Medical and Health Sciences,医学与健康
+Medical School,医学与健康
+Medicine & Health,医学与健康
+Medicine/LUMC,医学与健康
+NUS Pharmacy and Pharmaceutical Sciences,医学与健康
+School of Allied Health,医学与健康
+School of Biomedical Sciences,医学与健康
+School of Human Sciences,医学与健康
+School of Life Sciences (SV),医学与健康
+School of Population and Global Health,医学与健康
+TUM School of Medicine and Health,医学与健康
+UFR Sciences du Sport,医学与健康
+Yong Loo Lin School of Medicine,医学与健康

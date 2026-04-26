@@ -1,0 +1,147 @@
+program,faculty,campus,duration,eng_taught,type,url
+Social Work,School of Allied Health,主校区+Albany (Regional campus)+Online,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/social-work
+Pharmaceutical Health,School of Allied Health,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/pharmaceutical-health
+Finance,UWA Business School,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/finance
+Music Theatre,UWA Conservatorium of Music,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/music-theatre
+Zoology,School of Biological Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/zoology
+Statistics,"School of Physics, Mathematics and Computing",主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/statistics
+Music and Society,UWA Conservatorium of Music,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/music-and-society
+Social and Environmental Sustainability,School of Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/social-and-environmental-sustainability
+Korean Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/korean-studies
+Quantum Computing,"School of Physics, Mathematics and Computing",主校区,4,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/quantum-computing
+Philosophy,School of Humanities,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/philosophy
+Physiology,School of Human Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/physiology
+Japanese Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/japanese
+Cybersecurity,"School of Physics, Mathematics and Computing",主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/cybersecurity
+Chemistry,School of Molecular Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/chemistry
+Chinese Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/chinese
+Physics,"School of Physics, Mathematics and Computing",主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/physics
+Neuroscience,School of Human Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/neuroscience
+Architecture,School of Design,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/architecture
+Geology,School of Earth Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/geology
+Archaeology,School of Social Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/archaeology
+Botany,School of Biological Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/botany
+Marketing,UWA Business School,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/marketing
+History,School of Humanities,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/history
+Spanish Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/spanish-studies
+Mathematics,"School of Physics, Mathematics and Computing",主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/mathematics
+Music General Studies,UWA Conservatorium of Music,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/music-general-studies
+Contemporary Popular Music,UWA Conservatorium of Music,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/contemporary-popular-music
+Gender Studies,School of Social Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/gender-studies
+Italian Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/italian-studies
+Business Analytics,UWA Business School,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/business-analytics
+Human Genomics,School of Biomedical Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/human-genomics
+Global Business,UWA Business School,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/global-business
+Marine Biology,School of Biological Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/marine-biology
+Accounting,UWA Business School,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/accounting
+Geochemistry (Extended Major),School of Earth Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/geochemistry-extended-major
+Economics,UWA Business School,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/economics-major
+Music Studies,UWA Conservatorium of Music,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/music-studies
+Agribusiness,UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/agribusiness
+Management,UWA Business School,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/management
+Genetics,School of Biomedical Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/genetics
+Plant Biology (Extended Major),School of Biological Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/plant-biology
+Linguistics,School of Social Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/linguistics
+Anthropology,School of Social Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/anthropology
+Business Economics,UWA Business School,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/business-economics
+Financial Economics,UWA Business School,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/financial-economics
+Indonesian Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/indonesian
+German Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/german-studies
+Law and Society,UWA Law School,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/law-and-society
+Geographical Sciences,UWA School of Agriculture and Environment,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/geographical-sciences
+Agricultural Technology,UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/agricultural-technology
+Public Health,School of Population and Global Health,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/public-health
+Computer Science,"School of Physics, Mathematics and Computing",主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/computer-science
+Conservation Biology,School of Biological Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/conservation-biology
+Criminology,School of Social Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/criminology
+Business Management,UWA Business School,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/business-management
+Environmental Science,UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/environmental-science
+Artificial Intelligence,"School of Physics, Mathematics and Computing",主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/artificial-intelligence
+Business Law,UWA Law School,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/business-law
+Human Resource Management,UWA Business School,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/human-resource-management
+Music Extended Major,UWA Conservatorium of Music,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/music-extended-major
+Medical Science,School of Biomedical Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/medical-science
+Data Science,"School of Physics, Mathematics and Computing",主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/data-science
+International Cybersecurity,"School of Physics, Mathematics and Computing",主校区,4,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/international-cybersecurity
+History of Art,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/history-of-art
+Asian Studies,School of Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/asian-studies
+Applied Human Geography,School of Social Sciences,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/applied-human-geography
+French Studies,School of Humanities,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/french-studies
+Environmental Management,UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/environmental-management
+Biodiversity and Evolution (Extended Major),School of Biological Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/biodiversity-and-evolution
+Exercise and Health,School of Human Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/exercise-and-health
+Sport Science,School of Human Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/sport-science
+Marine and Coastal Processes,School of Earth Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/marine-and-coastal-processes
+Fine Arts,School of Design,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/fine-arts
+Integrated Dental Sciences,Dental School,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/integrated-dental-sciences
+Classics and Ancient History,School of Humanities,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/classics-and-ancient-history
+Enterprise and Innovation,UWA Business School,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/enterprise-and-innovation
+Music: Electronic Music and Sound Design,UWA Conservatorium of Music,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/music-electronic-music-and-sound-design
+Agricultural Science,UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/agricultural-science
+Computing and Data Science,"School of Physics, Mathematics and Computing",主校区,4,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/computing-and-data-science
+Microbiology and Immunology,School of Biomedical Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/microbiology-and-immunology
+Environmental Science and Ecology (Extended Major),UWA School of Agriculture and Environment,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/environmental-science-and-ecology
+Human Science and Neuroscience (Extended Major),School of Human Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/human-science-and-neuroscience
+Landscape Architecture Studies,School of Design,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/landscape-architecture-studies
+Aboriginal Health and Wellbeing,School of Population and Global Health,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/aboriginal-health-and-wellbeing
+Communication and Media Studies,School of Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/communication-and-media-studies
+"Indigenous Knowledge, History and Heritage",School of Indigenous Studies,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/indigenous-knowledge-history-and-heritage
+Art History and Curatorial Studies,School of Humanities,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/art-history-and-curatorial-studies
+Environmental Geography and Planning,School of Design,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/environmental-geography-and-planning
+English and Literary Studies,School of Humanities,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/english-and-literary-studies
+Psychology (Extended Major),School of Psychological Science,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/psychology-extended-major
+Work and Employment Relations,School of Social Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/work-and-employment-relations
+Anatomy and Human Biology,School of Human Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/anatomy-and-human-biology
+Biochemistry of Nutrition (Extended Major),School of Molecular Sciences,Albany (Regional campus)+主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/biochemistry-of-nutrition-extended-major
+Pharmacology and Toxicology,School of Biomedical Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/pharmacology-and-toxicology
+Biomedical Engineering,School of Engineering,主校区,4,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/biomedical-engineering
+Humanities in Health and Medicine,School of Population and Global Health,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/humanities-in-health-and-medicine
+Psychological and Behavioural Sciences,School of Psychological Science,主校区+Albany (Regional campus),3,TRUE,单学位,https://www.uwa.edu.au/study/courses/psychological-and-behavioural-sciences
+Human Sciences and Data Analytics (Extended Major),School of Human Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/human-sciences-and-data-analytics
+Marine Science (Extended Major),School of Biological Sciences+School of Earth Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/marine-science-extended-major
+Pathology and Laboratory Medicine,School of Biomedical Sciences,主校区,3,TRUE,单学位,https://www.uwa.edu.au/study/courses/pathology-and-laboratory-medicine
+Biochemistry and Molecular Biology,School of Molecular Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/biochemistry-and-molecular-biology
+Political Science and International Relations,School of Social Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/political-science-and-international-relations
+Wildlife Conservation (Extended Major),School of Biological Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/wildlife-conservation-extended-major
+Molecular Life Sciences (Extended Major),School of Molecular Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/molecular-life-sciences-extended-major
+Integrated Medical Sciences and Clinical Practice,Medical School,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/integrated-medical-sciences-and-clinical-practice
+Chemical Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/chemical-engineering
+Podiatric Health and Medical Sciences,School of Allied Health,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/podiatric-health-and-medical-sciences
+Integrated Earth and Marine Sciences (Extended Major),School of Earth Sciences,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/integrated-earth-and-marine-sciences-extended-major
+Agricultural Science and Technology (Extended Major),UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/agricultural-science-and-technology-extended-major
+"Sport Science, Exercise and Health (Extended Major)",School of Human Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/sport-science-exercise-and-health-extended-major
+Human Sciences (Anatomy and Physiology) (Extended Major),School of Human Sciences,主校区,3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/human-sciences---anatomy-and-physiology
+Environmental Science and Management (Extended Major),UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/environmental-science-and-management-extended-major
+Agribusiness and Agricultural Science (Extended Major),UWA School of Agriculture and Environment,主校区+Albany (Regional campus),3,TRUE,交叉学科（单学位）,https://www.uwa.edu.au/study/courses/agricultural-science-and-agribusiness-extended-major
+Civil Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/civil-engineering
+Bachelor of Arts and Master of Teaching (Secondary),Graduate School of Education,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-arts-and-master-of-teaching-secondary
+Bachelor of Science (Frontier Physics) and Master of Physics,"School of Physics, Mathematics and Computing",主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-science-frontier-physics-and-master-of-physics
+Bachelor of Marine Science and Master of Oceanography,School of Biological Sciences+School of Earth Sciences+Oceans Graduate School,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-marine-science-and-master-of-oceanography
+Bachelor of Science and Master of Teaching (Secondary),Graduate School of Education,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-science-and-master-of-teaching-secondary
+Bachelor of Economics and Master of Economics,UWA Business School,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-economics-and-master-of-economics
+Software Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/software-engineering
+Bachelor of Earth Sciences and Master of Oceanography,School of Earth Sciences+Oceans Graduate School,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-earth-sciences-and-master-of-oceanography
+Bachelor of Earth Sciences and Master of Geoscience,School of Earth Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-earth-sciences-and-master-of-geoscience
+Bachelor of Marine Science and Master of Marine Biology,School of Biological Sciences+School of Earth Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-marine-science-and-master-of-marine-biology
+Bachelor of Biological Science and Master of Biotechnology,School of Biological Sciences+School of Molecular Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-biological-science-and-master-of-biotechnology
+Bachelor of Science (Frontier Physics) and Master of Physics - Medical Physics,"School of Physics, Mathematics and Computing",主校区,4.5,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-science-frontier-physics-and-master-of-physics---medical-physics
+Bachelor of Molecular Sciences and Master of Biotechnology,School of Molecular Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-molecular-sciences-and-master-of-biotechnology
+Mechanical Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/mechanical-engineering
+Bachelor of Marine Science and Master of Environmental Science,School of Biological Sciences+School of Earth Sciences+UWA School of Agriculture and Environment,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-marine-science-and-master-of-environmental-science
+Mining Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/mining-engineering
+Bachelor of Human Sciences and Master of Biomedical Science,School of Human Sciences+School of Biomedical Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-human-sciences-and-master-of-biomedical-science
+Bachelor of Agribusiness and Master of Agricultural Economics,UWA School of Agriculture and Environment,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-agribusiness-and-master-of-agricultural-economics
+Bachelor of Human Sciences and Master of Bioinformatics,School of Human Sciences+School of Molecular Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-human-sciences-and-master-of-bioinformatics
+Bachelor of Biological Science and Master of Biological Science,School of Biological Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-biological-science-and-master-of-biological-science
+Bachelor of Molecular Sciences and Master of Bioinformatics,School of Molecular Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-molecular-sciences-and-master-of-bioinformatics
+Automation and Robotics Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/automation-and-robotics-engineering
+Bachelor of Molecular Sciences and Master of Biomedical Science,School of Molecular Sciences+School of Biomedical Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-molecular-sciences-and-master-of-biomedical-science
+Bachelor of Environmental Science and Master of Environmental Science,UWA School of Agriculture and Environment,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-environmental-science-and-master-of-environmental-science
+Bachelor of Sport and Exercise Sciences and Master of Public Health,School of Human Sciences+School of Population and Global Health,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-sport-and-exercise-sciences-and-master-of-public-health
+Bachelor of Agricultural Science and Master of Agricultural Science,UWA School of Agriculture and Environment,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-agricultural-science-and-master-of-agricultural-science
+Bachelor of Geographical and Spatial Science and Master of Environmental Science,UWA School of Agriculture and Environment,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-geographical-and-spatial-science-and-master-of-environmental-science
+Environmental Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/environmental-engineering
+Bachelor of Human Sciences (Pharmaceutical Health) and Doctor of Pharmacy,School of Allied Health,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-human-sciences-pharmaceutical-health-and-doctor-of-pharmacy
+Electrical and Electronic Engineering,School of Engineering,主校区,4,TRUE,单学位,https://www.uwa.edu.au/study/courses/electrical-and-electronic-engineering
+Bachelor of Sport and Exercise Sciences & Master of Applied Human Performance Science,School of Human Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-sport--exercise-sciences--master-of-sport-science-human-performance
+Bachelor of Sport and Exercise Sciences and Master of Clinical Exercise Physiology,School of Human Sciences,主校区,4,TRUE,本硕连读,https://www.uwa.edu.au/study/courses/bachelor-of-sport-and-exercise-sciences-and-master-of-clinical-exercise-physiology
