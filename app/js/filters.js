@@ -61,7 +61,19 @@ function buildLanguageDisplayOrderMap(rows) {
 }
 
 function matchArray(selectedValues, itemValues) {
-  return hasIntersection(itemValues, selectedValues);
+  if (!Array.isArray(selectedValues) || selectedValues.length === 0) {
+    return true;
+  }
+
+  const normalizedItems = Array.isArray(itemValues)
+    ? itemValues.map((value) => String(value || '').trim()).filter(Boolean)
+    : [];
+
+  if (normalizedItems.length === 0) {
+    return true;
+  }
+
+  return hasIntersection(normalizedItems, selectedValues);
 }
 
 export function applyFilters(programs, ui) {
@@ -91,7 +103,8 @@ export function applyFilters(programs, ui) {
       return false;
     }
 
-    if (!matchArray(ui.engTaught, [normalizeEngTaught(program.eng_taught)])) {
+    const normalizedEngTaught = normalizeEngTaught(program.eng_taught);
+    if (!matchArray(ui.engTaught, normalizedEngTaught ? [normalizedEngTaught] : [])) {
       return false;
     }
 

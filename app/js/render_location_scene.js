@@ -8,6 +8,7 @@ function normalizeLocations(locations) {
   return (Array.isArray(locations) ? locations : [])
     .filter(Boolean)
     .map((location) => ({
+      campus: String(location.campus || '').trim(),
       city: String(location.city || '').trim(),
       country: String(location.country || '').trim(),
       region: String(location.region || '').trim(),
@@ -16,6 +17,19 @@ function normalizeLocations(locations) {
       language: String(location.language || '').trim(),
       residency: String(location.residency || '').trim()
     }));
+}
+
+function getPlaceholderLocation() {
+  return {
+    campus: '',
+    city: '',
+    country: '',
+    region: '',
+    cityScale: '',
+    climate: '',
+    language: '',
+    residency: ''
+  };
 }
 
 function getActiveLocation() {
@@ -30,8 +44,8 @@ function renderLocationCard(location, modifier = '') {
   return `
     <article class="${cardClass}">
       <div class="location-card__head">
-        <h3 class="location-card__title">${escapeHtml(location.city || location.country || location.region || '地点信息')}</h3>
-        <p class="location-card__subtitle">${escapeHtml(subtitle)}</p>
+        <h3 class="location-card__title">${escapeHtml(location.city || location.campus || location.country || location.region || '-')}</h3>
+        <p class="location-card__subtitle">${escapeHtml(subtitle || '-')}</p>
       </div>
 
       <dl class="location-card__meta">
@@ -116,8 +130,7 @@ export function renderLocationScene(locations) {
   sceneState.items = nextItems;
 
   if (!sceneState.items.length) {
-    renderEmptyScene(mount, summary);
-    return true;
+    sceneState.items = [getPlaceholderLocation()];
   }
 
   const active = getActiveLocation();

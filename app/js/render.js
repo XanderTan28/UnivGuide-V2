@@ -47,6 +47,24 @@ function joinDisplayValues(values, options = {}) {
   return result.join(separator);
 }
 
+function valueOrDash(value) {
+  const normalized = String(value || '').trim();
+  return normalized || '-';
+}
+
+function getFallbackLocation(program = null) {
+  return normalizeLocationItemForDisplay({
+    campus: joinDisplayValues(program?.campus_list || [], { unique: true }),
+    city: '',
+    country: '',
+    region: '',
+    cityScale: '',
+    climate: '',
+    language: '',
+    residency: ''
+  });
+}
+
 function buildSchoolEntries(programs) {
   const map = {};
   (programs || []).forEach((program) => {
@@ -850,15 +868,17 @@ function buildProgramLocation(program) {
     .map((item) => normalizeLocationItemForDisplay(item))
     .filter(Boolean);
 
+  const safeItems = items.length ? items : [getFallbackLocation(program)];
+
   return {
-    items,
-    city: joinDisplayValues(items.map((item) => item.city), { unique: true }),
-    country: joinDisplayValues(items.map((item) => item.country), { unique: true }),
-    region: joinDisplayValues(items.map((item) => item.region), { unique: true }),
-    cityScale: joinDisplayValues(items.map((item) => item.cityScale), { unique: true }),
-    climate: joinDisplayValues(items.map((item) => item.climate), { unique: true }),
-    language: joinDisplayValues(items.map((item) => item.language), { unique: true }),
-    residency: joinDisplayValues(items.map((item) => item.residency), { unique: true })
+    items: safeItems,
+    city: joinDisplayValues(safeItems.map((item) => item.city), { unique: true }),
+    country: joinDisplayValues(safeItems.map((item) => item.country), { unique: true }),
+    region: joinDisplayValues(safeItems.map((item) => item.region), { unique: true }),
+    cityScale: joinDisplayValues(safeItems.map((item) => item.cityScale), { unique: true }),
+    climate: joinDisplayValues(safeItems.map((item) => item.climate), { unique: true }),
+    language: joinDisplayValues(safeItems.map((item) => item.language), { unique: true }),
+    residency: joinDisplayValues(safeItems.map((item) => item.residency), { unique: true })
   };
 }
 
@@ -1000,21 +1020,14 @@ function renderLocationDetailCards(locations) {
     .filter(Boolean);
 
   if (!items.length) {
-    return `
-      <section class="detail-section">
-        <div class="detail-section__head">
-          <h4 class="detail-section__title">环境与适配</h4>
-        </div>
-        <div class="empty-state">暂无地区信息</div>
-      </section>
-    `;
+    return renderLocationDetailCards([getFallbackLocation()]);
   }
 
   return items.map((location) => `
     <section class="detail-section detail-section--location-card">
       <div class="detail-section__head">
         <div class="detail-location-hero">
-          <h4 class="detail-location-hero__title">${escapeHtml(location.city || '地区信息')}</h4>
+          <h4 class="detail-location-hero__title">${escapeHtml(location.city || location.campus || '-')}</h4>
           <p class="detail-location-hero__subtitle">
             ${escapeHtml(
               [location.country, location.region].filter(Boolean).join(' / ') || '-'
@@ -1139,14 +1152,11 @@ function renderRankingBlock(qs, the, usnews) {
 function renderLocationMiniCard(location, options = {}) {
   const { className = '' } = options;
   const city = String(location?.city || '').trim();
+  const campus = String(location?.campus || '').trim();
   const subtitle = [location?.country, location?.region]
     .map((item) => String(item || '').trim())
     .filter(Boolean)
     .join(' · ');
-
-  if (!city && !subtitle) {
-    return '<span class="location-mini-card location-mini-card--empty">-</span>';
-  }
 
   return `
     <button
@@ -1154,8 +1164,8 @@ function renderLocationMiniCard(location, options = {}) {
       class="location-mini-card ${escapeHtml(className)} location-trigger"
       data-location="${buildLocationPayload(location)}"
     >
-      <span class="location-mini-card__city">${escapeHtml(city || '地点')}</span>
-      <span class="location-mini-card__subtitle">${escapeHtml(subtitle)}</span>
+      <span class="location-mini-card__city">${escapeHtml(city || campus || '-')}</span>
+      <span class="location-mini-card__subtitle">${escapeHtml(subtitle || '-')}</span>
     </button>
   `;
 }
@@ -1163,10 +1173,11 @@ function renderLocationMiniCard(location, options = {}) {
 function renderLocationMiniCardList(locations, options = {}) {
   const items = (Array.isArray(locations) ? locations : [])
     .filter(Boolean)
-    .filter((item) => item.city || item.country || item.region);
+    .map((item) => normalizeLocationItemForDisplay(item))
+    .filter(Boolean);
 
   if (!items.length) {
-    return '<span class="location-mini-card location-mini-card--empty">-</span>';
+    return renderLocationMiniCard(getFallbackLocation(), options);
   }
 
   return `
@@ -1218,10 +1229,10 @@ function formatProgramEnglishTaught(value) {
 
 function getProgramAttributeItems(program) {
   return [
-    formatProgramDuration(program?.duration || ''),
-    formatProgramEnglishTaught(program?.eng_taught || ''),
-    String(program?.type || '').trim()
-  ].filter(Boolean);
+    valueOrDash(formatProgramDuration(program?.duration || '')),
+    valueOrDash(formatProgramEnglishTaught(program?.eng_taught || '')),
+    valueOrDash(String(program?.type || '').trim())
+  ];
 }
 
 function renderProgramAttributeList(program) {
